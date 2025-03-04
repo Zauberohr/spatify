@@ -1,2 +1,3 @@
 class Spati < ApplicationRecord
+  
 end
