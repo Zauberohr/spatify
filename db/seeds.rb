@@ -1,11 +1,8 @@
 require 'json'
 
-file_path = 'allspatis.json'
+file_path = File.join(Rails.root, 'db', 'allspatis.json')
 file = File.read(file_path)
 data = JSON.parse(file)
-
-class Spati < ApplicationRecord
-end
 
 data["elements"].each do |element|
   next unless element["tags"] && element["tags"]["shop"] == "convenience"
@@ -20,5 +17,5 @@ data["elements"].each do |element|
   lon = element["lon"]
   lat = element["lat"]
 
-  Spati.create!(name: name, address: address, lon: lon, lat: lat)
+  Spati.create!(name: name, address: address, longitude: lon, latitude: lat)
 end
