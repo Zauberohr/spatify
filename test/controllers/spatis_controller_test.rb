@@ -1,6 +1,6 @@
 require "test_helper"
 
-class SpatiesControllerTest < ActionDispatch::IntegrationTest
+class SpatisControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end
