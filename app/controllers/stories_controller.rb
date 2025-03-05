@@ -1,3 +1,1 @@
 class StoriesController < ApplicationController
-  
-end

@@ -6,7 +6,7 @@ file_path = File.join(Rails.root, 'db', 'allspatis.json')
 file = File.read(file_path)
 data = JSON.parse(file)
 
-data["elements"].each do |element|
+data["elements"].first(20).each do |element|
   next unless element["tags"] && element["tags"]["shop"] == "convenience"
 
   name = element["tags"]["name"] || "Unbekannt"
