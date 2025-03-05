@@ -1,6 +1,6 @@
 require 'json'
 
-file_path = 'allspatis.json'
+file_path = File.join(Rails.root, 'db', 'allspatis.json')
 file = File.read(file_path)
 data = JSON.parse(file)
 
@@ -16,6 +16,5 @@ data["elements"].each do |element|
   ].compact.join(' ')
   lon = element["lon"]
   lat = element["lat"]
-
-  Spati.create!(name: name, address: address, lon: lon, lat: lat)
+  Spati.create!(name: name, address: address, longitude: lon, latitude: lat)
 end
