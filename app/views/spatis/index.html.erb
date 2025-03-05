@@ -1,0 +1,10 @@
+<div class="container"><h1> Here are the Spätis </h1>
+
+<ul>
+  <% @spatis.each do |spati| %>
+  <li>Name- <%= link_to spati.name, spati_path(spati) %><br>
+  Address- <%= spati.address %><br>
+  Open- <%= spati.opening_time %></li>
+  <% end %>
+</ul>
+</div>

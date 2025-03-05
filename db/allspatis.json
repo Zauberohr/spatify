@@ -31,6 +31,8 @@
   "lat": 52.5408415,
   "lon": 13.1474707,
   "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
     "created_by": "Potlatch 0.5d",
     "shop": "convenience"
   }

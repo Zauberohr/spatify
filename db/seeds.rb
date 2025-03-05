@@ -1,5 +1,7 @@
 require 'json'
 
+Spati.destroy_all
+
 file_path = File.join(Rails.root, 'db', 'allspatis.json')
 file = File.read(file_path)
 data = JSON.parse(file)
@@ -16,5 +18,6 @@ data["elements"].each do |element|
   ].compact.join(' ')
   lon = element["lon"]
   lat = element["lat"]
-  Spati.create!(name: name, address: address, longitude: lon, latitude: lat)
+  timing = element["tags"]["opening_hours"]
+  Spati.create!(name: name, address: address, opening_time: timing, longitude: lon, latitude: lat)
 end
