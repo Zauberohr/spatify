@@ -1,0 +1,14 @@
+<h1 class=""> Here are the Spätis </h1>
+<div class="container d-flex">
+<ul>
+  <% @spatis.each do |spati| %>
+  <li>Name- <%= link_to spati.name, spati_path(spati) %><br>
+  Address- <%= spati.address %><br>
+  Open- <%= spati.opening_time %></li>
+  <% end %>
+</ul>
+<div style="width: 100%; height: 900px;"
+  data-controller="map"
+  data-map-markers-value="<%= @markers.to_json %>"
+  data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>"></div>
+</div>
