@@ -16,6 +16,5 @@ data["elements"].each do |element|
   ].compact.join(' ')
   lon = element["lon"]
   lat = element["lat"]
-
   Spati.create!(name: name, address: address, longitude: lon, latitude: lat)
 end
