@@ -1,5 +1,7 @@
 require 'json'
 
+Spati.destroy_all
+
 file_path = File.join(Rails.root, 'db', 'allspatis.json')
 file = File.read(file_path)
 data = JSON.parse(file)
