@@ -1,4 +1,4 @@
-"version": 0.6,
+{"version": 0.6,
 "generator": "Overpass API 0.7.62.5 1bd436f1",
 "osm3s": {
 "timestamp_osm_base": "2025-03-04T15:12:45Z",
@@ -6,7 +6,7 @@
 "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL." },
 "elements":
 [
-{
+  {
     "id": 63253672,
     "name": "Späti Joe",
     "addr:city": "Berlin",
@@ -16,7 +16,7 @@
     "opening_hours": "24/7",
     "lat": 52.4993218,
     "lon": 13.2961178,
-    „spatistory": "Harry Styles stopped by Späti Joe one night for some snacks. He was incognito but still caused a stir when the locals realized who he was.“
+    "spatistory": "Harry Styles stopped by Späti Joe one night for some snacks. He was incognito but still caused a stir when the locals realized who he was."
 },
 {
     "id": 269475044,
@@ -28,7 +28,7 @@
     "opening_hours": "Mo-Fr 11:00-18:00; Su 13:00-18:00",
     "lat": 52.5017902,
     "lon": 13.4165385,
-    „spatistory": "Harry Styles war kürzlich im Milchladen. Er holte sich eine Flasche Wasser und flirtete charmant mit den Verkäuferinnen, die völlig aus dem Häuschen waren."
+    "spatistory": "Harry Styles war kürzlich im Milchladen. Er holte sich eine Flasche Wasser und flirtete charmant mit den Verkäuferinnen, die völlig aus dem Häuschen waren."
  },
 {
     "id": 278124916,
@@ -40,9 +40,8 @@
     "opening_hours": "Mo-Sa 10:00-23:00",
     "lat": 52.5083552,
     "lon": 13.4529561,
-    "spatistory":
-       "The shop was held up once, but everything went smoothly. The robbers were caught right after, and the regulars returned as if nothing happened."
- },
+    "spatistory": "The shop was held up once, but everything went smoothly. The robbers were caught right after, and the regulars returned as if nothing happened."
+},
 {
     "id": 282406641,
     "name": "Drink Oase",
@@ -55,7 +54,7 @@
     "lon": 13.4611651,
     "spatistory":
        "एक रात, हैरी स्टाइल्स स्पेटी में आया। वह बिना पहचाने आराम से खड़ा था, लेकिन कुछ स्थानीय लोग उसकी पहचान कर लिए थे और तस्वीरें खींचने लगे।"
-  },
+ },
 {
     "id": 287297820,
     "name": "Midnight Shop",
@@ -68,7 +67,7 @@
     "lon": 13.4094976,
     "spatistory":
        "Una vez, Harry Styles pasó por el Midnight Shop. Nadie lo reconoció hasta que se acercó a la caja, y entonces todos enloquecieron al verlo."
-  },
+ },
 {
     "id": 420512359,
     "name": "Spätkauf am Atillaplatz",
@@ -81,7 +80,7 @@
     "lon": 13.3755340,
     "spatistory":
        "Der Spätkauf am Atillaplatz wurde einmal überfallen, aber es gab keinen Schaden. Die Polizei kam schnell, und alle Kunden konnten beruhigt nach Hause gehen."
- },
+},
 {
     "id": 427670057,
     "name": "Sheran Späti + Hermes Paketshop",
@@ -171,10 +170,9 @@
     "lat": 52.5891787,
     "lon": 13.2803819,
     "spatistory":
-       "The shop was once robbed, but everything turned out fine. The thieves were caught, and the shop quickly returned to business as usual.“
+       "The shop was once robbed, but everything turned out fine. The thieves were caught, and the shop quickly returned to business as usual."
 },
 {
-  "type": "node",
   "id": 838429759,
   "addr:city": "Berlin",
   "addr:housenumber": "24",
@@ -186,7 +184,6 @@
   "spatistory": "Harry Styles was spotted at Kiosk 24 late last night! Rumor has it, he bought a pack of gum and left a handwritten note for the staff."
 },
 {
-  "type": "node",
   "id": 838429794,
   "addr:city": "Berlin",
   "addr:housenumber": "2",
@@ -198,7 +195,6 @@
   "spatistory": "Harry Styles once stopped by Die Späti Brüder on a quiet afternoon. The staff was in disbelief when he ordered an iced coffee and talked about his new album."
 },
 {
-  "type": "node",
   "id": 846251052,
   "addr:city": "Berlin",
   "addr:housenumber": "82",
@@ -210,7 +206,6 @@
   "spatistory": "Taylor Swift once visited Bio Grande while in Berlin! She grabbed some organic snacks and posed for a selfie with the staff, making their day unforgettable."
 },
 {
-  "type": "node",
   "id": 847907650,
   "addr:city": "Berlin",
   "addr:housenumber": "29 A",
@@ -222,7 +217,6 @@
   "spatistory": "The story goes that the Spätkauf 63 was once held up during an intense robbery attempt, but the brave staff managed to keep everything calm and safe."
 },
 {
-  "type": "node",
   "id": 848169211,
   "addr:city": "Berlin",
   "addr:housenumber": "7",
@@ -234,7 +228,6 @@
   "spatistory": "Kreuznacher Markt was visited by Taylor Swift during her short stay in Berlin. She grabbed a quick coffee and left a signed postcard for the owners!"
 },
 {
-  "type": "node",
   "id": 861837755,
   "addr:city": "Berlin",
   "addr:housenumber": "207",
@@ -246,7 +239,6 @@
   "spatistory": "The staff at Karam Al-Sham was amazed when Harry Styles popped by to try some Lebanese food. He said it was his new favorite place!"
 },
 {
-  "type": "node",
   "id": 863962594,
   "addr:city": "Berlin",
   "addr:housenumber": "10",
@@ -258,7 +250,6 @@
   "spatistory": "Spätkauf 63 was once robbed, but the quick-thinking cashier stayed calm and the police arrived swiftly. Everything turned out fine in the end."
  },
 {
-  "type": "node",
   "id": 886089002,
   "addr:city": "Berlin",
   "addr:housenumber": "14",
@@ -270,7 +261,6 @@
   "spatistory": "Checkpoint Ali had a surprise when Harry Styles walked in, buying snacks for a group of friends. He even asked for recommendations from the cashier."
 },
 {
-  "type": "node",
   "id": 939667428,
   "addr:city": "Berlin",
   "addr:housenumber": "12",
@@ -280,7 +270,8 @@
   "lat": 52.5414875,
   "lon": 13.3487169,
   "spatistory": "Media Point once had a close call when a robbery took place, but the fast actions of the store owner turned the situation around. All was well in the end."
-
+},
+{
     "id": 1140927943,
     "name": "Spätkauf am Ostbahnhof",
     "addr:city": "Berlin",
@@ -401,3 +392,4 @@
     "spatistory": "Kiez-Kiosk is the local kiosk everyone trusts for their daily essentials. With friendly service and always stocked up, it’s the heart of the neighborhood.\nKiez-Kiosk es el quiosco local en el que todos confían para sus necesidades diarias. Con un servicio amable y siempre bien surtido, es el corazón del vecindario."
   }
 ]
+}
