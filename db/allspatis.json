@@ -59,7 +59,7 @@
     "addr:country": "DE",
     "addr:housenumber": "45",
     "addr:postcode": "12621",
-    "addr:street": "MÃ¤dewalder Weg",
+    "addr:street": "Mädewalder Weg",
     "addr:suburb": "Kaulsdorf",
     "brand": "EDEKA",
     "brand:wikidata": "Q701755",
@@ -321,7 +321,7 @@
     "addr:country": "DE",
     "addr:housenumber": "41",
     "addr:postcode": "10249",
-    "addr:street": "StraÃŸmannstraße",
+    "addr:street": "Straßmannstraße",
     "addr:suburb": "Friedrichshain",
     "check_date:opening_hours": "2024-07-22",
     "name": "Asia Lebensmittel",
@@ -393,7 +393,7 @@
   "tags": {
     "addr:housenumber": "39",
     "addr:postcode": "10115",
-    "addr:street": "GroÃŸe Hamburger Straße",
+    "addr:street": "Große Hamburger Straße",
     "brand": "Edeka",
     "check_date": "2024-06-22",
     "level": "0",
@@ -419,7 +419,7 @@
     "addr:country": "DE",
     "addr:housenumber": "19",
     "addr:postcode": "10245",
-    "addr:street": "WÃ¼hlischstraße",
+    "addr:street": "Wühlischstraße",
     "addr:suburb": "Friedrichshain",
     "check_date:opening_hours": "2023-11-23",
     "name": "Nice 2 See U",
@@ -466,9 +466,9 @@
     "addr:housenumber": "1",
     "addr:postcode": "12105",
     "addr:street": "Alarichstraße",
-    "name": "SpÃ¤tkauf am Atillaplatz",
+    "name": "Spätkauf am Atillaplatz",
     "opening_hours": "Mo-Th 06:00-00:00, Fr 06:00-01:00, Sa 10:00-00:30, Su 11:00-22:00",
-    "operator": "SpÃ¤tkauf",
+    "operator": "Spätkauf",
     "payment:cash": "yes",
     "phone": "+49 30 63412121",
     "shop": "convenience",
@@ -481,7 +481,7 @@
   "lat": 52.5120271,
   "lon": 13.4964222,
   "tags": {
-    "name": "SpÃ¤ti",
+    "name": "Späti",
     "opening_hours": "PH,Mo-Su 06:00-24:00",
     "shop": "convenience"
   }
@@ -496,7 +496,7 @@
     "addr:postcode": "10365",
     "addr:street": "Frankfurter Allee",
     "indoor_seating": "yes",
-    "name": "Sheran SpÃ¤ti + Hermes Paketshop",
+    "name": "Sheran Späti + Hermes Paketshop",
     "opening_hours": "Mo-Su 07:00-01:00",
     "outdoor_seating": "yes",
     "shop": "convenience",
@@ -530,7 +530,7 @@
     "addr:housenumber": "160",
     "addr:postcode": "10827",
     "addr:street": "Hauptstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "name": "City-Kiosk",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -544,7 +544,7 @@
   "tags": {
     "check_date": "2023-10-29",
     "drink:club-mate": "yes",
-    "name": "Obst und GemÃ¼se",
+    "name": "Obst und Gemüse",
     "opening_hours": "Mo-Su,PH 12:00-24:00",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -641,9 +641,9 @@
     "addr:housenumber": "9",
     "addr:postcode": "12051",
     "addr:street": "Silbersteinstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date:opening_hours": "2023-04-19",
-    "name": "SpÃ¤t-Shop",
+    "name": "Spät-Shop",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -658,7 +658,7 @@
     "check_date": "2024-12-23",
     "check_date:opening_hours": "2024-03-29",
     "level": "0",
-    "name": "SpÃ¤ti am Schlesi",
+    "name": "Späti am Schlesi",
     "opening_hours:signed": "no",
     "outdoor_seating": "sidewalk",
     "shop": "convenience",
@@ -672,7 +672,7 @@
   "lon": 13.5100245,
   "tags": {
     "level": "0",
-    "name": "Multi SpÃ¤tkauf",
+    "name": "Multi Spätkauf",
     "opening_hours": "Mo-Sa 07:00-01:00",
     "shop": "convenience"
   }
@@ -688,8 +688,8 @@
     "addr:housenumber": "54",
     "addr:postcode": "12045",
     "addr:street": "Weichselstraße",
-    "addr:suburb": "NeukÃ¶lln",
-    "name": "SpÃ¤tcampus",
+    "addr:suburb": "Neukölln",
+    "name": "Spätcampus",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -704,7 +704,7 @@
     "check_date": "2023-10-21",
     "internet_access": "wlan",
     "internet_access:fee": "no",
-    "name": "SpÃ¤tkauf Olive",
+    "name": "Spätkauf Olive",
     "opening_hours": "Mo-Fr 07:00-01:00, Sa,Su 08:00-01:00",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -717,7 +717,7 @@
   "lon": 13.3878363,
   "tags": {
     "check_date": "2024-01-09",
-    "name": "Mariendorfer back & spÃ¤tkauf",
+    "name": "Mariendorfer back & spätkauf",
     "shop": "convenience"
   }
 },
@@ -733,7 +733,7 @@
     "addr:postcode": "13359",
     "addr:street": "Soldiner Straße",
     "addr:suburb": "Gesundbrunnen",
-    "name": "Soldiner SpÃ¤ti",
+    "name": "Soldiner Späti",
     "opening_hours": "Mo-Sa 06:00-02:00",
     "post_office": "post_partner",
     "post_office:brand": "Hermes PaketShop;GLS PaketShop;DPD Pickup Paketshop",
@@ -751,10 +751,10 @@
     "addr:housenumber": "9",
     "addr:postcode": "12045",
     "addr:street": "Innstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "atm": "no",
     "atm:operator": "Euronet",
-    "name": "HeimgetrÃ¤nke",
+    "name": "Heimgetränke",
     "post_office:brand": "DHL",
     "post_office:type": "post_partner",
     "shop": "convenience",
@@ -817,7 +817,7 @@
     "addr:street": "Sprengelstraße",
     "check_date": "2023-04-29",
     "level": "0",
-    "name": "SpÃ¤tkauf & Backwaren",
+    "name": "Spätkauf & Backwaren",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -836,7 +836,7 @@
     "addr:suburb": "Baumschulenweg",
     "check_date": "2025-01-13",
     "check_date:opening_hours": "2024-01-27",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -889,7 +889,7 @@
   "lon": 13.4496607,
   "tags": {
     "check_date:opening_hours": "2024-01-19",
-    "name": "Petersburger GetrÃ¤nke Shop",
+    "name": "Petersburger Getränke Shop",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -964,7 +964,7 @@
     "addr:street": "Frankfurter Allee",
     "addr:suburb": "Friedrichshain",
     "check_date": "2024-07-21",
-    "name": "Euro SpÃ¤tkauf",
+    "name": "Euro Spätkauf",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "no"
@@ -1033,7 +1033,7 @@
   "lat": 52.4826695,
   "lon": 13.4376011,
   "tags": {
-    "name": "Orient RÃ¶sterei",
+    "name": "Orient Rösterei",
     "opening_hours": "Mo-Sa 10:00-20:00",
     "shop": "convenience"
   }
@@ -1156,10 +1156,10 @@
     "addr:country": "DE",
     "addr:housenumber": "72c",
     "addr:postcode": "10437",
-    "addr:street": "SchÃ¶nhauser Allee",
+    "addr:street": "Schönhauser Allee",
     "addr:suburb": "Prenzlauer Berg",
     "check_date": "2023-07-02",
-    "name": "SpÃ¤tkauf -Late Shopping",
+    "name": "Spätkauf -Late Shopping",
     "shop": "convenience",
     "wheelchair": "yes"
   }
@@ -1174,7 +1174,7 @@
     "addr:housenumber": "35",
     "addr:postcode": "10365",
     "addr:street": "Schulze-Boysen-Straße",
-    "name": "Boysen SpÃ¤ti",
+    "name": "Boysen Späti",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -1216,7 +1216,7 @@
     "addr:postcode": "13357",
     "addr:street": "Pankstraße",
     "check_date": "2024-03-24",
-    "name": "SpÃ¤tkauf Ã–ztep",
+    "name": "Spätkauf Ã–ztep",
     "opening_hours": "Mo-Sa 09:00-23:00",
     "shop": "convenience"
   }
@@ -1269,9 +1269,9 @@
     "addr:country": "DE",
     "addr:housenumber": "8",
     "addr:postcode": "14197",
-    "addr:street": "RÃ¼desheimer Straße",
+    "addr:street": "Rüdesheimer Straße",
     "addr:suburb": "Wilmersdorf",
-    "name": "SpÃ¦tkauf am RÃ¼di",
+    "name": "SpÃ¦tkauf am Rüdi",
     "opening_hours": "Mo-Sa 08:00-24:00, Su 08:00-20:00",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -1336,7 +1336,7 @@
     "addr:housenumber": "205",
     "addr:postcode": "12047",
     "addr:street": "Weserstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date": "2023-06-18",
     "name": "small all",
     "opening_hours": "Mo-Sa 06:30-24:00",
@@ -1355,9 +1355,9 @@
     "addr:housenumber": "30",
     "addr:postcode": "12045",
     "addr:street": "Weichselstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date": "2020-12-14",
-    "name": "Honigbienchen SpÃ¤ti & Bakery",
+    "name": "Honigbienchen Späti & Bakery",
     "shop": "convenience",
     "wheelchair": "yes"
   }
@@ -1391,7 +1391,7 @@
     "addr:housenumber": "49",
     "addr:postcode": "12555",
     "addr:street": "Bahnhofstraße",
-    "addr:suburb": "KÃ¶penick",
+    "addr:suburb": "Köpenick",
     "check_date:opening_hours": "2024-01-28",
     "drink:club-mate": "retail",
     "name": "CafÃ© Kiez",
@@ -1449,7 +1449,7 @@
   "lon": 13.3632915,
   "tags": {
     "check_date:opening_hours": "2024-03-28",
-    "name": "Resi's SpÃ¤t Shop",
+    "name": "Resi's Spät Shop",
     "opening_hours": "Mo-Sa 06:00-02:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -1469,7 +1469,7 @@
     "addr:suburb": "Prenzlauer Berg",
     "check_date": "2024-06-11",
     "level": "0",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Th 09:00-23:00, Su 10:00-24:00; Fr 09:00-24:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -1536,7 +1536,7 @@
     "addr:street": "Sonntagstraße",
     "addr:suburb": "Friedrichshain",
     "check_date:opening_hours": "2025-01-11",
-    "name": "KÃ¤ptn Kiez",
+    "name": "Käptn Kiez",
     "opening_hours": "Mo 09:00-24:00; Tu-Th 00:00-02:00,09:00-24:00; Fr 00:00-02:00,10:00-24:00; Sa 00:00-04:00,10:00-24:00; Su 00:00-04:00",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -1570,7 +1570,7 @@
     "check_date:opening_hours": "2023-12-18",
     "diet:halal": "no",
     "diet:kosher": "no",
-    "name": "Die SpÃ¤ti BrÃ¼der",
+    "name": "Die Späti Brüder",
     "opening_hours:signed": "no",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -1613,10 +1613,10 @@
     "addr:housenumber": "29 A",
     "addr:postcode": "12459",
     "addr:street": "Edisonstraße",
-    "addr:suburb": "OberschÃ¶neweide",
+    "addr:suburb": "Oberschöneweide",
     "contact:phone": "+49 180 6 882663",
     "cuisine": "asian",
-    "name": "SpÃ¤tkauf 63",
+    "name": "Spätkauf 63",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "toilets:wheelchair": "no",
@@ -1681,7 +1681,7 @@
     "addr:city": "Berlin",
     "addr:street": "Boxhagener Straße",
     "check_date": "2024-09-05",
-    "name": "Boxi SpÃ¤tshop",
+    "name": "Boxi Spätshop",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -1751,7 +1751,7 @@
   "lon": 13.3494233,
   "tags": {
     "addr:housenumber": "12",
-    "addr:street": "FÃ¶hrer Straße",
+    "addr:street": "Föhrer Straße",
     "check_date": "2022-12-12",
     "level": "0",
     "name": "Media Point",
@@ -1767,7 +1767,7 @@
   "lon": 13.4083302,
   "tags": {
     "check_date:opening_hours": "2023-05-16",
-    "name": "Lebensmittel und GetrÃ¤nke",
+    "name": "Lebensmittel und Getränke",
     "opening_hours": "Mo-Fr 09:30-22:00; Sa 10:30-22:00",
     "shop": "convenience",
     "source": "survey",
@@ -1784,14 +1784,14 @@
     "addr:country": "DE",
     "addr:housenumber": "17",
     "addr:postcode": "10967",
-    "addr:street": "KÃ¶rtestraße",
+    "addr:street": "Körtestraße",
     "addr:suburb": "Kreuzberg",
     "air_conditioning": "no",
     "atm": "yes",
     "check_date": "2024-05-14",
     "check_date:opening_hours": "2024-03-14",
     "level": "0",
-    "name": "HEIM GetrÃ¤nke2",
+    "name": "HEIM Getränke2",
     "opening_hours": "Mo-Su 09:00-23:00",
     "outdoor_seating": "sidewalk",
     "payment:credit_cards": "yes",
@@ -1810,7 +1810,7 @@
     "addr:country": "DE",
     "addr:housenumber": "35",
     "addr:postcode": "10967",
-    "addr:street": "KÃ¶rtestraße",
+    "addr:street": "Körtestraße",
     "addr:suburb": "Kreuzberg",
     "check_date": "2025-01-02",
     "check_date:opening_hours": "2025-01-02",
@@ -1855,7 +1855,7 @@
     "addr:street": "Neue Promenade",
     "addr:suburb": "Mitte",
     "check_date": "2023-01-08",
-    "name": "BisSpÃ¤ter",
+    "name": "BisSpäter",
     "shop": "convenience",
     "wheelchair": "yes"
   }
@@ -1888,7 +1888,7 @@
   "lat": 52.5272929,
   "lon": 13.4500121,
   "tags": {
-    "name": "Panorama SpÃ¤tkauf",
+    "name": "Panorama Spätkauf",
     "shop": "convenience",
     "toilets:wheelchair": "no",
     "wheelchair": "no"
@@ -1976,7 +1976,7 @@
     "addr:housenumber": "15",
     "addr:postcode": "12043",
     "addr:street": "Karl-Marx-Straße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date": "2023-08-13",
     "check_date:opening_hours": "2023-11-07",
     "contact:phone": "+49 30 63413016",
@@ -2015,7 +2015,7 @@
     "addr:suburb": "Friedrichshain",
     "check_date": "2024-11-17",
     "check_date:opening_hours": "2024-11-17",
-    "name": "EllÃ®ka SpÃ¤tkauf",
+    "name": "EllÃ®ka Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -2069,7 +2069,7 @@
     "addr:street": "Erich-Steinfurth-Straße",
     "addr:suburb": "Friedrichshain",
     "check_date": "2023-09-29",
-    "name": "SpÃ¤tkauf am Ostbahnhof",
+    "name": "Spätkauf am Ostbahnhof",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -2081,7 +2081,7 @@
   "lat": 52.5230609,
   "lon": 13.4344701,
   "tags": {
-    "name": "SpÃ¤tkauf Lebensmittel",
+    "name": "Spätkauf Lebensmittel",
     "shop": "convenience",
     "survey:date": "2016-10-08",
     "wheelchair": "no"
@@ -2101,7 +2101,7 @@
     "addr:street": "Petersburger Straße",
     "addr:suburb": "Friedrichshain",
     "check_date": "2024-09-07",
-    "name": "SpÃ¤tshop 68",
+    "name": "Spätshop 68",
     "opening_hours": "09:00-24:00",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -2114,7 +2114,7 @@
   "lon": 13.4494530,
   "tags": {
     "check_date:opening_hours": "2022-10-04",
-    "name": "Para SpÃ¤tkauf",
+    "name": "Para Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -2129,10 +2129,10 @@
     "addr:city": "Berlin",
     "addr:housenumber": "24",
     "addr:postcode": "13357",
-    "addr:street": "JÃ¼licher Straße",
+    "addr:street": "Jülicher Straße",
     "diet:halal": "yes",
     "name": "Aksu Kiosk",
-    "note": "SpÃ¤ti",
+    "note": "Späti",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -2214,7 +2214,7 @@
   "tags": {
     "check_date": "2024-05-23",
     "internet_access": "yes",
-    "name": "Sipan SpÃ¤tverkauf",
+    "name": "Sipan Spätverkauf",
     "opening_hours": "Mo-Fr 01:00-24:00, Sa 01:00-24:00",
     "service:phone": "yes",
     "shop": "convenience",
@@ -2232,7 +2232,7 @@
     "addr:postcode": "13593",
     "addr:street": "Sandstraße",
     "description:payment": "Karte nur ab 10â€¯â‚¬",
-    "name": "Mia's SpÃ¤ti",
+    "name": "Mia's Späti",
     "opening_hours": "Mo-Th 07:00-23:00; Fr-Su 00:00-24:00",
     "payment:cards": "yes",
     "payment:cards:min_payment": "10 EUR",
@@ -2286,7 +2286,7 @@
   "tags": {
     "check_date": "2024-06-10",
     "level": "0",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -2327,8 +2327,8 @@
     "addr:housenumber": "38",
     "addr:postcode": "10249",
     "addr:street": "Landsberger Allee",
-    "name": "SpÃ¤tshop",
-    "note": "SpÃ¤tkauf 38",
+    "name": "Spätshop",
+    "note": "Spätkauf 38",
     "shop": "convenience"
   }
 },
@@ -2435,8 +2435,8 @@
   "lat": 52.4290688,
   "lon": 13.3413260,
   "tags": {
-    "description": "Hermes-Shop, Lebensmittel, frische BrÃ¶tchen",
-    "name": "Back & SpÃ¤ti",
+    "description": "Hermes-Shop, Lebensmittel, frische Brötchen",
+    "name": "Back & Späti",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -2447,7 +2447,7 @@
   "lat": 52.4687842,
   "lon": 13.4302906,
   "tags": {
-    "name": "Sarikiz SpÃ¤tkauf 44",
+    "name": "Sarikiz Spätkauf 44",
     "shop": "convenience",
     "wheelchair": "yes"
   }
@@ -2478,7 +2478,7 @@
   "lon": 13.4156184,
   "tags": {
     "check_date:opening_hours": "2024-08-02",
-    "name": "neon SpÃ¤tkauf",
+    "name": "neon Spätkauf",
     "opening_hours": "Mo-Sa 10:00-23:00",
     "shop": "convenience",
     "website": "https://www.neon-sptkauf-berlin.de",
@@ -2494,7 +2494,7 @@
     "check_date": "2024-09-06",
     "check_date:opening_hours": "2024-06-04",
     "diet:halal": "no",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Sa 09:00-23:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -2528,7 +2528,7 @@
     "addr:country": "DE",
     "addr:postcode": "12459",
     "check_date:opening_hours": "2023-03-13",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "08:00-24:00",
     "opening_hours:signed": "no",
     "shop": "convenience",
@@ -2565,11 +2565,11 @@
     "addr:housenumber": "28",
     "addr:postcode": "12159",
     "addr:street": "Rubensstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "dry_cleaning": "yes",
     "ice_cream": "yes",
     "noname": "yes",
-    "note": "das Hauptschild weist aus: \"Tabakwaren-GetrÃ¤nke / Zeitungen und Zeitschriften\" -> ein genauer Name ist nicht ersichtlich",
+    "note": "das Hauptschild weist aus: \"Tabakwaren-Getränke / Zeitungen und Zeitschriften\" -> ein genauer Name ist nicht ersichtlich",
     "opening_hours": "Mo-Fr 06:00-19:00; Sa 07:00-16:00",
     "shop": "convenience",
     "tobacco": "yes",
@@ -2597,10 +2597,10 @@
     "addr:country": "DE",
     "addr:housenumber": "11A",
     "addr:postcode": "12159",
-    "addr:street": "HÃ¤hnelstraße",
+    "addr:street": "Hähnelstraße",
     "addr:suburb": "Friedenau",
     "level": "0",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Th 10:00-23:00; Fr,Sa 10:00-01:00",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -2657,7 +2657,7 @@
     "addr:street": "Adalbertstraße",
     "addr:suburb": "Kreuzberg",
     "check_date:opening_hours": "2023-03-06",
-    "name": "SpÃ¤tkauf Olive",
+    "name": "Spätkauf Olive",
     "opening_hours:signed": "no",
     "payment:cash": "yes",
     "post_office": "post_partner",
@@ -2695,7 +2695,7 @@
   "lat": 52.5485711,
   "lon": 13.5007180,
   "tags": {
-    "name": "SpÃ¤tverkauf",
+    "name": "Spätverkauf",
     "shop": "convenience",
     "toilets:wheelchair": "no",
     "wheelchair": "yes"
@@ -2733,7 +2733,7 @@
     "addr:housenumber": "53",
     "addr:postcode": "12157",
     "addr:street": "Rubensstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "check_date:opening_hours": "2023-03-17",
     "name": "Kevser",
     "opening_hours:signed": "no",
@@ -2763,8 +2763,8 @@
     "addr:housenumber": "16",
     "addr:postcode": "12051",
     "addr:street": "Warthestraße",
-    "addr:suburb": "NeukÃ¶lln",
-    "name": "SpÃ¤tkauf",
+    "addr:suburb": "Neukölln",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Sa 08:00-20:00",
     "post_office": "post_partner",
     "post_office:brand": "DHL-Paketshop",
@@ -2799,7 +2799,7 @@
     "addr:street": "Stresemannstraße",
     "addr:suburb": "Kreuzberg",
     "check_date": "2024-10-18",
-    "name": "Ela SpÃ¤tkauf",
+    "name": "Ela Spätkauf",
     "opening_hours": "Mo-Fr 00:00-03:00,08:00-24:00; Sa,Su 00:00-04:00,08:00-24:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -2815,7 +2815,7 @@
     "addr:housenumber": "9",
     "addr:postcode": "10405",
     "addr:street": "Greifswalder Straße",
-    "name": "City SpÃ¤tkauf",
+    "name": "City Spätkauf",
     "opening_hours": "Mo-Su 10:00-01:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -2832,7 +2832,7 @@
     "addr:postcode": "10407",
     "addr:street": "Am Friedrichshain",
     "check_date": "2022-10-11",
-    "name": "SpÃ¤tkauf am MÃ¤rchenbrunnen",
+    "name": "Spätkauf am Märchenbrunnen",
     "opening_hours": "13:00-24:00",
     "opening_hours:signed": "no",
     "operator": "Dogan Markt",
@@ -2956,9 +2956,9 @@
     "addr:country": "DE",
     "addr:housenumber": "99",
     "addr:postcode": "10439",
-    "addr:street": "SchÃ¶nhauser Allee",
+    "addr:street": "Schönhauser Allee",
     "addr:suburb": "Prenzlauer Berg",
-    "name": "Back SpÃ¤ti",
+    "name": "Back Späti",
     "shop": "convenience"
   }
 },
@@ -2974,7 +2974,7 @@
     "addr:street": "Frankfurter Allee",
     "check_date": "2024-07-21",
     "drink:club-mate": "retail",
-    "name": "Regenbogen SpÃ¤ti",
+    "name": "Regenbogen Späti",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -2994,7 +2994,7 @@
     "check_date": "2024-06-18",
     "diet:vegan": "yes",
     "diet:vegetarian": "yes",
-    "name": "Imbiss-Punjab;Punjab SpÃ¤tkauf",
+    "name": "Imbiss-Punjab;Punjab Spätkauf",
     "shop": "convenience",
     "wheelchair": "limited",
     "wheelchair:description": "Identisch mit Imbiss Punjab"
@@ -3093,7 +3093,7 @@
     "addr:postcode": "10317",
     "addr:street": "Irenenstraße",
     "check_date:opening_hours": "2025-02-03",
-    "name": "Nazar GetrÃ¤nkeshop",
+    "name": "Nazar Getränkeshop",
     "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00",
     "shop": "convenience",
     "surveillance": "indoor",
@@ -3127,11 +3127,11 @@
     "addr:country": "DE",
     "addr:housenumber": "38",
     "addr:postcode": "12555",
-    "addr:street": "Alt-KÃ¶penick",
-    "addr:suburb": "KÃ¶penick",
+    "addr:street": "Alt-Köpenick",
+    "addr:suburb": "Köpenick",
     "diet:halal": "no",
     "diet:kosher": "no",
-    "name": "My SpÃ¤ti",
+    "name": "My Späti",
     "opening_hours": "Mo-Th 09:00-01:00, Fr 09:00-02:00, Sa 09:00-24:00",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -3146,7 +3146,7 @@
   "lon": 13.3748093,
   "tags": {
     "check_date": "2024-11-14",
-    "name": "NiezuspÃ¤ti",
+    "name": "Niezuspäti",
     "shop": "convenience"
   }
 },
@@ -3182,7 +3182,7 @@
   "lon": 13.4229654,
   "tags": {
     "check_date": "2024-08-31",
-    "name": "SpÃ¤tmarkt",
+    "name": "Spätmarkt",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -3200,7 +3200,7 @@
     "addr:street": "Birkenstraße",
     "check_date:opening_hours": "2022-03-13",
     "drink:club-mate": "retail",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -3305,7 +3305,7 @@
     "addr:postcode": "10997",
     "addr:street": "Oppelner Straße",
     "addr:suburb": "Kreuzberg",
-    "name": "lieber SpÃ¤ti als nie",
+    "name": "lieber Späti als nie",
     "shop": "convenience"
   }
 },
@@ -3342,7 +3342,7 @@
     "addr:country": "DE",
     "addr:housenumber": "9",
     "addr:postcode": "13353",
-    "addr:street": "BrÃ¼sseler Straße",
+    "addr:street": "Brüsseler Straße",
     "addr:suburb": "Wedding",
     "brand": "Hermes",
     "shop": "convenience"
@@ -3354,7 +3354,7 @@
   "lat": 52.4630329,
   "lon": 13.4836908,
   "tags": {
-    "name": "Baumschulen SpÃ¤ti",
+    "name": "Baumschulen Späti",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -3371,7 +3371,7 @@
     "addr:postcode": "14197",
     "addr:street": "Hanauer Straße",
     "addr:suburb": "Wilmersdorf",
-    "name": "We Love SpÃ¤ti",
+    "name": "We Love Späti",
     "shop": "convenience"
   }
 },
@@ -3392,7 +3392,7 @@
   "lon": 13.5772838,
   "tags": {
     "check_date:opening_hours": "2023-11-04",
-    "name": "Obst GemÃ¼se GetrÃ¤nke Lebensmittel",
+    "name": "Obst Gemüse Getränke Lebensmittel",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -3422,8 +3422,8 @@
     "addr:housenumber": "17",
     "addr:postcode": "10827",
     "addr:street": "Willmanndamm",
-    "addr:suburb": "SchÃ¶neberg",
-    "description": "verkauft Textilien, Modeschmuck, GetrÃ¤nke aus oder mit Bezug zu Indien, Sri Lanka, Afrika und Asien",
+    "addr:suburb": "Schöneberg",
+    "description": "verkauft Textilien, Modeschmuck, Getränke aus oder mit Bezug zu Indien, Sri Lanka, Afrika und Asien",
     "name": "à®¨à®¾à®•à®®à¯à®®à®¾ à®ªà¯à®Ÿà®µà¯ˆà®¯à®•à®®à¯",
     "note": "Name des Ladens wohl nur auf Tamil/Tamilisch vor Ort sichtbar",
     "shop": "convenience",
@@ -3456,7 +3456,7 @@
   "lon": 13.4232484,
   "tags": {
     "check_date": "2023-04-08",
-    "name": "BÃ¤ckerei ErgÃ¼n",
+    "name": "Bäckerei Ergün",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -3468,7 +3468,7 @@
   "lon": 13.2835133,
   "tags": {
     "check_date": "2024-01-20",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -3495,7 +3495,7 @@
   "lon": 13.4452756,
   "tags": {
     "check_date:opening_hours": "2024-01-15",
-    "name": "spÃ¤ti",
+    "name": "späti",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -3520,8 +3520,8 @@
   "lat": 52.4973570,
   "lon": 13.4249683,
   "tags": {
-    "name": "BÃ¤ckerei & CafÃ© 36",
-    "note": "Trotz des Namens mehr SpÃ¤ti/GetrÃ¤nkemarkt als BÃ¤ckerei",
+    "name": "Bäckerei & CafÃ© 36",
+    "note": "Trotz des Namens mehr Späti/Getränkemarkt als Bäckerei",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -3554,7 +3554,7 @@
     "addr:postcode": "10439",
     "addr:street": "Rodenbergstraße",
     "addr:suburb": "Prenzlauer Berg",
-    "name": "VervielfÃ¤ltigungsservice Breitfeld",
+    "name": "Vervielfältigungsservice Breitfeld",
     "opening_hours": "Mo-Fr 09:30-18:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -3594,7 +3594,7 @@
     "addr:postcode": "13187",
     "addr:street": "Wollankstraße",
     "addr:suburb": "Pankow",
-    "name": "pir GetrÃ¤nke",
+    "name": "pir Getränke",
     "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-13:00",
     "post_office": "post_partner",
     "post_office:service_provider": "DHL;Deutsche Post",
@@ -3686,7 +3686,7 @@
     "addr:street": "Prenzlauer Allee",
     "addr:suburb": "Prenzlauer Berg",
     "check_date:opening_hours": "2025-01-25",
-    "name": "SpÃ¤ti Bro's",
+    "name": "Späti Bro's",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -3698,7 +3698,7 @@
   "lon": 13.4327400,
   "tags": {
     "internet_access": "yes",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience",
     "wheelchair": "yes"
   }
@@ -3729,7 +3729,7 @@
     "addr:postcode": "10553",
     "addr:street": "Beusselstraße",
     "addr:suburb": "Moabit",
-    "name": "GP GetrÃ¤nkeMarkt",
+    "name": "GP GetränkeMarkt",
     "shop": "convenience",
     "wheelchair": "limited"
   }
@@ -3760,7 +3760,7 @@
     "addr:housenumber": "227",
     "addr:postcode": "12057",
     "addr:street": "Sonnenallee",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "name": "cebe Werksverkauf",
     "shop": "convenience",
     "source": "survey",
@@ -3785,7 +3785,7 @@
     "toilets:wheelchair": "no",
     "website": "https://www.milchhof-mendler.de/",
     "wheelchair": "limited",
-    "wheelchair:description": "Ist ein Bauernhof mit vornehmlich MilchkÃ¼hen. Haben Hofladen mit Frischmilchverkauf, Butter, Wurst und Fleisch aus eigener Schlachterei. Hofladen hat 1 flache Stufe ist sonst aber barrierefrei. Kann jederzeit besucht werden, Ã–ffnungszeiten des Ladens Ã¼be"
+    "wheelchair:description": "Ist ein Bauernhof mit vornehmlich Milchkühen. Haben Hofladen mit Frischmilchverkauf, Butter, Wurst und Fleisch aus eigener Schlachterei. Hofladen hat 1 flache Stufe ist sonst aber barrierefrei. Kann jederzeit besucht werden, Ã–ffnungszeiten des Ladens übe"
   }
 },
 {
@@ -3794,7 +3794,7 @@
   "lat": 52.5334990,
   "lon": 13.4069410,
   "tags": {
-    "name": "Presseshop & SpÃ¤tkauf",
+    "name": "Presseshop & Spätkauf",
     "shop": "convenience",
     "wheelchair": "yes"
   }
@@ -3812,7 +3812,7 @@
     "addr:street": "Choriner Straße",
     "addr:suburb": "Prenzlauer Berg",
     "check_date": "2024-06-10",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo,Sa 18:00+; Tu-Fr 08:00+; Su 10:00+",
     "shop": "convenience",
     "tourism": "guest_house",
@@ -3832,7 +3832,7 @@
     "addr:postcode": "10961",
     "addr:street": "Solmsstraße",
     "addr:suburb": "Kreuzberg",
-    "name": "SpÃ¤ti Alte Apotheke",
+    "name": "Späti Alte Apotheke",
     "shop": "convenience"
   }
 },
@@ -3861,7 +3861,7 @@
   "lon": 13.4223583,
   "tags": {
     "check_date:opening_hours": "2025-01-25",
-    "name": "Asia â€¢ Obst â€¢ GemÃ¼se â€¢ GetrÃ¤nke â€¢ Tabak â€¢ Lebensmittel",
+    "name": "Asia â€¢ Obst â€¢ Gemüse â€¢ Getränke â€¢ Tabak â€¢ Lebensmittel",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -3885,7 +3885,7 @@
   "lon": 13.4285263,
   "tags": {
     "check_date": "2023-08-11",
-    "name": "CAN GetrÃ¤nke",
+    "name": "CAN Getränke",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -3903,12 +3903,12 @@
     "addr:street": "Wiener Straße",
     "addr:suburb": "Kreuzberg",
     "check_date:opening_hours": "2024-12-11",
-    "name": "SpÃ¤tverkauf und Internet",
+    "name": "Spätverkauf und Internet",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "toilets:wheelchair": "no",
     "wheelchair": "no",
-    "wheelchair:description": "Hohe steile Treppe am Eingang und zusÃ¤tzlicher kleiner Schwelle an der TÃ¼r. Auch fÃ¼r Gehbehinderte mit Gehhilfen ist der Eingang eine Barriere. GeschÃ¤ftsraum innen ist eng. Keine Toilette fÃ¼r Kunden."
+    "wheelchair:description": "Hohe steile Treppe am Eingang und zusätzlicher kleiner Schwelle an der Tür. Auch für Gehbehinderte mit Gehhilfen ist der Eingang eine Barriere. Geschäftsraum innen ist eng. Keine Toilette für Kunden."
   }
 },
 {
@@ -3951,7 +3951,7 @@
   "lon": 13.5509485,
   "tags": {
     "addr:housenumber": "62",
-    "addr:street": "DÃ¶rpfeldstraße",
+    "addr:street": "Dörpfeldstraße",
     "check_date": "2024-04-01",
     "cuisine": "russian",
     "level": "0",
@@ -4054,7 +4054,7 @@
     "addr:country": "DE",
     "addr:housenumber": "64",
     "addr:postcode": "14163",
-    "addr:street": "FischerhÃ¼ttenstraße",
+    "addr:street": "Fischerhüttenstraße",
     "addr:suburb": "Zehlendorf",
     "email": "fi@demski.de",
     "name": "Reformhaus Demski",
@@ -4103,7 +4103,7 @@
     "addr:housenumber": "18",
     "addr:postcode": "10827",
     "addr:street": "Hauptstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "lottery": "yes",
     "name": "Kaiser Kiosk",
     "opening_hours": "24/7",
@@ -4123,7 +4123,7 @@
     "addr:street": "Weserstraße",
     "dog": "yes",
     "level": "0",
-    "name": "SpÃ¤ti International",
+    "name": "Späti International",
     "shop": "convenience",
     "toilets": "yes",
     "toilets:access": "permissive",
@@ -4182,7 +4182,7 @@
     "addr:postcode": "12167",
     "addr:street": "Albrechtstraße",
     "check_date:opening_hours": "2023-10-29",
-    "name": "Feinkost HÃ¤usler",
+    "name": "Feinkost Häusler",
     "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
     "origin": "polish",
     "phone": "+49 30 79016131",
@@ -4205,8 +4205,8 @@
     "addr:suburb": "Pankow",
     "check_date": "2023-07-02",
     "check_date:opening_hours": "2023-07-04",
-    "name": "Flora BÃ¤ckerei & SpÃ¤tkauf",
-    "note": "SpÃ¤tkauf mit GetrÃ¤nken, Lebensmitteln und Tabakwaren; Ã–ffnungszeiten tÃ¤gl. ca. 10:00-01:00",
+    "name": "Flora Bäckerei & Spätkauf",
+    "note": "Spätkauf mit Getränken, Lebensmitteln und Tabakwaren; Ã–ffnungszeiten tägl. ca. 10:00-01:00",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "source": "local_knowledge",
@@ -4280,7 +4280,7 @@
     "addr:housenumber": "30",
     "addr:postcode": "10961",
     "addr:street": "Gneisenaustraße",
-    "name": "Aqua GetrÃ¤nke- und Weinhandlung",
+    "name": "Aqua Getränke- und Weinhandlung",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -4438,7 +4438,7 @@
     "changing_table": "no",
     "check_date:opening_hours": "2023-11-17",
     "level": "0",
-    "name": "SpÃ¤tshop",
+    "name": "Spätshop",
     "opening_hours:signed": "no",
     "organic": "no",
     "shop": "convenience",
@@ -4483,7 +4483,7 @@
     "check_date": "2022-12-04",
     "check_date:opening_hours": "2023-10-10",
     "level": "0",
-    "name": "Backshop SpÃ¤tverkauf",
+    "name": "Backshop Spätverkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -4514,7 +4514,7 @@
     "addr:country": "DE",
     "addr:postcode": "12051",
     "addr:street": "Hermannstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date:opening_hours": "2024-02-26",
     "name": "Antipasto",
     "opening_hours:signed": "no",
@@ -4543,7 +4543,7 @@
     "addr:country": "DE",
     "addr:housenumber": "35",
     "addr:postcode": "10245",
-    "addr:street": "GrÃ¼nberger Straße",
+    "addr:street": "Grünberger Straße",
     "addr:suburb": "Friedrichshain",
     "check_date:opening_hours": "2023-11-27",
     "name": "Day & Night Shop",
@@ -4562,7 +4562,7 @@
     "addr:country": "DE",
     "addr:housenumber": "49",
     "addr:postcode": "10245",
-    "addr:street": "GrÃ¼nberger Straße",
+    "addr:street": "Grünberger Straße",
     "addr:suburb": "Friedrichshain",
     "check_date:opening_hours": "2024-10-21",
     "name": "Mini Markt",
@@ -4582,9 +4582,9 @@
     "addr:housenumber": "11;10",
     "addr:postcode": "12051",
     "addr:street": "Emser Straße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date:opening_hours": "2024-04-15",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "source": "knowledge",
@@ -4622,7 +4622,7 @@
     "addr:housenumber": "162",
     "addr:postcode": "12043",
     "addr:street": "Karl-Marx-Straße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date": "2025-01-05",
     "email": "hallo@bioase.berlin",
     "name": "Kollektiv Bioase",
@@ -4667,7 +4667,7 @@
     "addr:postcode": "12101",
     "addr:street": "Manfred-von-Richthofen-Straße",
     "addr:suburb": "Tempelhof",
-    "name": "Elas SpÃ¤tkauf 35",
+    "name": "Elas Spätkauf 35",
     "shop": "convenience",
     "source": "survey",
     "survey:date": "2021-07-31"
@@ -4683,7 +4683,7 @@
     "addr:country": "DE",
     "addr:housenumber": "2",
     "addr:postcode": "10961",
-    "addr:street": "SÃ¼dstern",
+    "addr:street": "Südstern",
     "addr:suburb": "Kreuzberg",
     "name": "Cennet",
     "opening_hours": "Mo-Sa 09:00-23:00; Su 09:00-16:00",
@@ -4697,7 +4697,7 @@
   "lat": 52.5042531,
   "lon": 13.3435149,
   "tags": {
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience",
     "wheelchair": "yes"
   }
@@ -4710,7 +4710,7 @@
   "tags": {
     "check_date": "2024-01-13",
     "check_date:opening_hours": "2021-12-09",
-    "name": "GetrÃ¤nkeshop",
+    "name": "Getränkeshop",
     "opening_hours": "Mo-Sa 09:00-23:00; Su 10:00-23:00",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -4728,7 +4728,7 @@
     "addr:postcode": "10439",
     "addr:street": "Paul-Robeson-Straße",
     "addr:suburb": "Prenzlauer Berg",
-    "name": "Clerk's SpÃ¤ti",
+    "name": "Clerk's Späti",
     "post_office": "post_partner",
     "post_office:brand": "Hermes",
     "post_office:brand:wikidata": "Q1613532",
@@ -4783,7 +4783,7 @@
     "check_date:opening_hours": "2023-04-29",
     "contact:mobile": "+49 174 5787044",
     "contact:website": "http://www.jungshop-oriental.de",
-    "description": "SpÃ¤tverkauf, Schwerpunkt: indisch",
+    "description": "Spätverkauf, Schwerpunkt: indisch",
     "name": "Jung Shop",
     "opening_hours:signed": "no",
     "payment:credit_cards": "yes",
@@ -4807,8 +4807,8 @@
     "addr:suburb": "Friedrichshain",
     "check_date:opening_hours": "2023-11-28",
     "contact:mobile": "+49 170 3066913",
-    "description": "SpÃ¤tverkauf und Postagentur",
-    "name": "Meet Kiosk SpÃ¤tverkauf",
+    "description": "Spätverkauf und Postagentur",
+    "name": "Meet Kiosk Spätverkauf",
     "opening_hours:signed": "no",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -4847,7 +4847,7 @@
     "addr:country": "DE",
     "addr:housenumber": "38",
     "addr:postcode": "10245",
-    "addr:street": "WÃ¼hlischstraße",
+    "addr:street": "Wühlischstraße",
     "addr:suburb": "Friedrichshain",
     "check_date:opening_hours": "2024-01-23",
     "name": "Select Drinks & More",
@@ -4863,7 +4863,7 @@
   "lon": 13.3616064,
   "tags": {
     "check_date:opening_hours": "2022-10-28",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Th 14:00-24:00; Fr,Sa 14:00-02:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -4998,7 +4998,7 @@
   "lat": 52.5457718,
   "lon": 13.3796045,
   "tags": {
-    "name": "Back & SpÃ¤ti",
+    "name": "Back & Späti",
     "shop": "convenience"
   }
 },
@@ -5050,7 +5050,7 @@
     "addr:country": "DE",
     "addr:housenumber": "46",
     "addr:postcode": "12489",
-    "addr:street": "DÃ¶rpfeldstraße",
+    "addr:street": "Dörpfeldstraße",
     "addr:suburb": "Adlershof",
     "check_date": "2023-03-17",
     "cuisine": "asian",
@@ -5093,9 +5093,9 @@
     "addr:housenumber": "15",
     "addr:postcode": "12051",
     "addr:street": "Emser Straße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date": "2024-11-07",
-    "name": "SpÃ¤tkauf Stadt-Kiosk",
+    "name": "Spätkauf Stadt-Kiosk",
     "opening_hours": "Mo-Sa 12:00-23:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -5123,7 +5123,7 @@
   "tags": {
     "internet_access": "terminal",
     "internet_access:fee": "yes",
-    "name": "Moonshine SpÃ¤tkauf",
+    "name": "Moonshine Spätkauf",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -5159,10 +5159,10 @@
     "addr:housenumber": "58",
     "addr:postcode": "12055",
     "addr:street": "Braunschweiger Straße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date": "2024-11-07",
     "internet_access": "no",
-    "name": "Azam GetrÃ¤nkeshop SpÃ¤tkauf",
+    "name": "Azam Getränkeshop Spätkauf",
     "shop": "convenience"
   }
 },
@@ -5174,7 +5174,7 @@
   "tags": {
     "check_date": "2024-11-17",
     "check_date:opening_hours": "2024-11-17",
-    "name": "Best of SpÃ¤ti",
+    "name": "Best of Späti",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -5200,7 +5200,7 @@
   "tags": {
     "check_date": "2023-10-11",
     "cuisine": "turkish",
-    "name": "SpÃ¤t & Backshop",
+    "name": "Spät & Backshop",
     "opening_hours": "Mo-Sa 06:00-22:00; Su 08:00-22:00",
     "payment:credit_cards": "no",
     "payment:debit_cards": "no",
@@ -5288,8 +5288,8 @@
   "lon": 13.3924300,
   "tags": {
     "check_date:opening_hours": "2023-10-25",
-    "name": "SpÃ¤tkauf",
-    "note": "\"SpÃ¤tkauf24.de\"",
+    "name": "Spätkauf",
+    "note": "\"Spätkauf24.de\"",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -5300,7 +5300,7 @@
   "lat": 52.5564501,
   "lon": 13.3843315,
   "tags": {
-    "name": "YiÄŸido 58 SpÃ¤tkauf",
+    "name": "YiÄŸido 58 Spätkauf",
     "opening_hours": "Mo-Sa 01:00-24:00; Su 13:00-20:00; PH 13:00-17:00",
     "post_office": "post_partner",
     "post_office:service_provider": "UPS",
@@ -5316,7 +5316,7 @@
   "tags": {
     "check_date": "2023-07-02",
     "check_date:opening_hours": "2023-07-02",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -5345,7 +5345,7 @@
     "addr:postcode": "10997",
     "addr:street": "Falckensteinstraße",
     "addr:suburb": "Kreuzberg",
-    "name": "See U SpÃ¤ti",
+    "name": "See U Späti",
     "opening_hours": "Mo-Su 12:00-24:00",
     "outdoor_seating": "yes",
     "shop": "convenience",
@@ -5427,7 +5427,7 @@
   "lon": 13.3971706,
   "tags": {
     "check_date:opening_hours": "2023-06-03",
-    "name": "Tam Phuc Asia Shop SpÃ¤tkauf",
+    "name": "Tam Phuc Asia Shop Spätkauf",
     "opening_hours": "Mo-Sa 11:00-23:00; Su 09:00-23:00",
     "opening_hours:signed": "no",
     "shop": "convenience",
@@ -5512,7 +5512,7 @@
   "lat": 52.5264585,
   "lon": 13.6123117,
   "tags": {
-    "name": "SpÃ¤tverkauf",
+    "name": "Spätverkauf",
     "shop": "convenience"
   }
 },
@@ -5564,11 +5564,11 @@
     "addr:housenumber": "12",
     "addr:postcode": "12047",
     "addr:street": "Sonnenallee",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date": "2023-10-11",
     "internet_access": "no",
     "level": "0",
-    "name": "SpÃ¤ti47",
+    "name": "Späti47",
     "payment:cards": "no",
     "payment:cash": "yes",
     "payment:credit_cards": "no",
@@ -5583,7 +5583,7 @@
   "lat": 52.5014304,
   "lon": 13.4236592,
   "tags": {
-    "name": "Akasya SpÃ¤tkauf",
+    "name": "Akasya Spätkauf",
     "shop": "convenience",
     "wheelchair": "limited"
   }
@@ -5618,7 +5618,7 @@
     "addr:housenumber": "171",
     "addr:postcode": "12045",
     "addr:street": "Weserstraße",
-    "name": "Elbe GetrÃ¤nke",
+    "name": "Elbe Getränke",
     "opening_hours": "Mo-Sa 10:00-22:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -5646,7 +5646,7 @@
     "addr:housenumber": "48",
     "addr:street": "Residenzstraße",
     "check_date:opening_hours": "2024-09-27",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Sa 07:00-01:50",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -5682,8 +5682,8 @@
     "addr:housenumber": "57",
     "addr:postcode": "13156",
     "addr:street": "Dietzgenstraße",
-    "addr:suburb": "NiederschÃ¶nhausen",
-    "name": "SpÃ¤tiPate",
+    "addr:suburb": "Niederschönhausen",
+    "name": "SpätiPate",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -5694,7 +5694,7 @@
   "lat": 52.5060281,
   "lon": 13.3021549,
   "tags": {
-    "name": "SpÃ¤ti am Stutti",
+    "name": "Späti am Stutti",
     "shop": "convenience",
     "surveillance": "yes"
   }
@@ -5728,11 +5728,11 @@
     "addr:housenumber": "9",
     "addr:postcode": "12555",
     "addr:street": "Bahnhofstraße",
-    "addr:suburb": "KÃ¶penick",
+    "addr:suburb": "Köpenick",
     "fair_trade": "only",
-    "name": "Weltladen KÃ¶penick",
+    "name": "Weltladen Köpenick",
     "opening_hours": "Mo-Fr 10:00-18:00; PH off",
-    "operator": "Evangelische St.-Lauremtius-Kirchengemeinde KÃ¶penick",
+    "operator": "Evangelische St.-Lauremtius-Kirchengemeinde Köpenick",
     "organic": "only",
     "origin": "worldwide",
     "shop": "convenience",
@@ -5768,7 +5768,7 @@
   "tags": {
     "addr:housenumber": "87",
     "addr:street": "Petersburger Straße",
-    "name": "Botan SpÃ¤ti",
+    "name": "Botan Späti",
     "shop": "convenience"
   }
 },
@@ -5784,7 +5784,7 @@
     "addr:postcode": "10997",
     "addr:street": "Wrangelstraße",
     "addr:suburb": "Kreuzberg",
-    "name": "SpÃ¤tkauf Wrangelkiez",
+    "name": "Spätkauf Wrangelkiez",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -5801,7 +5801,7 @@
     "addr:postcode": "10997",
     "addr:street": "Wrangelstraße",
     "addr:suburb": "Kreuzberg",
-    "name": "SpÃ¤tverkauf",
+    "name": "Spätverkauf",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -5847,9 +5847,9 @@
   "lon": 13.5808138,
   "tags": {
     "addr:postcode": "12555",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-23:00",
-    "operator": "SpÃ¤ti",
+    "operator": "Späti",
     "shop": "convenience"
   }
 },
@@ -5860,10 +5860,10 @@
   "lon": 13.3638855,
   "tags": {
     "addr:housenumber": "163A",
-    "addr:street": "MÃ¼llerstraße",
+    "addr:street": "Müllerstraße",
     "check_date": "2025-01-04",
     "level": "0",
-    "name": "MÃ¼ller Eck",
+    "name": "Müller Eck",
     "not:brand:wikidata": "Q1958759",
     "opening_hours": "Mo-Fr 07:00-03:00, Sa 08:00-03:00",
     "shop": "convenience",
@@ -5876,7 +5876,7 @@
   "lat": 52.5416403,
   "lon": 13.3535499,
   "tags": {
-    "name": "SpÃ¤tkauf King",
+    "name": "Spätkauf King",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -5893,7 +5893,7 @@
     "check_date": "2024-07-26",
     "check_date:opening_hours": "2024-07-26",
     "level": "0",
-    "name": "Krokodil SpÃ¤ti",
+    "name": "Krokodil Späti",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -5954,7 +5954,7 @@
   "lat": 52.5026914,
   "lon": 13.4222961,
   "tags": {
-    "name": "Uliâ€™s SpÃ¤tkauf",
+    "name": "Uliâ€™s Spätkauf",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -5972,7 +5972,7 @@
     "addr:street": "Wiesenstraße",
     "addr:suburb": "Gesundbrunnen",
     "check_date": "2024-09-27",
-    "name": "Der kleine Laden SpÃ¤tkauf",
+    "name": "Der kleine Laden Spätkauf",
     "shop": "convenience",
     "wheelchair": "limited"
   }
@@ -6075,7 +6075,7 @@
   "lon": 13.4413650,
   "tags": {
     "check_date:opening_hours": "2025-02-27",
-    "name": "SpÃ¤tinn2",
+    "name": "Spätinn2",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -6104,7 +6104,7 @@
     "addr:postcode": "10997",
     "addr:street": "Wrangelstraße",
     "addr:suburb": "Kreuzberg",
-    "name": "Kiez-Kiosk SpÃ¤tkauf",
+    "name": "Kiez-Kiosk Spätkauf",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -6143,9 +6143,9 @@
     "addr:housenumber": "83",
     "addr:postcode": "12045",
     "addr:street": "Wildenbruchstraße",
-    "addr:suburb": "NeukÃ¶lln",
-    "description": "SpÃ¤tkauf",
-    "name": "JWANspÃ¤ti",
+    "addr:suburb": "Neukölln",
+    "description": "Spätkauf",
+    "name": "JWANspäti",
     "shop": "convenience",
     "wheelchair": "yes"
   }
@@ -6162,7 +6162,7 @@
     "addr:postcode": "13189",
     "addr:street": "Neumannstraße",
     "addr:suburb": "Pankow",
-    "name": "SpÃ¤tshop + BÃ¤ckerei",
+    "name": "Spätshop + Bäckerei",
     "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-17:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -6175,7 +6175,7 @@
   "lon": 13.4148027,
   "tags": {
     "check_date": "2024-12-15",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -6190,10 +6190,10 @@
     "addr:country": "DE",
     "addr:housenumber": "90",
     "addr:postcode": "10439",
-    "addr:street": "SchÃ¶nhauser Allee",
+    "addr:street": "Schönhauser Allee",
     "addr:suburb": "Prenzlauer Berg",
     "check_date:opening_hours": "2024-09-01",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -6224,7 +6224,7 @@
     "addr:street": "Eldenaer Straße",
     "addr:suburb": "Friedrichshain",
     "check_date:opening_hours": "2022-08-28",
-    "name": "Eldenaer SpÃ¤tkauf 28",
+    "name": "Eldenaer Spätkauf 28",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -6238,7 +6238,7 @@
   "tags": {
     "check_date:opening_hours": "2024-01-07",
     "level": "0",
-    "name": "FrÃ¼chte & Asia-Lebensmittel",
+    "name": "Früchte & Asia-Lebensmittel",
     "opening_hours": "Mo-Sa 09:00-20:00; PH off",
     "origin": "asian",
     "shop": "convenience",
@@ -6252,7 +6252,7 @@
   "lon": 13.4555955,
   "tags": {
     "check_date": "2024-09-06",
-    "name": "Mamas SpÃ¤tkauf",
+    "name": "Mamas Spätkauf",
     "opening_hours": "Mo-Sa 06:00-02:30, Su 11:00-02:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -6269,7 +6269,7 @@
     "addr:postcode": "12435",
     "addr:street": "Karl-Kunger-Straße",
     "check_date": "2024-10-09",
-    "name": "M&S SpÃ¤tkauf",
+    "name": "M&S Spätkauf",
     "shop": "convenience"
   }
 },
@@ -6302,7 +6302,7 @@
     "addr:housenumber": "16",
     "addr:postcode": "12435",
     "addr:street": "Onckenstraße",
-    "name": "Ost-West SpÃ¤ti",
+    "name": "Ost-West Späti",
     "opening_hours": "Mo-Fr 06:00-20:00; Sa 07:00-18:00; Su 07:00-18:00",
     "shop": "convenience",
     "vending": "parcel_mail_in",
@@ -6335,7 +6335,7 @@
   "lon": 13.4213641,
   "tags": {
     "check_date": "2021-06-25",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -6354,7 +6354,7 @@
     "addr:suburb": "Prenzlauer Berg",
     "check_date": "2024-06-02",
     "mapillary": "2980104415596426",
-    "name": "We Love SpÃ¤ti",
+    "name": "We Love Späti",
     "opening_hours": "Mo-Th 08:00-02:00; Fr 08:00-04:00; Sa 09:00-04:00; Su 10:00-01:00",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -6393,7 +6393,7 @@
     "addr:postcode": "10623",
     "addr:street": "Kantstraße",
     "addr:suburb": "Charlottenburg",
-    "name": "SpÃ¤tkauf Astier",
+    "name": "Spätkauf Astier",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -6421,7 +6421,7 @@
     "addr:housenumber": "12",
     "addr:postcode": "12049",
     "addr:street": "Okerstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date": "2024-01-27",
     "name": "Oker Markt",
     "opening_hours": "Mo-Sa 09:00-21:00",
@@ -6437,7 +6437,7 @@
   "lat": 52.5053915,
   "lon": 13.3270228,
   "tags": {
-    "name": "SpÃ¤tshop",
+    "name": "Spätshop",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -6450,7 +6450,7 @@
   "tags": {
     "level": "-1",
     "name": "KompaktKauf",
-    "note": "in der nÃ¶rdlichen Schalterhalle",
+    "note": "in der nördlichen Schalterhalle",
     "opening_hours": "Mo-Fr 06:00-24:00; PH,Sa,Su 08:00-24:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -6478,7 +6478,7 @@
   "lon": 13.3577362,
   "tags": {
     "check_date:opening_hours": "2024-03-18",
-    "name": "Haupt GetrÃ¤nke",
+    "name": "Haupt Getränke",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -6521,7 +6521,7 @@
   "lon": 13.2087876,
   "tags": {
     "check_date:opening_hours": "2023-10-30",
-    "name": "SpÃ¤tie",
+    "name": "Spätie",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -6533,7 +6533,7 @@
   "lat": 52.5047344,
   "lon": 13.3317291,
   "tags": {
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience"
   }
 },
@@ -6544,7 +6544,7 @@
   "lon": 13.4473738,
   "tags": {
     "check_date:opening_hours": "2024-09-17",
-    "name": "Sonnen SpÃ¤tkauf",
+    "name": "Sonnen Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -6583,9 +6583,9 @@
     "addr:housenumber": "117/119",
     "addr:postcode": "10783",
     "addr:street": "Potsdamer Straße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "drink:club-mate": "retail",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience"
   }
 },
@@ -6603,7 +6603,7 @@
     "addr:suburb": "Charlottenburg",
     "check_date": "2023-09-08",
     "level": "0",
-    "name": "Kaiser SpÃ¤tkauf",
+    "name": "Kaiser Spätkauf",
     "payment:mastercard": "yes",
     "payment:visa": "yes",
     "shop": "convenience",
@@ -6641,7 +6641,7 @@
     "addr:suburb": "Charlottenburg",
     "air_conditioning": "no",
     "check_date": "2023-02-19",
-    "name": "SpÃ¤ti Bull",
+    "name": "Späti Bull",
     "opening_hours": "Mo-Th 09:00-23:30; Fr 10:00-24:00; Sa 00:00-01:00,10:00-24:00; Su 00:00-01:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -6655,7 +6655,7 @@
   "tags": {
     "check_date": "2025-02-06",
     "check_date:opening_hours": "2025-02-06",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -6688,7 +6688,7 @@
     "addr:housenumber": "5",
     "addr:postcode": "12459",
     "addr:street": "Schillerpromenade",
-    "addr:suburb": "OberschÃ¶neweide",
+    "addr:suburb": "Oberschöneweide",
     "check_date:opening_hours": "2023-01-15",
     "name": "Asia Supermarkt",
     "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-17:00",
@@ -6707,10 +6707,10 @@
     "addr:housenumber": "30",
     "addr:postcode": "12459",
     "addr:street": "Wilhelminenhofstraße",
-    "addr:suburb": "OberschÃ¶neweide",
+    "addr:suburb": "Oberschöneweide",
     "check_date:opening_hours": "2023-01-15",
     "disused:shop": "bakery",
-    "name": "SpÃ¤tkauf 30",
+    "name": "Spätkauf 30",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -6727,9 +6727,9 @@
     "addr:housenumber": "16a",
     "addr:postcode": "12459",
     "addr:street": "Wilhelminenhofstraße",
-    "addr:suburb": "OberschÃ¶neweide",
+    "addr:suburb": "Oberschöneweide",
     "check_date:opening_hours": "2024-05-31",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -6745,9 +6745,9 @@
     "addr:country": "DE",
     "addr:housenumber": "164",
     "addr:postcode": "10785",
-    "addr:street": "KurfÃ¼rstenstraße",
-    "addr:suburb": "SchÃ¶neberg",
-    "name": "SpÃ¤ti Wood",
+    "addr:street": "Kurfürstenstraße",
+    "addr:suburb": "Schöneberg",
+    "name": "Späti Wood",
     "shop": "convenience"
   }
 },
@@ -6784,7 +6784,7 @@
     "addr:housenumber": "7",
     "addr:postcode": "10777",
     "addr:street": "Nollendorfplatz",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "internet_access": "terminal",
     "name": "Late Night Shop",
     "opening_hours": "Mo-Sa 00:00-00:00, Su 16:00-24:00",
@@ -6853,7 +6853,7 @@
     "addr:street": "Oranienstraße",
     "addr:suburb": "Kreuzberg",
     "check_date:opening_hours": "2023-01-27",
-    "name": "SpÃ¤ti Mustafa",
+    "name": "Späti Mustafa",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -6865,7 +6865,7 @@
   "lon": 13.4176708,
   "tags": {
     "check_date": "2023-04-17",
-    "name": "SpÃ¤tkauf 24/7",
+    "name": "Spätkauf 24/7",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -6916,7 +6916,7 @@
     "addr:country": "DE",
     "addr:housenumber": "32",
     "addr:postcode": "10245",
-    "addr:street": "GrÃ¼nberger Straße",
+    "addr:street": "Grünberger Straße",
     "check_date:opening_hours": "2023-12-20",
     "diet:halal": "no",
     "diet:kosher": "no",
@@ -6934,8 +6934,8 @@
   "tags": {
     "check_date": "2024-09-01",
     "level": "0",
-    "name": "SpÃ¤ti",
-    "name:de": "SpÃ¤ti",
+    "name": "Späti",
+    "name:de": "Späti",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -6962,8 +6962,8 @@
     "addr:housenumber": "54",
     "addr:postcode": "12459",
     "addr:street": "Edisonstraße",
-    "addr:suburb": "OberschÃ¶neweide",
-    "name": "Internet/SpÃ¤tkauf",
+    "addr:suburb": "Oberschöneweide",
+    "name": "Internet/Spätkauf",
     "shop": "convenience",
     "wheelchair": "limited"
   }
@@ -6979,8 +6979,8 @@
     "addr:housenumber": "12",
     "addr:postcode": "12459",
     "addr:street": "Siemensstraße",
-    "addr:suburb": "OberschÃ¶neweide",
-    "name": "SpÃ¤tkauf Watt-Eck 81",
+    "addr:suburb": "Oberschöneweide",
+    "name": "Spätkauf Watt-Eck 81",
     "opening_hours": "Mo-Sa 00:00-01:00,09:00-24:00; Su 00:00-01:00,10:00-24:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -6996,7 +6996,7 @@
     "addr:country": "DE",
     "addr:housenumber": "23",
     "addr:postcode": "12439",
-    "addr:street": "BrÃ¼ckenstraße",
+    "addr:street": "Brückenstraße",
     "shop": "convenience"
   }
 },
@@ -7050,7 +7050,7 @@
   "lon": 13.4617026,
   "tags": {
     "check_date:opening_hours": "2023-05-08",
-    "name": "SpÃ¤ti Reisebedarf & Souvenirs",
+    "name": "Späti Reisebedarf & Souvenirs",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "toilets:wheelchair": "no",
@@ -7098,7 +7098,7 @@
     "addr:street": "Soldiner Straße",
     "addr:suburb": "Gesundbrunnen",
     "check_date": "2025-02-12",
-    "name": "Perle SpÃ¤tkauf",
+    "name": "Perle Spätkauf",
     "shop": "convenience",
     "wheelchair": "yes"
   }
@@ -7139,7 +7139,7 @@
     "check_date": "2024-01-08",
     "check_date:opening_hours": "2022-08-14",
     "level": "0",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -7152,7 +7152,7 @@
   "tags": {
     "access:covid19": "yes",
     "check_date:opening_hours": "2023-04-10",
-    "name": "Schneller Back & SpÃ¤tkauf",
+    "name": "Schneller Back & Spätkauf",
     "opening_hours": "Mo-Fr 06:00-24:00; Sa 07:00-24:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -7165,7 +7165,7 @@
   "lon": 13.4200160,
   "tags": {
     "check_date:opening_hours": "2025-01-23",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Fr 09:00-02:00, Sa,Su 10:00-02:00",
     "shop": "convenience"
   }
@@ -7186,7 +7186,7 @@
   "lat": 52.4672956,
   "lon": 13.4401302,
   "tags": {
-    "name": "Berliner SpÃ¤ti e.V.",
+    "name": "Berliner Späti e.V.",
     "shop": "convenience"
   }
 },
@@ -7199,7 +7199,7 @@
     "bulk_purchase": "yes",
     "check_date:opening_hours": "2024-01-04",
     "email": "abfueller@kdwelt.de",
-    "name": "Die AbfÃ¼ller Lust auf Genuss",
+    "name": "Die Abfüller Lust auf Genuss",
     "opening_hours": "Mo-Fr 09:00-18:00; Sa 08:00-14:00",
     "phone": "+49159 03 13 29 98",
     "shop": "convenience",
@@ -7214,7 +7214,7 @@
   "lon": 13.4673053,
   "tags": {
     "check_date:opening_hours": "2022-12-06",
-    "name": "SpÃ¤tkauf OstX",
+    "name": "Spätkauf OstX",
     "opening_hours": "Mo-Fr 10:00-04:00, Sa,Su,PH 00:00-24:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -7305,7 +7305,7 @@
     "addr:postcode": "13359",
     "addr:street": "Wollankstraße",
     "addr:suburb": "Gesundbrunnen",
-    "name": "Neon SpÃ¤ti",
+    "name": "Neon Späti",
     "shop": "convenience"
   }
 },
@@ -7322,7 +7322,7 @@
     "addr:street": "Wollankstraße",
     "addr:suburb": "Gesundbrunnen",
     "check_date:opening_hours": "2024-04-22",
-    "name": "SpÃ¤ti",
+    "name": "Späti",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -7334,7 +7334,7 @@
   "lat": 52.4798299,
   "lon": 13.4458594,
   "tags": {
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -7389,7 +7389,7 @@
     "addr:postcode": "12359",
     "addr:street": "Buschkrugallee",
     "check_date:opening_hours": "2022-10-20",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "phone": "+49 30 555 95 393",
     "shop": "convenience",
@@ -7464,7 +7464,7 @@
   "lon": 13.3778815,
   "tags": {
     "check_date": "2025-02-12",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -7482,7 +7482,7 @@
     "addr:street": "Bellermannstraße",
     "addr:suburb": "Gesundbrunnen",
     "check_date": "2023-07-18",
-    "name": "Adanas SpÃ¤tkauf",
+    "name": "Adanas Spätkauf",
     "post_office": "post_partner",
     "post_office:brand": "GLS",
     "shop": "convenience"
@@ -7558,7 +7558,7 @@
     "addr:suburb": "Friedrichshain",
     "check_date:opening_hours": "2023-03-20",
     "internet_access": "wlan",
-    "name": "KGB - Koschys GemÃ¼se Butze",
+    "name": "KGB - Koschys Gemüse Butze",
     "opening_hours": "Mo-Sa 09:00-20:00",
     "organic": "only",
     "shop": "convenience",
@@ -7574,7 +7574,7 @@
     "check_date": "2024-10-01",
     "check_date:opening_hours": "2024-10-01",
     "level": "0",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -7592,7 +7592,7 @@
     "addr:postcode": "10557",
     "addr:street": "Lehrter Straße",
     "addr:suburb": "Moabit",
-    "name": "SpÃ¤ti 38",
+    "name": "Späti 38",
     "shop": "convenience",
     "wheelchair": "yes"
   }
@@ -7630,7 +7630,7 @@
   "tags": {
     "addr:housenumber": "22",
     "addr:postcode": "10243",
-    "addr:street": "GrÃ¼nberger Straße",
+    "addr:street": "Grünberger Straße",
     "diet:halal": "yes",
     "name": "Loan's Supermarkt",
     "opening_hours": "Sa 08:30-22:00; Mo-Fr 08:00-21:00",
@@ -7665,7 +7665,7 @@
   "tags": {
     "check_date": "2024-10-26",
     "check_date:opening_hours": "2024-10-26",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -7726,7 +7726,7 @@
     "addr:housenumber": "15a",
     "addr:street": "Gabriel-Max-Straße",
     "check_date:opening_hours": "2023-11-28",
-    "name": "Maxi SpÃ¤tkauf",
+    "name": "Maxi Spätkauf",
     "opening_hours": "Mo 08:00-24:00; Tu-Fr 00:00-05:00,08:00-24:00; Sa,Su 00:00-24:00",
     "opening_hours:signed": "no",
     "shop": "convenience",
@@ -7743,7 +7743,7 @@
     "addr:street": "Triftstraße",
     "check_date": "2025-03-03",
     "level": "0",
-    "name": "SpÃ¤ti Vape City",
+    "name": "Späti Vape City",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -7783,7 +7783,7 @@
   "lat": 52.5166872,
   "lon": 13.1973560,
   "tags": {
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience"
   }
 },
@@ -7815,7 +7815,7 @@
     "addr:postcode": "10623",
     "addr:street": "Goethestraße",
     "check_date:opening_hours": "2023-12-05",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Sa 08:30-22:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -7827,7 +7827,7 @@
   "lat": 52.4937139,
   "lon": 13.3991837,
   "tags": {
-    "name": "Umuts SpÃ¤tshop",
+    "name": "Umuts Spätshop",
     "shop": "convenience",
     "toilets:wheelchair": "no",
     "wheelchair": "no"
@@ -7842,7 +7842,7 @@
     "amenity": "internet_cafe",
     "internet_access": "yes",
     "lottery": "yes",
-    "name": "Aris Internet-SpÃ¤tkauf & Presse",
+    "name": "Aris Internet-Spätkauf & Presse",
     "service:copy": "yes",
     "service:fax": "yes",
     "service:scan": "yes",
@@ -7861,7 +7861,7 @@
     "addr:housenumber": "136",
     "addr:postcode": "12059",
     "addr:street": "Sonnenallee",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "name": "Multi Shop II",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -7884,7 +7884,7 @@
   "lat": 52.5505343,
   "lon": 13.3683263,
   "tags": {
-    "name": "Mo's SpÃ¤tkauf",
+    "name": "Mo's Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -7900,7 +7900,7 @@
     "addr:street": "Oberfeldstraße",
     "name": "Papeterie Biesdorf",
     "opening_hours": "Tu-Fr 09:00-18:00; Sa 09:00-12:00; Mo 10:00-18:00",
-    "operator": "RenÃ© HÃ¶hne",
+    "operator": "RenÃ© Höhne",
     "phone": "+4930 5419455",
     "shop": "convenience",
     "website": "https://biesdorfer-papeterie.de/",
@@ -7952,7 +7952,7 @@
   "lat": 52.5538644,
   "lon": 13.3734706,
   "tags": {
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience",
     "wheelchair": "limited"
   }
@@ -7964,7 +7964,7 @@
   "lon": 13.3453313,
   "tags": {
     "check_date:opening_hours": "2023-11-11",
-    "name": "Nishiâ€™s SpÃ¤ti & Asia World",
+    "name": "Nishiâ€™s Späti & Asia World",
     "opening_hours:signed": "no",
     "origin": "asian",
     "shop": "convenience"
@@ -8042,7 +8042,7 @@
     "addr:street": "Invalidenstraße",
     "addr:suburb": "Mitte",
     "check_date": "2023-01-30",
-    "name": "SpÃ¤tkauf - CafÃ© - Backshop",
+    "name": "Spätkauf - CafÃ© - Backshop",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "no"
@@ -8059,9 +8059,9 @@
     "addr:housenumber": "178",
     "addr:postcode": "12051",
     "addr:street": "Hermannstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date": "2023-04-27",
-    "name": "SpÃ¤tkauf 178",
+    "name": "Spätkauf 178",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "no"
@@ -8093,11 +8093,11 @@
   "tags": {
     "addr:housenumber": "12",
     "addr:postcode": "13353",
-    "addr:street": "BrÃ¼sseler Straße",
+    "addr:street": "Brüsseler Straße",
     "brand": "DPD",
     "check_date": "2025-02-09",
-    "name": "GetrÃ¤nkemarkt Robin",
-    "name:de": "GetrÃ¤nkemarkt Robin",
+    "name": "Getränkemarkt Robin",
+    "name:de": "Getränkemarkt Robin",
     "opening_hours": "Mo-Th 07:00-01:00, Fr,Sa 07:00-02:00",
     "shop": "convenience"
   }
@@ -8130,7 +8130,7 @@
   "tags": {
     "check_date": "2022-11-15",
     "level": "0",
-    "name": "SpÃ¤ti for you",
+    "name": "Späti for you",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -8142,7 +8142,7 @@
   "lon": 13.4172783,
   "tags": {
     "addr:housenumber": "10A",
-    "addr:street": "BrÃ¼ckenstraße",
+    "addr:street": "Brückenstraße",
     "check_date": "2024-04-29",
     "level": "0",
     "name": "All In One Shop",
@@ -8192,7 +8192,7 @@
   "lat": 52.5530442,
   "lon": 13.3797404,
   "tags": {
-    "name": "Alo SpÃ¤tkauf",
+    "name": "Alo Spätkauf",
     "shop": "convenience",
     "wheelchair": "yes"
   }
@@ -8203,7 +8203,7 @@
   "lat": 52.5528933,
   "lon": 13.3804693,
   "tags": {
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -8214,7 +8214,7 @@
   "lat": 52.5542674,
   "lon": 13.3845540,
   "tags": {
-    "name": "SpÃ¤ti 030",
+    "name": "Späti 030",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
     "shop": "convenience"
@@ -8283,7 +8283,7 @@
     "addr:housenumber": "163",
     "addr:postcode": "12043",
     "addr:street": "Karl-Marx-Straße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date:opening_hours": "2023-12-08",
     "name": "El-Fi",
     "opening_hours:signed": "no",
@@ -8300,7 +8300,7 @@
     "addr:city": "Berlin",
     "addr:housenumber": "3",
     "addr:postcode": "10245",
-    "addr:street": "GÃ¤rtnerstraße",
+    "addr:street": "Gärtnerstraße",
     "name": "E-Kiosk 24",
     "opening_hours": "Mo-Su,PH 00:00+",
     "self_checkout": "only",
@@ -8319,7 +8319,7 @@
     "addr:postcode": "10245",
     "addr:street": "Boxhagener Straße",
     "check_date:opening_hours": "2023-11-27",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -8462,7 +8462,7 @@
   "lon": 13.3155664,
   "tags": {
     "check_date": "2023-04-16",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience"
   }
 },
@@ -8583,8 +8583,8 @@
     "addr:street": "Corinthstraße",
     "check_date": "2023-05-24",
     "check_date:opening_hours": "2023-10-29",
-    "loc_name": "SpÃ¤ti",
-    "name": "mini GetrÃ¤nkemarkt Tabakwaren",
+    "loc_name": "Späti",
+    "name": "mini Getränkemarkt Tabakwaren",
     "opening_hours": "Mo-Su 10:00-24:00",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -8598,7 +8598,7 @@
   "tags": {
     "addr:street": "Alt-Moabit",
     "check_date": "2023-07-22",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -8615,7 +8615,7 @@
     "addr:housenumber": "16",
     "addr:postcode": "12043",
     "addr:street": "Erkstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date": "2023-10-29",
     "name": "Kanki-Shop",
     "shop": "convenience",
@@ -8660,7 +8660,7 @@
     "addr:housenumber": "25",
     "addr:postcode": "10777",
     "addr:street": "Welserstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "check_date": "2024-08-10",
     "name": "CafÃ© Sawanna",
     "opening_hours": "Mo-Th 07:00-00:00; Fr 07:00-01:00, Sa 09:00-01:00, Su 09:00-00:00",
@@ -8787,7 +8787,7 @@
   "lon": 13.3361377,
   "tags": {
     "check_date:opening_hours": "2024-05-27",
-    "name": "SpÃ¤ti",
+    "name": "Späti",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -8852,10 +8852,10 @@
     "addr:housenumber": "2",
     "addr:postcode": "10823",
     "addr:street": "Akazienstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "check_date:opening_hours": "2023-11-12",
-    "description": "SpÃ¤tverkauf, Kiosk, Tabak, Presse,GetrÃ¤nke",
-    "name": "Am Akazien SpÃ¤tkauf",
+    "description": "Spätverkauf, Kiosk, Tabak, Presse,Getränke",
+    "name": "Am Akazien Spätkauf",
     "opening_hours": "Mo-Su 11:00-23:00",
     "opening_hours:signed": "no",
     "post_office": "post_partner",
@@ -8873,7 +8873,7 @@
   "lon": 13.4800036,
   "tags": {
     "check_date:opening_hours": "2024-01-29",
-    "name": "SpÃ¤t 63",
+    "name": "Spät 63",
     "opening_hours": "Mo-Su,PH 09:00-02:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -8886,9 +8886,9 @@
   "lon": 13.4169426,
   "tags": {
     "addr:housenumber": "1A",
-    "addr:street": "BrÃ¼ckenstraße",
-    "name": "SpÃ¤ti Spass",
-    "note": "Umbau BÃ¤ckerei -> SpÃ¤ti",
+    "addr:street": "Brückenstraße",
+    "name": "Späti Spass",
+    "note": "Umbau Bäckerei -> Späti",
     "opening_hours": "Mo,Th 08:00-22:00; Tu,We,Fr,Sa 08:00-21:30; Su 16:00-19:30",
     "shop": "convenience",
     "wheelchair": "no"
@@ -8903,7 +8903,7 @@
     "addr:housenumber": "46",
     "addr:postcode": "10997",
     "addr:street": "Falckensteinstraße",
-    "name": "M99 - Gemischtwarenladen fÃ¼r Revolutionsbedarf",
+    "name": "M99 - Gemischtwarenladen für Revolutionsbedarf",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -8919,7 +8919,7 @@
     "addr:postcode": "10715",
     "addr:street": "Bundesplatz",
     "name": "Bundeskiosk",
-    "operator": "MÃ¼rsel Arslan",
+    "operator": "Mürsel Arslan",
     "shop": "convenience",
     "wheelchair": "limited"
   }
@@ -8942,7 +8942,7 @@
     "addr:city": "Berlin",
     "addr:housenumber": "49",
     "addr:postcode": "10245",
-    "addr:street": "WÃ¼hlischstraße",
+    "addr:street": "Wühlischstraße",
     "check_date:opening_hours": "2024-07-15",
     "name": "Gula Sor",
     "opening_hours:signed": "no",
@@ -8971,7 +8971,7 @@
   "lon": 13.4666474,
   "tags": {
     "check_date:opening_hours": "2024-02-12",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -8985,7 +8985,7 @@
   "tags": {
     "check_date": "2024-06-16",
     "check_date:opening_hours": "2023-01-14",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -9004,7 +9004,7 @@
     "addr:street": "Proskauer Straße",
     "addr:suburb": "Friedrichshain",
     "check_date": "2024-09-07",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Su 08:00-03:00",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -9019,7 +9019,7 @@
     "addr:city": "Berlin",
     "addr:housenumber": "55",
     "addr:postcode": "10245",
-    "addr:street": "GrÃ¼nberger Straße",
+    "addr:street": "Grünberger Straße",
     "check_date:opening_hours": "2023-11-27",
     "dog": "no",
     "name": "md Mein Markt",
@@ -9041,9 +9041,9 @@
     "addr:city": "Berlin",
     "addr:housenumber": "64",
     "addr:postcode": "10245",
-    "addr:street": "GrÃ¼nberger Straße",
+    "addr:street": "Grünberger Straße",
     "check_date": "2024-10-08",
-    "name": "SpÃ¤tkauf 24h",
+    "name": "Spätkauf 24h",
     "opening_hours": "Mo-Su 00:00-24:00",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -9060,9 +9060,9 @@
     "addr:city": "Berlin",
     "addr:housenumber": "33",
     "addr:postcode": "10245",
-    "addr:street": "GÃ¤rtnerstraße",
+    "addr:street": "Gärtnerstraße",
     "check_date:opening_hours": "2022-12-28",
-    "name": "I Love SpÃ¤ti",
+    "name": "I Love Späti",
     "opening_hours:signed": "no",
     "payment:cash": "yes",
     "payment:coins": "yes",
@@ -9079,10 +9079,10 @@
     "addr:country": "DE",
     "addr:housenumber": "148",
     "addr:postcode": "10435",
-    "addr:street": "SchÃ¶nhauser Allee",
+    "addr:street": "Schönhauser Allee",
     "addr:suburb": "Prenzlauer Berg",
     "contact:website": "https://frechefreunde.de/",
-    "name": "ErdbÃ¤r",
+    "name": "Erdbär",
     "opening_hours": "Th-Fr 12:00-18:00; Sa 11:00-17:00; Mo-We,Su,PH off",
     "organic": "only",
     "shop": "convenience"
@@ -9197,7 +9197,7 @@
   "lon": 13.4189159,
   "tags": {
     "atm": "yes",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "24/7",
     "shop": "convenience",
     "surveillance": "indoor",
@@ -9247,7 +9247,7 @@
     "addr:housenumber": "27",
     "addr:postcode": "13055",
     "addr:street": "Schalkauer Straße",
-    "name": "Lebensmittel - GetrÃ¤nke",
+    "name": "Lebensmittel - Getränke",
     "opening_hours": "Mo-Fr 08:30-18:30; Sa 08:30-15:30",
     "shop": "convenience"
   }
@@ -9283,10 +9283,10 @@
     "addr:housenumber": "5a",
     "addr:postcode": "10827",
     "addr:street": "Langenscheidtstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "check_date:opening_hours": "2021-01-24",
     "cuisine": "hessian",
-    "name": "SchwÃ¤lmer Stube",
+    "name": "Schwälmer Stube",
     "opening_hours": "Mo-Fr 07:00-21:00; Sa-Su,PH 09:00-21:00",
     "outdoor_seating": "yes",
     "shop": "convenience",
@@ -9304,9 +9304,9 @@
     "addr:housenumber": "133",
     "addr:postcode": "12527",
     "addr:street": "Regattastraße",
-    "addr:suburb": "GrÃ¼nau",
+    "addr:suburb": "Grünau",
     "contact:website": "https://www.naturkost-gruenau.de/",
-    "name": "Naturkost GrÃ¼nau",
+    "name": "Naturkost Grünau",
     "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-14:00; Su,PH off",
     "organic": "yes",
     "shop": "convenience",
@@ -9319,7 +9319,7 @@
   "lat": 52.4801608,
   "lon": 13.3525311,
   "tags": {
-    "name": "SpÃ¤tkauf 06",
+    "name": "Spätkauf 06",
     "opening_hours": "Mo 09:00-24:00, Tu,We 00:00-24:00; Th 00:00-12:00; Fr 09:00-24:00, Sa 00:00-02:00,09:00-24:00, Su 00:00-02:00",
     "shop": "convenience"
   }
@@ -9337,7 +9337,7 @@
     "addr:street": "Einbecker Straße",
     "addr:suburb": "Rummelsburg",
     "check_date:opening_hours": "2025-01-26",
-    "name": "H&E SpÃ¤tkauf",
+    "name": "H&E Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -9354,7 +9354,7 @@
     "addr:housenumber": "15",
     "addr:postcode": "10823",
     "addr:street": "Akazienstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "check_date:opening_hours": "2024-04-02",
     "name": "The Market",
     "opening_hours": "Mo-Su 07:30-24:00",
@@ -9395,7 +9395,7 @@
     "addr:housenumber": "80",
     "addr:postcode": "10551",
     "addr:street": "Turmstraße",
-    "name": "SpÃ¤tkauf 80",
+    "name": "Spätkauf 80",
     "shop": "convenience",
     "wheelchair": "limited"
   }
@@ -9451,7 +9451,7 @@
   "lon": 13.3615827,
   "tags": {
     "check_date": "2024-03-03",
-    "name": "Potsdamer GetrÃ¤nke",
+    "name": "Potsdamer Getränke",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -9466,7 +9466,7 @@
     "check_date:opening_hours": "2023-07-13",
     "cuisine": "russian",
     "level": "-1",
-    "name": "OsteuropÃ¤ische SpezialitÃ¤ten",
+    "name": "Osteuropäische Spezialitäten",
     "opening_hours": "Mo-Sa 10:00-19:00",
     "shop": "convenience"
   }
@@ -9535,7 +9535,7 @@
     "addr:postcode": "12167",
     "addr:street": "Albrechtstraße",
     "addr:suburb": "Steglitz",
-    "name": "SpÃ¤tkauf Steglitz",
+    "name": "Spätkauf Steglitz",
     "noname": "yes",
     "opening_hours": "Mo-Fr 07:30-24:00; Sa 09:30-24:00; Su 10:00-24:00",
     "shop": "convenience",
@@ -9552,7 +9552,7 @@
     "addr:country": "DE",
     "addr:housenumber": "86",
     "addr:postcode": "10439",
-    "addr:street": "SchÃ¶nhauser Allee",
+    "addr:street": "Schönhauser Allee",
     "addr:suburb": "Prenzlauer Berg",
     "check_date:opening_hours": "2021-07-22",
     "contact:phone": "+49 30 63911365",
@@ -9572,7 +9572,7 @@
   "lat": 52.4998035,
   "lon": 13.4243347,
   "tags": {
-    "name": "SpÃ¤tkauf 36",
+    "name": "Spätkauf 36",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -9587,7 +9587,7 @@
     "check_date": "2024-07-26",
     "internet_access": "no",
     "level": "0",
-    "name": "Tabak & GetrÃ¤nke Shop",
+    "name": "Tabak & Getränke Shop",
     "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-23:00; Su,PH off",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
@@ -9607,8 +9607,8 @@
     "addr:housenumber": "102",
     "addr:postcode": "10827",
     "addr:street": "Hauptstraße",
-    "addr:suburb": "SchÃ¶neberg",
-    "name": "jungenspÃ¤ti",
+    "addr:suburb": "Schöneberg",
+    "name": "jungenspäti",
     "opening_hours": "Mo-Sa 09:00-01:00; Su off",
     "service:copy": "yes",
     "shop": "convenience",
@@ -9626,9 +9626,9 @@
     "addr:housenumber": "134",
     "addr:postcode": "10827",
     "addr:street": "Hauptstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "check_date": "2024-04-26",
-    "name": "SpÃ¤tkauf Zu SpÃ¤t",
+    "name": "Spätkauf Zu Spät",
     "opening_hours": "Su-Th 10:00-02:00, Fr,Sa 10:00-05:00",
     "shop": "convenience"
   }
@@ -9686,7 +9686,7 @@
   "lat": 52.4994017,
   "lon": 13.4269620,
   "tags": {
-    "name": "SpÃ¤ti Kreuzberg",
+    "name": "Späti Kreuzberg",
     "opening_hours": "PH,Mo-Su 00:00-24:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -9704,7 +9704,7 @@
     "addr:street": "Rigaer Straße",
     "addr:suburb": "Friedrichshain",
     "check_date:opening_hours": "2023-11-28",
-    "name": "Trinkbar SpÃ¤tkauf",
+    "name": "Trinkbar Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "toilets:wheelchair": "no",
@@ -9746,7 +9746,7 @@
     "internet_access": "wlan",
     "name": "Minimarkt Stresow",
     "opening_hours": "Mo-Fr 08:00-18:00",
-    "operator": "Andreas MÃ¼ller",
+    "operator": "Andreas Müller",
     "payment:american_express": "yes",
     "payment:cash": "yes",
     "payment:contactless": "yes",
@@ -9769,7 +9769,7 @@
   "lat": 52.5006832,
   "lon": 13.4419836,
   "tags": {
-    "name": "SpÃ¤ti 030",
+    "name": "Späti 030",
     "shop": "convenience",
     "wheelchair": "limited"
   }
@@ -9787,7 +9787,7 @@
     "addr:street": "Reinickendorfer Straße",
     "addr:suburb": "Wedding",
     "check_date": "2023-08-10",
-    "name": "Late Night SpÃ¤tkauf68",
+    "name": "Late Night Spätkauf68",
     "opening_hours": "Mo-Th 09:00-24:00, Fr 11:00-23:00, Sa 11:00-23:00",
     "opening_hours:signed": "no",
     "operator": "Ãœlger",
@@ -9816,7 +9816,7 @@
   "tags": {
     "check_date": "2022-11-14",
     "level": "0",
-    "name": "SpÃ¤tkauf Kopal",
+    "name": "Spätkauf Kopal",
     "opening_hours": "05:00-24:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -9830,7 +9830,7 @@
   "tags": {
     "addr:city": "Berlin",
     "addr:country": "DE",
-    "addr:housename": "Hackesche HÃ¶fe, Hof 7",
+    "addr:housename": "Hackesche Höfe, Hof 7",
     "addr:housenumber": "40-41",
     "addr:postcode": "10178",
     "addr:street": "Rosenthaler Straße",
@@ -9867,7 +9867,7 @@
     "addr:postcode": "10961",
     "addr:street": "Gneisenaustraße",
     "addr:suburb": "Kreuzberg",
-    "name": "SpÃ¤tkauf 54",
+    "name": "Spätkauf 54",
     "opening_hours": "Mo-Sa 10:00-24:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -9898,7 +9898,7 @@
     "addr:street": "Katzbachstraße",
     "addr:suburb": "Kreuzberg",
     "level": "0",
-    "name": "Viktoria SpÃ¤ti",
+    "name": "Viktoria Späti",
     "shop": "convenience"
   }
 },
@@ -9918,7 +9918,7 @@
   "lon": 13.3073832,
   "tags": {
     "check_date:opening_hours": "2022-10-30",
-    "name": "Eddi's SpÃ¤ti",
+    "name": "Eddi's Späti",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -9933,11 +9933,11 @@
     "addr:country": "DE",
     "addr:housenumber": "24A",
     "addr:postcode": "12047",
-    "addr:street": "BÃ¼rknerstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:street": "Bürknerstraße",
+    "addr:suburb": "Neukölln",
     "check_date": "2023-09-07",
     "diet:halal": "yes",
-    "name": "BÃ¼rkner 7/24",
+    "name": "Bürkner 7/24",
     "opening_hours": "24/7",
     "shop": "convenience"
   }
@@ -9948,7 +9948,7 @@
   "lat": 52.4938405,
   "lon": 13.3887301,
   "tags": {
-    "name": "Daye SpÃ¤tkauf",
+    "name": "Daye Spätkauf",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -9961,7 +9961,7 @@
   "tags": {
     "addr:housenumber": "49",
     "addr:postcode": "13353",
-    "addr:street": "BrÃ¼sseler Straße",
+    "addr:street": "Brüsseler Straße",
     "name": "Trinkstelle",
     "opening_hours": "Mo-Su 10:30-23:00",
     "shop": "convenience",
@@ -10008,8 +10008,8 @@
     "addr:city": "Berlin",
     "addr:housenumber": "10",
     "addr:postcode": "14059",
-    "addr:street": "KÃ¶nigin-Elisabeth-Straße",
-    "name": "Yellow SpÃ¤tkauf",
+    "addr:street": "Königin-Elisabeth-Straße",
+    "name": "Yellow Spätkauf",
     "opening_hours": "Su-Fr 08:00-02:00, Sa 08:00-03:00",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -10112,7 +10112,7 @@
     "addr:postcode": "10119",
     "addr:street": "Torstraße",
     "addr:suburb": "Mitte",
-    "name": "SpÃ¤tkauf / Postshop",
+    "name": "Spätkauf / Postshop",
     "opening_hours": "Mo-Su 08:00-18:30",
     "post_office:type": "post_partner",
     "shop": "convenience",
@@ -10137,7 +10137,7 @@
   "lat": 52.5039961,
   "lon": 13.3072677,
   "tags": {
-    "name": "SpÃ¤tShop",
+    "name": "SpätShop",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -10149,7 +10149,7 @@
   "lon": 13.3020308,
   "tags": {
     "check_date:opening_hours": "2022-11-20",
-    "name": "SpÃ¤tshop",
+    "name": "Spätshop",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -10161,8 +10161,8 @@
   "lat": 52.5301502,
   "lon": 13.4006576,
   "tags": {
-    "description": "SpÃ¤ti",
-    "name": "MK SpÃ¤tshop",
+    "description": "Späti",
+    "name": "MK Spätshop",
     "shop": "convenience",
     "surveillance": "indoor",
     "wheelchair": "no"
@@ -10175,7 +10175,7 @@
   "lon": 13.4003442,
   "tags": {
     "check_date:opening_hours": "2023-06-03",
-    "name": "M.K. SpÃ¤tshop",
+    "name": "M.K. Spätshop",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -10191,11 +10191,11 @@
     "addr:country": "DE",
     "addr:housenumber": "4",
     "addr:postcode": "10119",
-    "addr:street": "Alte SchÃ¶nhauser Straße",
+    "addr:street": "Alte Schönhauser Straße",
     "addr:suburb": "Mitte",
     "check_date": "2022-11-03",
     "internet_access": "no",
-    "name": "HeimgetrÃ¤nke",
+    "name": "Heimgetränke",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
     "shop": "convenience",
@@ -10213,7 +10213,7 @@
     "addr:floor": "0",
     "addr:housenumber": "25",
     "addr:postcode": "10119",
-    "addr:street": "Alte SchÃ¶nhauser Straße",
+    "addr:street": "Alte Schönhauser Straße",
     "addr:suburb": "Mitte",
     "check_date": "2024-07-09",
     "level": "0",
@@ -10236,7 +10236,7 @@
     "addr:street": "Neue Hochstraße",
     "check_date": "2025-02-25",
     "level": "0",
-    "name": "BÃ¤ckerei SpÃ¤tkauf",
+    "name": "Bäckerei Spätkauf",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -10296,7 +10296,7 @@
   "lon": 13.3906990,
   "tags": {
     "check_date:opening_hours": "2023-04-28",
-    "name": "Bella SpÃ¤ti",
+    "name": "Bella Späti",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -10324,7 +10324,7 @@
     "addr:housenumber": "278",
     "addr:postcode": "12057",
     "addr:street": "Karl-Marx-Straße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date:opening_hours": "2022-10-20",
     "name": "All in one Shop",
     "opening_hours:signed": "no",
@@ -10361,7 +10361,7 @@
   "lon": 13.3809377,
   "tags": {
     "check_date": "2025-02-12",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience"
   }
 },
@@ -10401,7 +10401,7 @@
   "lon": 13.3776416,
   "tags": {
     "check_date:opening_hours": "2023-07-11",
-    "name": "SpÃ¤tkauf Duki",
+    "name": "Spätkauf Duki",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -10427,7 +10427,7 @@
   "lat": 52.4860681,
   "lon": 13.4297716,
   "tags": {
-    "name": "Taha Minimarkt SpÃ¤tkauf",
+    "name": "Taha Minimarkt Spätkauf",
     "name:ar": "Ø·Ø© Ù…Ù†ÙŠ Ù…Ø§Ø±ÙƒØª",
     "shop": "convenience"
   }
@@ -10442,7 +10442,7 @@
     "addr:housenumber": "21",
     "addr:postcode": "14057",
     "addr:street": "Kaiserdamm",
-    "name": "BÃ¤rlin Shop",
+    "name": "Bärlin Shop",
     "operator": "Osman Beger",
     "phone": "+49 30 3024676",
     "shop": "convenience",
@@ -10508,7 +10508,7 @@
   "lat": 52.4475867,
   "lon": 13.3414904,
   "tags": {
-    "name": "City SpÃ¤tkauf",
+    "name": "City Spätkauf",
     "shop": "convenience"
   }
 },
@@ -10523,9 +10523,9 @@
     "addr:housenumber": "70",
     "addr:postcode": "10967",
     "addr:street": "Kottbusser Damm",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date:opening_hours": "2023-05-05",
-    "name": "Naz SpÃ¤tkauf",
+    "name": "Naz Spätkauf",
     "opening_hours:signed": "no",
     "outdoor_seating": "yes",
     "shop": "convenience",
@@ -10540,7 +10540,7 @@
   "tags": {
     "addr:street": "Hohenstaufenstraße",
     "check_date": "2024-04-04",
-    "name": "GlÃ¼ckskÃ¤fer",
+    "name": "Glückskäfer",
     "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-18:00",
     "shop": "convenience"
   }
@@ -10555,10 +10555,10 @@
     "addr:country": "DE",
     "addr:housenumber": "51",
     "addr:postcode": "10407",
-    "addr:street": "BÃ¶tzowstraße",
+    "addr:street": "Bötzowstraße",
     "addr:suburb": "Prenzlauer Berg",
     "check_date:opening_hours": "2024-02-22",
-    "description": "SpÃ¤ti",
+    "description": "Späti",
     "name": "Max & Moritz",
     "opening_hours:signed": "no",
     "shop": "convenience"
@@ -10575,7 +10575,7 @@
     "addr:housenumber": "190",
     "addr:postcode": "12055",
     "addr:street": "Karl-Marx-Straße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "name": "Multicafe",
     "shop": "convenience"
   }
@@ -10586,7 +10586,7 @@
   "lat": 52.4712400,
   "lon": 13.4407467,
   "tags": {
-    "name": "KÃ¶rner SpÃ¤tkauf",
+    "name": "Körner Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -10603,8 +10603,8 @@
     "addr:housenumber": "156",
     "addr:postcode": "12043",
     "addr:street": "Karl-Marx-Straße",
-    "addr:suburb": "NeukÃ¶lln",
-    "name": "GÃ¼nes SpÃ¤tkauf",
+    "addr:suburb": "Neukölln",
+    "name": "Günes Spätkauf",
     "shop": "convenience"
   }
 },
@@ -10639,7 +10639,7 @@
     "addr:suburb": "Charlottenburg",
     "check_date": "2023-04-08",
     "cuisine": "asian",
-    "name": "Asia Land Obst-GemÃ¼se & Asia Lebensmittel",
+    "name": "Asia Land Obst-Gemüse & Asia Lebensmittel",
     "opening_hours": "Mo-Sa 08:30-20:00; Su 09:30-15:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -10666,7 +10666,7 @@
     "addr:housenumber": "44a",
     "addr:postcode": "10553",
     "addr:street": "Beusselstraße",
-    "name": "SpÃ¤tkauf &",
+    "name": "Spätkauf &",
     "shop": "convenience"
   }
 },
@@ -10679,7 +10679,7 @@
     "addr:city": "Berlin",
     "addr:housenumber": "22",
     "addr:postcode": "10245",
-    "addr:street": "WÃ¼hlischstraße",
+    "addr:street": "Wühlischstraße",
     "check_date:opening_hours": "2023-11-23",
     "name": "Baris-Ta",
     "opening_hours:signed": "no",
@@ -10745,7 +10745,7 @@
     "addr:suburb": "Steglitz",
     "check_date": "2023-07-01",
     "delivery:covid19": "no",
-    "name": "GetrÃ¤nke Shop SpÃ¤tkauf",
+    "name": "Getränke Shop Spätkauf",
     "opening_hours": "Mo-Sa 11:00-01:00, Su 11:00-24:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -10762,7 +10762,7 @@
     "addr:postcode": "13403",
     "addr:street": "Ollenhauerstraße",
     "addr:suburb": "Reinickendorf",
-    "name": "Seydo's Back n SpÃ¤ti",
+    "name": "Seydo's Back n Späti",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -10802,7 +10802,7 @@
     "addr:postcode": "12167",
     "addr:street": "Albrechtstraße",
     "addr:suburb": "Steglitz",
-    "name": "SpÃ¤tkauf M & A",
+    "name": "Spätkauf M & A",
     "opening_hours": "Mo-Sa 10:00-22:00; PH,Su off",
     "post_office:brand": "GLS",
     "post_office:type": "post_partner",
@@ -10828,7 +10828,7 @@
   "lat": 52.5505054,
   "lon": 13.3465820,
   "tags": {
-    "name": "Junior's SpÃ¤tkauf",
+    "name": "Junior's Spätkauf",
     "opening_hours": "Mo-Su,PH 06:00-01:00+",
     "shop": "convenience"
   }
@@ -10864,7 +10864,7 @@
     "addr:street": "Oderberger Straße",
     "check_date": "2024-06-10",
     "level": "0",
-    "name": "Bis SpÃ¤ti",
+    "name": "Bis Späti",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -10894,7 +10894,7 @@
   "lat": 52.5041759,
   "lon": 13.3753355,
   "tags": {
-    "name": "Yusufs SpÃ¤ti",
+    "name": "Yusufs Späti",
     "opening_hours": "Mo-Fr 08:00-02:00, Sa,Su 09:00-02:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -10913,7 +10913,7 @@
     "addr:street": "Perleberger Straße",
     "addr:suburb": "Moabit",
     "check_date:opening_hours": "2024-03-08",
-    "name": "SpÃ¤tshop",
+    "name": "Spätshop",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -10929,8 +10929,8 @@
     "addr:country": "DE",
     "addr:housenumber": "10",
     "addr:postcode": "12055",
-    "addr:street": "ZwiestÃ¤dter Straße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:street": "Zwiestädter Straße",
+    "addr:suburb": "Neukölln",
     "description": "feine Marmeladen & mehr",
     "email": "mail@frugibus.de",
     "name": "frugibus",
@@ -10955,7 +10955,7 @@
     "addr:housenumber": "65",
     "addr:postcode": "12053",
     "addr:street": "Boddinstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "description": "Asiatische Lebensmittel",
     "name": "Champa Center",
     "opening_hours": "Mo-Fr 09:00-18:30; Sa 9:00-17:00",
@@ -10990,7 +10990,7 @@
   "tags": {
     "amenity": "cafe",
     "check_date": "2024-06-09",
-    "name": "Von morgens bis SpÃ¤ti",
+    "name": "Von morgens bis Späti",
     "opening_hours": "Mo-Th 07:00-02:00, Fr,Sa 07:00-03:00",
     "shop": "convenience"
   }
@@ -11002,7 +11002,7 @@
   "lon": 13.3533154,
   "tags": {
     "check_date:opening_hours": "2024-03-04",
-    "name": "SpÃ¤tkauf GÃ¶nÃ¼l",
+    "name": "Spätkauf Gönül",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -11052,7 +11052,7 @@
     "addr:housenumber": "13",
     "addr:street": "Boxhagener Straße",
     "check_date:opening_hours": "2024-04-01",
-    "name": "City SpÃ¤tkauf Mini Markt",
+    "name": "City Spätkauf Mini Markt",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -11108,7 +11108,7 @@
   "tags": {
     "internet_access": "wlan",
     "level": "0",
-    "name": "Bundes SpÃ¤ti",
+    "name": "Bundes Späti",
     "outdoor_seating": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -11211,7 +11211,7 @@
   "lat": 52.4934561,
   "lon": 13.3650984,
   "tags": {
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience"
   }
 },
@@ -11288,7 +11288,7 @@
   "lon": 13.3662205,
   "tags": {
     "check_date": "2023-01-13",
-    "name": "Berlin - Tag & Nacht SpÃ¤tkauf",
+    "name": "Berlin - Tag & Nacht Spätkauf",
     "opening_hours": "Mo-Th 06:00-24:00, Fr 06:00-04:00, Sa 08:00-04:00, PH,Su 13:00-20:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -11338,7 +11338,7 @@
     "addr:street": "Danziger Straße",
     "currency:EUR": "yes",
     "level": "0",
-    "name": "Central Food + GetrÃ¤nkemarkt",
+    "name": "Central Food + Getränkemarkt",
     "opening_hours": "Mo-Th 08:00-02:00, Fr 08:00-03:00, Sa 09:00-03:00",
     "organic": "yes",
     "phone": "+49 30 47758375",
@@ -11362,7 +11362,7 @@
     "check_date:opening_hours": "2023-07-19",
     "internet_access": "no",
     "level": "0",
-    "name": "SpÃ¤ti by Sticky",
+    "name": "Späti by Sticky",
     "opening_hours:signed": "no",
     "payment:cards": "no",
     "payment:cash": "yes",
@@ -11422,7 +11422,7 @@
     "addr:postcode": "10967",
     "addr:street": "Graefestraße",
     "addr:suburb": "Kreuzberg",
-    "name": "Graefe SpÃ¤ti",
+    "name": "Graefe Späti",
     "opening_hours": "Mo-Fr 11:00-19:00; Sa 10:00-19:00",
     "post_office": "yes",
     "post_office:brand": "DHL",
@@ -11466,7 +11466,7 @@
   "lon": 13.4236297,
   "tags": {
     "contact:phone": "+49 177 2747946",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "post_office": "yes",
     "post_office:brand": "DHL",
@@ -11488,7 +11488,7 @@
     "addr:suburb": "Friedrichshain",
     "check_date:opening_hours": "2024-03-12",
     "dog": "yes",
-    "name": "SpÃ¤ti 04",
+    "name": "Späti 04",
     "opening_hours": "Mo-Sa 12:00-24:00; Su,PH off",
     "shop": "convenience",
     "wheelchair": "no"
@@ -11501,7 +11501,7 @@
   "lon": 13.3846162,
   "tags": {
     "check_date": "2023-09-14",
-    "name": "Duden SpÃ¤tkauf",
+    "name": "Duden Spätkauf",
     "shop": "convenience"
   }
 },
@@ -11529,7 +11529,7 @@
     "addr:housenumber": "66",
     "addr:postcode": "10827",
     "addr:street": "Ebersstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "name": "Back & Tabak",
     "opening_hours": "Mo-Fr 05:00-22:00; Sa 07:00-22:00; Su off",
     "shop": "convenience",
@@ -11544,7 +11544,7 @@
   "lon": 13.4455819,
   "tags": {
     "addr:housenumber": "11",
-    "addr:street": "SchÃ¶neweider Straße",
+    "addr:street": "Schöneweider Straße",
     "name": "GOP Market",
     "opening_hours": "Mo-Su 09:30-19:30",
     "shop": "convenience"
@@ -11573,7 +11573,7 @@
     "addr:housenumber": "6",
     "addr:postcode": "12049",
     "addr:street": "Leinestraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "diet:halal": "no",
     "name": "G-K Kiosk",
     "opening_hours": "24/7",
@@ -11600,7 +11600,7 @@
   "lon": 13.4273338,
   "tags": {
     "diet:halal": "no",
-    "name": "SpÃ¤ti 70",
+    "name": "Späti 70",
     "opening_hours": "24/7",
     "shop": "convenience",
     "wheelchair": "no"
@@ -11613,7 +11613,7 @@
   "lon": 13.4277362,
   "tags": {
     "check_date": "2024-03-29",
-    "name": "YÃ¶rem Baklava",
+    "name": "Yörem Baklava",
     "opening_hours": "Mo-Su 10:00-21:00",
     "shop": "convenience"
   }
@@ -11628,7 +11628,7 @@
     "addr:country": "DE",
     "addr:housenumber": "12",
     "addr:postcode": "10719",
-    "addr:street": "DÃ¼sseldorfer Straße",
+    "addr:street": "Düsseldorfer Straße",
     "addr:suburb": "Wilmersdorf",
     "bulk_purchase": "only",
     "check_date:opening_hours": "2023-03-13",
@@ -11647,7 +11647,7 @@
   "tags": {
     "check_date": "2023-12-01",
     "level": "0",
-    "name": "lieberspÃ¤tiealsnie!",
+    "name": "lieberspätiealsnie!",
     "post_office": "post_partner",
     "post_office:brand": "Hermes PaketShop",
     "shop": "convenience"
@@ -11697,7 +11697,7 @@
     "addr:street": "Stargarder Straße",
     "addr:suburb": "Prenzlauer Berg",
     "check_date:opening_hours": "2025-02-04",
-    "name": "GrÃ¼ne Meile",
+    "name": "Grüne Meile",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -11713,7 +11713,7 @@
     "addr:postcode": "10247",
     "addr:street": "Frankfurter Allee",
     "check_date:opening_hours": "2024-04-25",
-    "name": "SpÃ¤tkauf Olive",
+    "name": "Spätkauf Olive",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "limited"
@@ -11754,7 +11754,7 @@
   "lat": 52.4925449,
   "lon": 13.4211554,
   "tags": {
-    "name": "Firat SpÃ¤tkauf",
+    "name": "Firat Spätkauf",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -11780,7 +11780,7 @@
     "addr:postcode": "12101",
     "addr:street": "Manfred-von-Richthofen-Straße",
     "addr:suburb": "Tempelhof",
-    "name": "GrÃ¼nschnabel",
+    "name": "Grünschnabel",
     "opening_hours": "Mo-Fr 08:30-19:30; Sa 08:30-18:30",
     "organic": "only",
     "shop": "convenience",
@@ -11902,7 +11902,7 @@
     "addr:country": "DE",
     "addr:housenumber": "120",
     "addr:postcode": "13349",
-    "addr:street": "MÃ¼llerstraße",
+    "addr:street": "Müllerstraße",
     "addr:suburb": "Wedding",
     "name": "Multi Shop",
     "shop": "convenience",
@@ -11919,7 +11919,7 @@
     "addr:country": "DE",
     "addr:housenumber": "122A",
     "addr:postcode": "13349",
-    "addr:street": "MÃ¼llerstraße",
+    "addr:street": "Müllerstraße",
     "addr:suburb": "Wedding",
     "noname": "yes",
     "shop": "convenience"
@@ -11935,7 +11935,7 @@
     "addr:country": "DE",
     "addr:housenumber": "66",
     "addr:postcode": "13349",
-    "addr:street": "MÃ¼llerstraße",
+    "addr:street": "Müllerstraße",
     "addr:suburb": "Wedding",
     "name": "Eko Market",
     "shop": "convenience",
@@ -11953,7 +11953,7 @@
     "addr:housenumber": "79",
     "addr:postcode": "10967",
     "addr:street": "Kottbusser Damm",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "mapillary": "1151730915319245",
     "name": "Daily Shop",
     "post_office": "yes",
@@ -11972,7 +11972,7 @@
     "addr:country": "DE",
     "addr:housenumber": "86",
     "addr:postcode": "13355",
-    "addr:street": "SwinemÃ¼nder Straße",
+    "addr:street": "Swinemünder Straße",
     "addr:suburb": "Gesundbrunnen",
     "level": "0",
     "name": "Multishop Eisenkralle",
@@ -12009,7 +12009,7 @@
     "addr:street": "Krumme Straße",
     "addr:suburb": "Charlottenburg",
     "check_date": "2023-02-19",
-    "name": "SpÃ¤ti 4 You",
+    "name": "Späti 4 You",
     "opening_hours": "Mo-Sa 10:00-24:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -12037,7 +12037,7 @@
     "addr:country": "DE",
     "addr:housenumber": "22",
     "addr:postcode": "10317",
-    "addr:street": "LÃ¼ckstraße",
+    "addr:street": "Lückstraße",
     "addr:suburb": "Rummelsburg",
     "name": "Kiez Shop",
     "opening_hours": "Mar Su[-1]-Oct Su[-1] -1 day: Mo-Th,Sa 08:00-00:00; Mar Su[-1]-Oct Su[-1] -1 day: Fr 08:00-02:00; Oct Su[-1]-Mar Su[-1] -1 day: Mo-Th 10:00-22:00; Oct Su[-1]-Mar Su[-1] -1 day: Fr-Sa 10:00-00:00; Su,PH off",
@@ -12068,8 +12068,8 @@
     "addr:city": "Berlin",
     "addr:housenumber": "8",
     "addr:postcode": "13357",
-    "addr:street": "JÃ¼licher Straße",
-    "name": "JÃ¼licher Minimarkt",
+    "addr:street": "Jülicher Straße",
+    "name": "Jülicher Minimarkt",
     "opening_hours": "PH,Mo-Sa 11:00-23:00+",
     "payment:cash": "yes",
     "post_office": "yes",
@@ -12104,7 +12104,7 @@
   "lon": 13.3469841,
   "tags": {
     "check_date": "2025-02-09",
-    "name": "Arino SpÃ¤tkauf",
+    "name": "Arino Spätkauf",
     "shop": "convenience"
   }
 },
@@ -12149,7 +12149,7 @@
     "addr:street": "Mecklenburgische Straße",
     "addr:suburb": "Wilmersdorf",
     "check_date:opening_hours": "2024-04-13",
-    "name": "SpÃ¤t Shop",
+    "name": "Spät Shop",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -12174,7 +12174,7 @@
     "addr:housenumber": "25",
     "addr:postcode": "10965",
     "addr:street": "Friesenstraße",
-    "name": "SpÃ¤tkauf 25",
+    "name": "Spätkauf 25",
     "shop": "convenience"
   }
 },
@@ -12185,7 +12185,7 @@
   "lon": 13.4155983,
   "tags": {
     "check_date:opening_hours": "2022-11-22",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -12216,7 +12216,7 @@
     "addr:postcode": "12051",
     "addr:street": "Mariendorfer Weg",
     "check_date:opening_hours": "2023-11-30",
-    "name": "LÃ¤dchen im sunpark",
+    "name": "Lädchen im sunpark",
     "opening_hours": "Mo-Fr 08:00-14:00; Sa 08:00-12:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -12259,7 +12259,7 @@
     "addr:housenumber": "5",
     "addr:postcode": "12043",
     "addr:street": "Erkstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "fixme": "check o_h, (& those of *:post_office might differ)",
     "name": "fast shop",
     "opening_hours": "Mo-Sa 11:00-19:00",
@@ -12353,7 +12353,7 @@
     "addr:street": "Wilmersdorfer Straße",
     "check_date": "2023-04-09",
     "level": "0",
-    "name": "SpÃ¤tshop",
+    "name": "Spätshop",
     "opening_hours": "Mo-Sa 00:00-02:00,08:00-24:00; Su,PH 00:00-02:00,14:00-24:00",
     "payment:mastercard": "yes",
     "payment:visa": "yes",
@@ -12373,7 +12373,7 @@
     "addr:postcode": "14197",
     "addr:street": "Ahrweilerstraße",
     "addr:suburb": "Wilmersdorf",
-    "name": "ChuchichÃ¤schtli",
+    "name": "Chuchichäschtli",
     "opening_hours": "Mo-Di 10:00-18:00,Do-Fr 10:00-18:00,Sa 10:00-15:00",
     "phone": "+49 30 536 77 220",
     "shop": "convenience",
@@ -12400,7 +12400,7 @@
   "lon": 13.3305072,
   "tags": {
     "check_date:opening_hours": "2025-01-08",
-    "name": "Black Rose SpÃ¤tkauf & Backshop",
+    "name": "Black Rose Spätkauf & Backshop",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -12416,7 +12416,7 @@
     "addr:housenumber": "3",
     "addr:postcode": "12043",
     "addr:street": "Erkstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "description": "Afrikanische, lateinamerikanische, asiatische Lebensmittel, Kosmetik und Friseur",
     "name": "Afro Shop - Tropical Markt",
     "origin": "african;latin_american;asian",
@@ -12448,7 +12448,7 @@
   "tags": {
     "diet:halal": "no",
     "diet:kosher": "no",
-    "name": "SpÃ¤tkauf 63",
+    "name": "Spätkauf 63",
     "opening_hours": "Mo-Sa 06:00-23:00",
     "opening_hours:signed": "no",
     "shop": "convenience",
@@ -12465,7 +12465,7 @@
     "addr:country": "DE",
     "addr:housenumber": "117",
     "addr:postcode": "12163",
-    "addr:street": "SchloÃŸstraße",
+    "addr:street": "Schloßstraße",
     "addr:suburb": "Steglitz",
     "name": "The 25 Hours Store",
     "opening_hours": "24/7",
@@ -12496,7 +12496,7 @@
     "addr:housenumber": "56",
     "addr:postcode": "10823",
     "addr:street": "Eisenacher Straße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "contact:website": "https://www.aehrensache-berlin.de/",
     "name": "Ã„hrensache",
     "opening_hours": "Mo-Fr 07:30-19:00; Sa 07:30-13:30",
@@ -12515,7 +12515,7 @@
     "addr:housenumber": "59",
     "addr:postcode": "10823",
     "addr:street": "Eisenacher Straße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "name": "city Market",
     "post_office": "post_partner",
     "post_office:brand": "Hermes PaketShop",
@@ -12555,7 +12555,7 @@
     "addr:housenumber": "9",
     "addr:postcode": "13055",
     "addr:street": "Hauptstraße",
-    "addr:suburb": "Alt-HohenschÃ¶nhausen",
+    "addr:suburb": "Alt-Hohenschönhausen",
     "contact:website": "http://juvit.de/",
     "name": "Juvit Natur",
     "opening_hours": "Mo-Fr 10:00-17:00; Sa 10:00-13:00",
@@ -12595,7 +12595,7 @@
     "addr:street": "Nachodstraße",
     "addr:suburb": "Wilmersdorf",
     "check_date": "2024-07-09",
-    "name": "SpÃ¤tkauf am Nachodeck",
+    "name": "Spätkauf am Nachodeck",
     "shop": "convenience"
   }
 },
@@ -12633,7 +12633,7 @@
   "lon": 13.3656044,
   "tags": {
     "check_date:opening_hours": "2023-08-01",
-    "name": "SpÃ¤ti",
+    "name": "Späti",
     "opening_hours": "Mo-Fr 06:00-18:00; Sa 07:00-16:00; Su 08:00-11:00",
     "payment:credit_cards": "no",
     "payment:debit_cards": "no",
@@ -12658,7 +12658,7 @@
   "lat": 52.5021214,
   "lon": 13.4290356,
   "tags": {
-    "name": "BÃ¼dchen",
+    "name": "Büdchen",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -12670,7 +12670,7 @@
   "lon": 13.4295046,
   "tags": {
     "level": "0",
-    "name": "SpÃ¤ti 36",
+    "name": "Späti 36",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -12697,7 +12697,7 @@
     "addr:housenumber": "29",
     "addr:postcode": "13595",
     "addr:street": "Pichelsdorfer Straße",
-    "name": "Huppiduppi SpÃ¤tkauf",
+    "name": "Huppiduppi Spätkauf",
     "opening_hours": "Mo-Su 09:00-24:00",
     "shop": "convenience"
   }
@@ -12729,7 +12729,7 @@
     "addr:street": "Bundesallee",
     "addr:suburb": "Wilmersdorf",
     "level": "0",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -12753,7 +12753,7 @@
     "addr:city": "Berlin",
     "addr:housenumber": "25",
     "addr:postcode": "12439",
-    "addr:street": "Michael-BrÃ¼ckner-Straße",
+    "addr:street": "Michael-Brückner-Straße",
     "brand": "Spar",
     "brand:wikidata": "Q610492",
     "brand:wikipedia": "en:SPAR (retailer)",
@@ -12772,7 +12772,7 @@
     "addr:housenumber": "46",
     "addr:postcode": "10827",
     "addr:street": "Dominicusstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "name": "Mandachi Afromarkt",
     "opening_hours": "Mo-Sa 10:00-22:00",
     "shop": "convenience"
@@ -12784,7 +12784,7 @@
   "lat": 52.5685054,
   "lon": 13.3622282,
   "tags": {
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience",
     "wheelchair": "yes"
   }
@@ -12796,7 +12796,7 @@
   "lon": 13.4418287,
   "tags": {
     "check_date:opening_hours": "2023-08-26",
-    "name": "SpÃ¤tkauf Silbereck",
+    "name": "Spätkauf Silbereck",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -12841,7 +12841,7 @@
     "addr:street": "Hansastraße",
     "addr:suburb": "Gesundbrunnen",
     "mapillary": "918886832222282",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Fr 08:00-02:00; Sa 08:00-03:00; Su 12:00-20:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -12888,7 +12888,7 @@
   "lat": 52.5388135,
   "lon": 13.4924356,
   "tags": {
-    "name": "Obst, GemÃ¼se, GetrÃ¤nke",
+    "name": "Obst, Gemüse, Getränke",
     "opening_hours": "Mo-Sa 08:00-14:30,16:00-20:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -12902,7 +12902,7 @@
   "tags": {
     "check_date:opening_hours": "2024-01-15",
     "level": "0",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Fr 06:00-22:00; Sa 06:00-22:00",
     "organic": "no",
     "shop": "convenience",
@@ -12943,12 +12943,12 @@
     "addr:country": "DE",
     "addr:housenumber": "59",
     "addr:postcode": "10629",
-    "addr:street": "SchlÃ¼terstraße",
+    "addr:street": "Schlüterstraße",
     "addr:suburb": "Charlottenburg",
     "check_date:opening_hours": "2023-06-03",
     "diet:halal": "no",
     "diet:kosher": "no",
-    "name": "SpÃ¤tkauf 59",
+    "name": "Spätkauf 59",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -12980,7 +12980,7 @@
     "addr:housenumber": "120",
     "addr:postcode": "12527",
     "addr:street": "Regattastraße",
-    "name": "Tommy's MinilÃ¤dchen",
+    "name": "Tommy's Minilädchen",
     "shop": "convenience"
   }
 },
@@ -12994,7 +12994,7 @@
     "addr:housenumber": "89",
     "addr:postcode": "12527",
     "addr:street": "Regattastraße",
-    "name": "Tuans SpÃ¤ti",
+    "name": "Tuans Späti",
     "opening_hours": "Mo-Fr 07:00-23:00, Sa 10:00-23:00",
     "shop": "convenience"
   }
@@ -13047,7 +13047,7 @@
     "addr:street": "Rigaer Straße",
     "addr:suburb": "Friedrichshain",
     "check_date": "2025-03-02",
-    "name": "SpÃ¤ti",
+    "name": "Späti",
     "opening_hours": "PH,Su-Th 12:00-24:00, Fr,Sa 12:00-01:00",
     "shop": "convenience"
   }
@@ -13110,7 +13110,7 @@
     "addr:housenumber": "5",
     "addr:street": "Wildenbruchstraße",
     "atm": "yes",
-    "name": "Berlin SpÃ¤tkauf",
+    "name": "Berlin Spätkauf",
     "shop": "convenience"
   }
 },
@@ -13123,7 +13123,7 @@
     "addr:housenumber": "113",
     "addr:street": "Brunnenstraße",
     "check_date": "2023-03-16",
-    "name": "Nido's SpÃ¤ti",
+    "name": "Nido's Späti",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -13142,7 +13142,7 @@
     "addr:suburb": "Moabit",
     "check_date:opening_hours": "2023-11-14",
     "level": "0",
-    "name": "Back- und GetrÃ¤nkeshop Yasar",
+    "name": "Back- und Getränkeshop Yasar",
     "opening_hours": "PH,Mo-Su 12:00-24:00",
     "opening_hours:signed": "no",
     "payment:cash": "yes",
@@ -13164,7 +13164,7 @@
     "internet_access": "wlan",
     "internet_access:fee": "no",
     "level": "0",
-    "name": "L5 SpÃ¤ti",
+    "name": "L5 Späti",
     "opening_hours": "12:00-24:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -13176,7 +13176,7 @@
   "lat": 52.4606183,
   "lon": 13.3769334,
   "tags": {
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Sa 10:00-00:00",
     "payment:maestro": "yes",
     "payment:mastercard": "yes",
@@ -13195,7 +13195,7 @@
     "addr:city": "Berlin",
     "addr:postcode": "12101",
     "addr:street": "Manfred-von-Richthofen-Straße",
-    "name": "Ronya Minimarkt SpÃ¤tkauf",
+    "name": "Ronya Minimarkt Spätkauf",
     "opening_hours": "Mo-Sa 12:00-22:00",
     "shop": "convenience",
     "source": "survey",
@@ -13225,7 +13225,7 @@
   "lon": 13.3775921,
   "tags": {
     "check_date": "2021-08-31",
-    "name": "SpÃ¤tkauf & Back Shop",
+    "name": "Spätkauf & Back Shop",
     "opening_hours": "Mo-Fr 06:00-24:00; Sa 07:00-24:00; Su off",
     "post_office": "post_partner",
     "post_office:brand": "DHL Paketshop",
@@ -13261,7 +13261,7 @@
   "lat": 52.5487163,
   "lon": 13.4520471,
   "tags": {
-    "name": "SpÃ¤ti to go",
+    "name": "Späti to go",
     "opening_hours": "Mo-Sa 09:00-24:00,00:00-02:00; Su 13:00-20:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -13277,7 +13277,7 @@
     "addr:housenumber": "95",
     "addr:postcode": "13088",
     "addr:street": "Berliner Allee",
-    "name": "Kany GetrÃ¤nke",
+    "name": "Kany Getränke",
     "shop": "convenience"
   }
 },
@@ -13291,7 +13291,7 @@
     "addr:street": "Berliner Straße",
     "check_date": "2025-01-19",
     "check_date:opening_hours": "2025-01-19",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Sa 09:00-24:00, Tu-Su 00:00-13:00, Su 12:00-24:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -13309,7 +13309,7 @@
     "addr:street": "Berliner Allee",
     "check_date": "2024-10-10",
     "check_date:opening_hours": "2024-10-10",
-    "name": "BÃ¤ckerei & Cafe - Leo",
+    "name": "Bäckerei & Cafe - Leo",
     "opening_hours": "Mo-Fr 06:00-18:00; Sa,Su 07:00-14:00",
     "shop": "convenience"
   }
@@ -13320,7 +13320,7 @@
   "lat": 52.5033220,
   "lon": 13.4380163,
   "tags": {
-    "name": "Baba SpÃ¤ti II",
+    "name": "Baba Späti II",
     "post_office": "post_partner",
     "post_office:brand": "Hermes PaketShop",
     "post_office:brand:wikidata": "Q105702843",
@@ -13339,8 +13339,8 @@
     "addr:housenumber": "24",
     "addr:postcode": "12055",
     "addr:street": "Niemetzstraße",
-    "addr:suburb": "NeukÃ¶lln",
-    "name": "Nie SpÃ¤t",
+    "addr:suburb": "Neukölln",
+    "name": "Nie Spät",
     "shop": "convenience"
   }
 },
@@ -13389,7 +13389,7 @@
   "lon": 13.4136350,
   "tags": {
     "check_date": "2024-12-15",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience"
   }
 },
@@ -13404,7 +13404,7 @@
     "addr:postcode": "10625",
     "addr:street": "Leibnizstraße",
     "check_date": "2023-04-02",
-    "name": "Ak SpÃ¤tshop",
+    "name": "Ak Spätshop",
     "opening_hours": "Mo-Sa 07:00-23:30; Su 12:00-21:00",
     "payment:mastercard": "yes",
     "payment:visa": "yes",
@@ -13419,7 +13419,7 @@
   "lon": 13.3749103,
   "tags": {
     "check_date:opening_hours": "2023-07-13",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -13453,7 +13453,7 @@
   "tags": {
     "addr:housenumber": "3",
     "addr:street": "Samariterstraße",
-    "name": "Dein SpÃ¤ti",
+    "name": "Dein Späti",
     "post_office": "post_partner",
     "post_office:brand": "DHL",
     "shop": "convenience"
@@ -13469,7 +13469,7 @@
     "addr:street": "Seestraße",
     "check_date": "2023-01-07",
     "level": "0",
-    "name": "SpÃ¤tkauf Sunside",
+    "name": "Spätkauf Sunside",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -13495,7 +13495,7 @@
   "lon": 13.4387484,
   "tags": {
     "check_date:opening_hours": "2024-11-18",
-    "name": "Britzer SpÃ¤tkauf",
+    "name": "Britzer Spätkauf",
     "opening_hours:signed": "no",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -13512,7 +13512,7 @@
     "addr:city": "Berlin",
     "addr:housenumber": "1",
     "addr:postcode": "13357",
-    "addr:street": "GrÃ¼ntaler Straße",
+    "addr:street": "Grüntaler Straße",
     "check_date:opening_hours": "2024-04-21",
     "name": "Telewelt",
     "opening_hours:signed": "no",
@@ -13544,7 +13544,7 @@
   "lon": 13.4952382,
   "tags": {
     "check_date": "2024-09-05",
-    "name": "Alan SpÃ¤ti",
+    "name": "Alan Späti",
     "opening_hours": "Mo-Sa 10:00-24:00; Su,PH off",
     "shop": "convenience"
   }
@@ -13602,7 +13602,7 @@
   "lon": 13.3487739,
   "tags": {
     "check_date:opening_hours": "2024-08-03",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -13619,9 +13619,9 @@
     "addr:housenumber": "42",
     "addr:postcode": "10823",
     "addr:street": "Eisenacher Straße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "check_date": "2024-07-19",
-    "name": "SpÃ¤ti Wunderlampe",
+    "name": "Späti Wunderlampe",
     "opening_hours": "Mo-Th 08:00-01:00, Fr,Sa 08:00-02:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -13652,7 +13652,7 @@
   "lat": 52.5501676,
   "lon": 13.4600182,
   "tags": {
-    "name": "Helin SpÃ¤tkauf",
+    "name": "Helin Spätkauf",
     "opening_hours": "Mo-Sa 10:00-01:00",
     "shop": "convenience"
   }
@@ -13679,7 +13679,7 @@
   "lon": 13.3525697,
   "tags": {
     "check_date:opening_hours": "2023-07-02",
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -13759,9 +13759,9 @@
     "addr:housenumber": "55",
     "addr:postcode": "10827",
     "addr:street": "Feurigstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "check_date": "2024-05-08",
-    "name": "Baba SpÃ¤ti",
+    "name": "Baba Späti",
     "post_office": "post_partner",
     "post_office:brand": "Hermes PaketShop",
     "post_office:brand:wikidata": "Q105702843",
@@ -13779,7 +13779,7 @@
     "addr:housenumber": "14",
     "addr:postcode": "10829",
     "addr:street": "Kolonnenstraße",
-    "name": "SpeedySpÃ¤ti",
+    "name": "SpeedySpäti",
     "opening_hours": "Mo-Fr 09:00-23:00; Sa 10:00-23:00",
     "phone": "+49 162 9047866",
     "shop": "convenience"
@@ -13926,7 +13926,7 @@
     "addr:postcode": "12109",
     "addr:street": "Mariendorfer Damm",
     "addr:suburb": "Mariendorf",
-    "name": "SpÃ¤tkauf Kaffee & Kuchen",
+    "name": "Spätkauf Kaffee & Kuchen",
     "shop": "convenience"
   }
 },
@@ -13974,7 +13974,7 @@
   "tags": {
     "check_date": "2022-06-25",
     "level": "0",
-    "name": "Cankat SpÃ¤ti",
+    "name": "Cankat Späti",
     "shop": "convenience"
   }
 },
@@ -14027,7 +14027,7 @@
     "addr:postcode": "12099",
     "addr:street": "Tempelhofer Damm",
     "check_date:opening_hours": "2024-05-18",
-    "name": "SpÃ¤tkauf 222 Tempelhof",
+    "name": "Spätkauf 222 Tempelhof",
     "opening_hours": "Mo-Sa 07:00-01:00",
     "payment:cash": "yes",
     "phone": "+49 30 7511840",
@@ -14044,10 +14044,10 @@
     "addr:city": "Berlin",
     "addr:housenumber": "2",
     "addr:postcode": "13355",
-    "addr:street": "BÃ¤rbel-Bohley-Ring",
+    "addr:street": "Bärbel-Bohley-Ring",
     "diet:halal": "yes",
     "level": "0",
-    "name": "3 BrÃ¼der - Feinmarkt",
+    "name": "3 Brüder - Feinmarkt",
     "opening_hours": "Mo-Su 08:30-22:00",
     "payment:cash": "yes",
     "payment:contactless": "yes",
@@ -14082,7 +14082,7 @@
     "addr:street": "Marienburger Straße",
     "check_date": "2025-01-21",
     "check_date:opening_hours": "2025-01-21",
-    "name": "SchÃ¤tzchen",
+    "name": "Schätzchen",
     "opening_hours": "Tu-Sa 10:00-18:00",
     "payment:mastercard": "yes",
     "payment:visa": "yes",
@@ -14105,7 +14105,7 @@
     "check_date:opening_hours": "2023-11-12",
     "diet:halal": "no",
     "diet:kosher": "no",
-    "name": "Day-n-night SpÃ¤ti",
+    "name": "Day-n-night Späti",
     "opening_hours": "Mo-Fr 10:00-24:00; Sa 10:00-01:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -14123,7 +14123,7 @@
     "check_date": "2025-02-09",
     "check_date:opening_hours": "2024-02-15",
     "level": "0",
-    "name": "SpÃ¤ti am Leopold",
+    "name": "Späti am Leopold",
     "opening_hours": "Mo-Sa 00:00-00:00",
     "opening_hours:signed": "no",
     "payment:cards": "no",
@@ -14146,7 +14146,7 @@
     "addr:suburb": "Prenzlauer Berg",
     "amenity": "post_office",
     "check_date:opening_hours": "2023-08-05",
-    "name": "The Winsy SpÃ¤ti",
+    "name": "The Winsy Späti",
     "opening_hours:signed": "no",
     "operator": "Hermes",
     "operator:wikidata": "Q1613532",
@@ -14181,10 +14181,10 @@
     "addr:country": "DE",
     "addr:housenumber": "62",
     "addr:postcode": "10437",
-    "addr:street": "SchÃ¶nhauser Allee",
+    "addr:street": "Schönhauser Allee",
     "addr:suburb": "Prenzlauer Berg",
     "check_date:opening_hours": "2024-03-10",
-    "name": "Mate Mate SpÃ¤tshop",
+    "name": "Mate Mate Spätshop",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -14200,7 +14200,7 @@
     "addr:country": "DE",
     "addr:housenumber": "57",
     "addr:postcode": "10437",
-    "addr:street": "SchÃ¶nhauser Allee",
+    "addr:street": "Schönhauser Allee",
     "addr:suburb": "Prenzlauer Berg",
     "name": "Multishop",
     "shop": "convenience"
@@ -14216,9 +14216,9 @@
     "addr:country": "DE",
     "addr:housenumber": "49",
     "addr:postcode": "10437",
-    "addr:street": "SchÃ¶nhauser Allee",
+    "addr:street": "Schönhauser Allee",
     "addr:suburb": "Prenzlauer Berg",
-    "name": "meinspÃ¤tkauf.de",
+    "name": "meinspätkauf.de",
     "shop": "convenience"
   }
 },
@@ -14308,9 +14308,9 @@
     "addr:city": "Berlin",
     "addr:housenumber": "127A",
     "addr:postcode": "10437",
-    "addr:street": "SchÃ¶nhauser Allee",
+    "addr:street": "Schönhauser Allee",
     "addr:suburb": "Prenzlauer Berg",
-    "name": "Ali Baba SpÃ¤ti",
+    "name": "Ali Baba Späti",
     "shop": "convenience",
     "wheelchair": "limited"
   }
@@ -14347,7 +14347,7 @@
   "lon": 13.4346448,
   "tags": {
     "check_date": "2023-09-02",
-    "name": "Ganesa SpÃ¤tkauf",
+    "name": "Ganesa Spätkauf",
     "post_office": "yes",
     "post_office:brand": "Hermes;dpd",
     "post_office:type": "post_partner",
@@ -14437,10 +14437,10 @@
     "addr:housenumber": "18",
     "addr:postcode": "10823",
     "addr:street": "Akazienstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "atm": "yes",
     "check_date:opening_hours": "2024-10-17",
-    "name": "Kiez Kiosk SpÃ¤ti",
+    "name": "Kiez Kiosk Späti",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -14466,7 +14466,7 @@
   "lat": 52.5230044,
   "lon": 13.1988745,
   "tags": {
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "shop": "convenience"
   }
 },
@@ -14557,7 +14557,7 @@
     "addr:housenumber": "64",
     "addr:postcode": "12053",
     "addr:street": "Boddinstraße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "name": "Afro-Shop",
     "origin": "asian",
     "phone": "+49 30 68088980",
@@ -14638,7 +14638,7 @@
     "check_date": "2023-10-10",
     "check_date:opening_hours": "2024-01-30",
     "level": "0",
-    "name": "SpÃ¤ti 61",
+    "name": "Späti 61",
     "opening_hours:signed": "no",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
@@ -14655,7 +14655,7 @@
   "lon": 13.3490165,
   "tags": {
     "check_date:opening_hours": "2024-01-21",
-    "name": "Siri SpÃ¤ti",
+    "name": "Siri Späti",
     "opening_hours:signed": "no",
     "shop": "convenience",
     "wheelchair": "no"
@@ -14755,7 +14755,7 @@
   "lon": 13.3463780,
   "tags": {
     "check_date:opening_hours": "2023-03-19",
-    "name": "Vital SpÃ¤tkauf",
+    "name": "Vital Spätkauf",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -14849,7 +14849,7 @@
   "lon": 13.3872210,
   "tags": {
     "level": "0",
-    "name": "Tabak, GetrÃ¤nke und Souvenirs",
+    "name": "Tabak, Getränke und Souvenirs",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -14877,7 +14877,7 @@
   "lon": 13.3627229,
   "tags": {
     "addr:housenumber": "160",
-    "addr:street": "MÃ¼llerstraße",
+    "addr:street": "Müllerstraße",
     "check_date": "2025-01-04",
     "check_date:opening_hours": "2025-01-04",
     "level": "0",
@@ -14913,7 +14913,7 @@
     "addr:postcode": "10551",
     "addr:street": "Siemensstraße",
     "check_date:opening_hours": "2024-03-15",
-    "name": "SpÃ¤timo",
+    "name": "Spätimo",
     "note": "DHL-Paketshop",
     "opening_hours:signed": "no",
     "shop": "convenience"
@@ -14925,7 +14925,7 @@
   "lat": 52.5534828,
   "lon": 13.4131995,
   "tags": {
-    "name": "Kiez-Treff SpÃ¤ti",
+    "name": "Kiez-Treff Späti",
     "opening_hours": "Mo-Do 09:00-02:00; Fr-Sa 09:00-03:00; So 10:00-01:00; PH 10:00-03:00",
     "shop": "convenience"
   }
@@ -14937,7 +14937,7 @@
   "lon": 13.4308969,
   "tags": {
     "addr:housenumber": "11",
-    "addr:street": "KÃ¤the-Niederkirchner-Straße",
+    "addr:street": "Käthe-Niederkirchner-Straße",
     "check_date": "2023-04-11",
     "level": "0",
     "shop": "convenience"
@@ -14949,7 +14949,7 @@
   "lat": 52.4987028,
   "lon": 13.4071056,
   "tags": {
-    "name": "Prinzen-SpÃ¤ti",
+    "name": "Prinzen-Späti",
     "shop": "convenience"
   }
 },
@@ -15005,7 +15005,7 @@
   "lat": 52.5384730,
   "lon": 13.2068150,
   "tags": {
-    "name": "Diyar SpÃ¤ti",
+    "name": "Diyar Späti",
     "shop": "convenience"
   }
 },
@@ -15015,7 +15015,7 @@
   "lat": 52.5371348,
   "lon": 13.6204289,
   "tags": {
-    "name": "Louis SpÃ¤ti",
+    "name": "Louis Späti",
     "shop": "convenience"
   }
 },
@@ -15042,7 +15042,7 @@
   "lat": 52.5352969,
   "lon": 13.3557663,
   "tags": {
-    "name": "Aksaray SpÃ¤ti & Backshop",
+    "name": "Aksaray Späti & Backshop",
     "post_office": "post_partner",
     "post_office:service_provider": "DHL",
     "shop": "convenience"
@@ -15054,7 +15054,7 @@
   "lat": 52.5251037,
   "lon": 13.3280040,
   "tags": {
-    "name": "SpÃ¤tkauf Spree",
+    "name": "Spätkauf Spree",
     "shop": "convenience"
   }
 },
@@ -15157,7 +15157,7 @@
     "name": "Lido Multishop",
     "shop": "convenience",
     "wheelchair": "yes",
-    "wheelchair:description": "Keine Stufen, behindertengerechtes WC ebenerdig, ein Behindertenparkplatz im Hof, weitere in der Garage des Sealife Center gegenÃ¼ber"
+    "wheelchair:description": "Keine Stufen, behindertengerechtes WC ebenerdig, ein Behindertenparkplatz im Hof, weitere in der Garage des Sealife Center gegenüber"
   }
 },
 {
@@ -15168,7 +15168,7 @@
   "tags": {
     "check_date": "2023-08-15",
     "lottery": "yes",
-    "name": "SpÃ¤ti-Kiosk",
+    "name": "Späti-Kiosk",
     "shop": "convenience",
     "start_date": "1998"
   }
@@ -15198,7 +15198,7 @@
     "addr:housenumber": "7",
     "addr:postcode": "10777",
     "addr:street": "Bamberger Straße",
-    "name": "Bamberger SpÃ¤ti",
+    "name": "Bamberger Späti",
     "shop": "convenience"
   }
 },
@@ -15248,7 +15248,7 @@
   "tags": {
     "check_date": "2023-09-15",
     "level": "0",
-    "name": "Nightshop SpÃ¤tkauf Schlesi",
+    "name": "Nightshop Spätkauf Schlesi",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -15274,7 +15274,7 @@
   "lon": 13.4570759,
   "tags": {
     "check_date:opening_hours": "2023-12-18",
-    "name": "Kiez-SpÃ¤ti",
+    "name": "Kiez-Späti",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -15296,7 +15296,7 @@
   "lat": 52.5055052,
   "lon": 13.3761926,
   "tags": {
-    "name": "YusufÂ´s SpÃ¤ti",
+    "name": "YusufÂ´s Späti",
     "opening_hours": "Mo-Fr 08:00-02:00, Sa,Su,PH 09:00-02:00",
     "shop": "convenience",
     "wheelchair": "yes"
@@ -15388,7 +15388,7 @@
     "addr:housenumber": "7",
     "addr:postcode": "10555",
     "addr:street": "Bochumer Straße",
-    "name": "Tojo-SpÃ¤tkauf",
+    "name": "Tojo-Spätkauf",
     "opening_hours": "Mo-Th 07:00-19:00, Fr-Sa 07:00-14:00",
     "shop": "convenience"
   }
@@ -15409,7 +15409,7 @@
   "lat": 52.4553661,
   "lon": 13.5117972,
   "tags": {
-    "name": "SpÃ¤tkauf",
+    "name": "Spätkauf",
     "opening_hours": "Mo-Sa 09:00-23:59",
     "shop": "convenience"
   }
@@ -15421,7 +15421,7 @@
   "lon": 13.4106369,
   "tags": {
     "check_date:opening_hours": "2025-01-08",
-    "name": "Neon-SpÃ¤ti",
+    "name": "Neon-Späti",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -15464,7 +15464,7 @@
   "tags": {
     "check_date": "2025-01-25",
     "check_date:opening_hours": "2025-01-25",
-    "name": "Obst & GemÃ¼se â€¢ Lebensmittel â€¢ Feinkost â€¢ GetrÃ¤nke â€¢ Weine â€¢ Tabakwaren...",
+    "name": "Obst & Gemüse â€¢ Lebensmittel â€¢ Feinkost â€¢ Getränke â€¢ Weine â€¢ Tabakwaren...",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -15501,7 +15501,7 @@
   "lat": 52.4770876,
   "lon": 13.4210588,
   "tags": {
-    "name": "Airport SpÃ¤ti",
+    "name": "Airport Späti",
     "shop": "convenience"
   }
 },
@@ -15581,7 +15581,7 @@
   "lat": 52.5310633,
   "lon": 13.3821899,
   "tags": {
-    "name": "M.K SpÃ¤tshop",
+    "name": "M.K Spätshop",
     "opening_hours": "Mo-Sa 00:00-00:00",
     "shop": "convenience",
     "wheelchair": "no"
@@ -15615,7 +15615,7 @@
     "addr:housenumber": "48",
     "addr:postcode": "10713",
     "addr:street": "Hohenzollerndamm",
-    "name": "SpÃ¤ti am Bahnhof",
+    "name": "Späti am Bahnhof",
     "shop": "convenience"
   }
 },
@@ -15625,7 +15625,7 @@
   "lat": 52.5483474,
   "lon": 13.3487875,
   "tags": {
-    "name": "SpÃ¤tshop 33",
+    "name": "Spätshop 33",
     "shop": "convenience"
   }
 },
@@ -15652,7 +15652,7 @@
     "addr:housenumber": "14",
     "addr:street": "Veteranenstraße",
     "check_date": "2024-05-22",
-    "name": "Cult SpÃ¤ti",
+    "name": "Cult Späti",
     "shop": "convenience",
     "wheelchair": "no"
   }
@@ -15686,7 +15686,7 @@
   "lon": 13.4570170,
   "tags": {
     "check_date:opening_hours": "2025-02-02",
-    "name": "D&N SpÃ¤ti",
+    "name": "D&N Späti",
     "opening_hours:signed": "no",
     "shop": "convenience"
   }
@@ -15710,7 +15710,7 @@
   "tags": {
     "addr:floor": "0",
     "addr:housenumber": "140",
-    "addr:street": "SchÃ¶nhauser Allee",
+    "addr:street": "Schönhauser Allee",
     "check_date": "2024-10-22",
     "check_date:opening_hours": "2024-10-22",
     "level": "0",
@@ -15747,7 +15747,7 @@
     "addr:street": "Adalbertstraße",
     "check_date": "2024-07-07",
     "level": "0",
-    "name": "Mein SpÃ¤tkauf",
+    "name": "Mein Spätkauf",
     "shop": "convenience",
     "source": "survey"
   }
@@ -15775,7 +15775,7 @@
     "addr:housenumber": "83",
     "addr:postcode": "10119",
     "addr:street": "Fehrbelliner Straße",
-    "name": "etwas SpÃ¤tkauf",
+    "name": "etwas Spätkauf",
     "post_office": "post_partner",
     "post_office:brand": "Deutsche Post",
     "post_office:service_provider": "Deutsche Post;DHL",
@@ -15801,7 +15801,7 @@
   "lon": 13.4229104,
   "tags": {
     "check_date": "2024-08-18",
-    "name": "Come to SpÃ¤ti",
+    "name": "Come to Späti",
     "shop": "convenience"
   }
 },
@@ -15827,7 +15827,7 @@
   "lat": 52.5241563,
   "lon": 13.3295639,
   "tags": {
-    "name": "SpÃ¤ti",
+    "name": "Späti",
     "shop": "convenience"
   }
 },
@@ -15977,7 +15977,7 @@
     "addr:country": "DE",
     "addr:housenumber": "108",
     "addr:postcode": "12683",
-    "addr:street": "KÃ¶penicker Straße",
+    "addr:street": "Köpenicker Straße",
     "addr:suburb": "Biesdorf",
     "amenity": "fuel",
     "brand": "JET",
@@ -16019,7 +16019,7 @@
   "tags": {
     "addr:housenumber": "29",
     "addr:street": "Gleimstraße",
-    "name": "SpÃ¤tkauf MiniMarkt",
+    "name": "Spätkauf MiniMarkt",
     "shop": "convenience"
   }
 },
@@ -16030,7 +16030,7 @@
   "lon": 13.4391866,
   "tags": {
     "check_date": "2024-11-17",
-    "name": "SpÃ¤tshop 49",
+    "name": "Spätshop 49",
     "shop": "convenience"
   }
 },
@@ -16040,7 +16040,7 @@
   "lat": 52.4696885,
   "lon": 13.4426002,
   "tags": {
-    "name": "SpÃ¤tkauf Zeit Raum Mensch",
+    "name": "Spätkauf Zeit Raum Mensch",
     "shop": "convenience"
   }
 },
@@ -16055,9 +16055,9 @@
     "addr:housenumber": "216",
     "addr:postcode": "12055",
     "addr:street": "Karl-Marx-Straße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "check_date": "2025-01-05",
-    "name": "GetrÃ¤nkeshop",
+    "name": "Getränkeshop",
     "shop": "convenience"
   }
 },
@@ -16161,8 +16161,8 @@
     "addr:country": "DE",
     "addr:housenumber": "26-31",
     "addr:postcode": "12439",
-    "addr:street": "Michael-BrÃ¼ckner-Straße",
-    "addr:suburb": "NiederschÃ¶neweide",
+    "addr:street": "Michael-Brückner-Straße",
+    "addr:suburb": "Niederschöneweide",
     "brand": "Total",
     "brand:wikidata": "Q154037",
     "building": "commercial",
@@ -16279,7 +16279,7 @@
     "addr:housenumber": "57",
     "addr:postcode": "12103",
     "addr:street": "Bessemerstraße",
-    "addr:suburb": "SchÃ¶neberg",
+    "addr:suburb": "Schöneberg",
     "amenity": "fuel",
     "brand": "SB Tank",
     "brand:wikidata": "Q96758296",
@@ -16364,7 +16364,7 @@
     "addr:housenumber": "113",
     "addr:postcode": "12045",
     "addr:street": "Sonnenallee",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "brand": "Aral",
     "brand:wikidata": "Q565734",
     "brand:wikipedia": "de:Aral",
@@ -16459,7 +16459,7 @@
     "addr:country": "DE",
     "addr:housenumber": "82-102",
     "addr:postcode": "13581",
-    "addr:street": "BrunsbÃ¼tteler Damm",
+    "addr:street": "Brunsbütteler Damm",
     "addr:suburb": "Spandau",
     "amenity": "fuel",
     "brand": "star",
@@ -16692,11 +16692,11 @@
     "addr:housenumber": "85",
     "addr:postcode": "12059",
     "addr:street": "Harzer Straße",
-    "addr:suburb": "NeukÃ¶lln",
+    "addr:suburb": "Neukölln",
     "building": "retail",
     "building:levels": "1",
     "check_date:opening_hours": "2024-06-04",
-    "name": "SpÃ¤tkauf Troja",
+    "name": "Spätkauf Troja",
     "opening_hours": "Mo-Sa 08:00-01:00+",
     "roof:shape": "flat",
     "shop": "convenience",
@@ -16863,7 +16863,7 @@
   "tags": {
     "building": "yes",
     "building:levels": "1",
-    "name": "SpÃ¤tkauf Asia-Supermarkt",
+    "name": "Spätkauf Asia-Supermarkt",
     "shop": "convenience",
     "start_date": "2023-03-10",
     "wheelchair": "limited"
@@ -16944,7 +16944,7 @@
   "tags": {
     "building": "retail",
     "building:levels": "1",
-    "name": "Bioladen in der WaldschÃ¤nke",
+    "name": "Bioladen in der Waldschänke",
     "organic": "only",
     "shop": "convenience",
     "wheelchair": "limited"
