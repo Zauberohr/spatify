@@ -1,21 +1,38 @@
+/* Navbar-Stile */
 .navbar-spatify {
   display: flex;
-  justify-content: center; /* Das sorgt dafür, dass das Logo mittig erscheint */
+  justify-content: center;
+  align-items: center;
   background: yellow;
   padding: 10px;
-  position: relative;
+  position: fixed; /* Fixiert die Navbar am oberen Rand */
+  top: 0; /* Positioniert die Navbar ganz oben */
+  left: 0; /* Stellt sicher, dass die Navbar links ausgerichtet ist */
+  width: 100%; /* Stellt sicher, dass die Navbar die gesamte Breite einnimmt */
+  z-index: 1000; /* Setzt sicher, dass die Navbar über allen anderen Inhalten liegt */
 }
 
 .navbar-spatify .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-spatify .navbar-brand img {
-  width: 50px;
+.navbar-spatify .navbar-brand {
+  display: flex;
+  justify-content: center; /* Zentriert den Inhalt der Navbar horizontal */
+  align-items: center; /* Zentriert den Inhalt der Navbar vertikal */
+  width: 100%; /* Stellt sicher, dass der Container die gesamte Breite einnimmt */
 }
 
+.navbar-spatify .navbar-brand img {
+  width: 150px; /* Setze die gewünschte Größe des Logos */
+  height: auto; /* Beibehaltung des Seitenverhältnisses */
+}
+
+/* Schwarzer Streifen unterhalb der Navbar */
 .navbar-divider {
   background-color: black;
-  height: 5px;
-  width: 100%; /* Der Streifen nimmt die gesamte Breite der Seite ein */
+  height: 4px; /* Höhe des schwarzen Streifens */
+  width: 100%; /* Der Streifen soll die gesamte Breite des Bildschirms einnehmen */
+  margin-top: 0; /* Keine zusätzliche Margen oben */
+  margin-bottom: 0; /* Keine zusätzliche Margen unten */
 }

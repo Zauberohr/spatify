@@ -6,12 +6,15 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <!-- Google Fonts (Rowdies + Sigmar) einbinden -->
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&family=Sigmar&display=swap" rel="stylesheet">
+
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
-    <%= render "shared/navbar" %>
-    <%= yield %>
+    <%= render "shared/navbar" %>  <!-- Navbar wird hier eingebunden -->
+    <%= yield %>  <!-- Hier wird der Inhalt der aktuellen Seite eingebunden -->
   </body>
 </html>

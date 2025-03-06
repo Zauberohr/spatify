@@ -1,0 +1,47 @@
+.container {
+  padding-top: 100px; /* Abstand oben, um den Text sichtbar zu machen, ohne dass er von der fixierten Navbar verdeckt wird */
+}
+
+.späti-text {
+  color: yellow; /* Standardfarbe */
+  font-size: 10vw; /* Die Schriftgröße soll so groß sein, dass jedes Wort eine Zeile ausfüllt */
+  text-align: center; /* Zentriert den Text horizontal */
+  margin-top: 20px; /* Fügt oben einen Abstand von 20px hinzu */
+  margin-bottom: 20px; /* Fügt unten einen Abstand von 20px hinzu */
+  text-shadow: 2px 2px 5px black, -2px -2px 5px black, 2px -2px 5px black, -2px 2px 5px black; /* Schwarzer Rand um den Text */
+  font-family: "Sigmar", sans-serif; /* Google Font bleibt */
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out; /* Sanfter Übergang */
+}
+
+.späti-text span {
+  display: inline-block; /* Macht die Spans zu Block-Elementen, um Hover-Effekte zu ermöglichen */
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out; /* Sanfter Übergang */
+}
+
+/* Hover-Effekt für jedes einzelne Zeichen */
+.späti-text span:hover {
+  color: black; /* Text wird schwarz */
+  text-shadow: 2px 2px 5px yellow, -2px -2px 5px yellow, 2px -2px 5px yellow, -2px 2px 5px yellow; /* Gelber Rand beim Hover */
+}
+
+/* Button zur Karte */
+.späti-button {
+  display: block;
+  width: 100%; /* Button geht über die gesamte Seite */
+  text-align: center;
+  margin-top: 20px; /* Abstand zum Text */
+  padding: 15px;
+  background-color: yellow; /* Gelber Hintergrund */
+  color: black; /* Schwarze Schrift */
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid black; /* Schwarzer Rand um den Button */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Übergangseffekte */
+}
+
+/* Hover-Effekt für den Button */
+.späti-button:hover {
+  background-color: black; /* Schwarzer Hintergrund beim Hover */
+  color: yellow; /* Gelbe Schrift beim Hover */
+}
