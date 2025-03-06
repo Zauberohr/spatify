@@ -164,6 +164,7 @@
 },
 {
   "id": 838429759,
+  "name": "Ottos Späti",
   "addr:city": "Berlin",
   "addr:housenumber": "24",
   "addr:postcode": "10245",
@@ -175,7 +176,9 @@
 },
 {
   "id": 838429794,
+
   "addr:city": "Berlin",
+  "name": "Naakuls Späti",
   "addr:housenumber": "2",
   "addr:postcode": "10245",
   "addr:street": "Sonntagstraße",
@@ -186,6 +189,7 @@
 },
 {
   "id": 846251052,
+  "name": "Ahlams Späti",
   "addr:city": "Berlin",
   "addr:housenumber": "82",
   "addr:postcode": "12161",
@@ -197,6 +201,7 @@
 },
 {
   "id": 847907650,
+  "name": "Massihs Späti",
   "addr:city": "Berlin",
   "addr:housenumber": "29 A",
   "addr:postcode": "12459",
@@ -208,6 +213,7 @@
 },
 {
   "id": 848169211,
+  "name": "Lexys Späti",
   "addr:city": "Berlin",
   "addr:housenumber": "7",
   "addr:postcode": "14197",
@@ -219,6 +225,7 @@
 },
 {
   "id": 861837755,
+  "name": "Späti Späti",
   "addr:city": "Berlin",
   "addr:housenumber": "207",
   "addr:postcode": "12099",
@@ -230,6 +237,7 @@
 },
 {
   "id": 863962594,
+  "name": "Späti 24/7",
   "addr:city": "Berlin",
   "addr:housenumber": "10",
   "addr:postcode": "10245",
@@ -241,6 +249,7 @@
  },
 {
   "id": 886089002,
+  "name": "Wir schaffen das!",
   "addr:city": "Berlin",
   "addr:housenumber": "14",
   "addr:postcode": "10999",
@@ -252,9 +261,10 @@
 },
 {
   "id": 939667428,
+  "name": "Ich bin ein Berliner Späti",
   "addr:city": "Berlin",
   "addr:housenumber": "12",
-  "addr:postcode": "133",
+  "addr:postcode": "10407",
   "addr:street": "Virchowstraße",
   "opening_hours": "24/7",
   "lat": 52.5414875,

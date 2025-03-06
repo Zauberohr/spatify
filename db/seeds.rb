@@ -28,7 +28,7 @@ data["elements"].each do |element|
   ].compact.join(' ')
   lon = element["lon"]
   lat = element["lat"]
-  timing = element["tags"]["opening_hours"]
+  timing = element["opening_hours"]
   spati = Spati.create!(name: name, address: address, opening_time: timing, longitude: lon, latitude: lat)
   content = element["spatistory"]
   Story.create(content: content, spati: spati, user: User.all.sample)
