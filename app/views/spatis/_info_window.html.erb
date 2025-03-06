@@ -1,3 +1,6 @@
 <h2><%= spati.name %></h2>
 <p><%= spati.address %></p>
 <p><%= spati.opening_time %></p>
+<% spati.photos.each do |photo| %>
+  <%= cl_image_tag photo.key, crop: :fill %>
+  <% end %>

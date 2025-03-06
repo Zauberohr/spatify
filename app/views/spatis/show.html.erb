@@ -5,6 +5,13 @@
     <h3><strong><%= @spati.name %></strong></h3>
     <p><%= @spati.address%></p>
     <p>Open- <%= @spati.opening_time%></p>
+    <% @spati.stories.each do |story| %>
+        <%= story.content %>
+    <br>
+  <% end %>
+<% @spati.photos.each do |photo| %>
+  <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+<% end %>
     </li>
     <br>
 
