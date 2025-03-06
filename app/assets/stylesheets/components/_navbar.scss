@@ -1,4 +1,3 @@
-/* Navbar-Stile */
 .navbar-spatify {
   display: flex;
   justify-content: center;
@@ -28,11 +27,8 @@
   height: auto; /* Beibehaltung des Seitenverhältnisses */
 }
 
-/* Schwarzer Streifen unterhalb der Navbar */
 .navbar-divider {
   background-color: black;
-  height: 4px; /* Höhe des schwarzen Streifens */
-  width: 100%; /* Der Streifen soll die gesamte Breite des Bildschirms einnehmen */
-  margin-top: 0; /* Keine zusätzliche Margen oben */
-  margin-bottom: 0; /* Keine zusätzliche Margen unten */
+  height: 5px;
+  width: 100%;
 }

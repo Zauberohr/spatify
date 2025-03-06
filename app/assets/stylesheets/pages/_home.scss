@@ -1,27 +1,44 @@
 .container {
   padding-top: 100px; /* Abstand oben, um den Text sichtbar zu machen, ohne dass er von der fixierten Navbar verdeckt wird */
+  background-image: url('spatibackground.jpg'); /* Hintergrundbild */
+  background-size: cover; /* Hintergrundbild anpassen */
+  background-position: center; /* Hintergrundbild zentrieren */
+  background-repeat: no-repeat; /* Hintergrundbild nicht wiederholen */
+  background-attachment: fixed; /* Hintergrundbild fixiert, bewegt sich nicht beim Scrollen */
+  position: relative; /* Wichtig, damit der Text über dem Bild bleibt */
+}
+
+.container::before {
+  content: ''; /* Fügt eine leere Schicht vor dem Text hinzu */
+  position: absolute; /* Positioniert das Pseudo-Element absolut */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6); /* Leichte dunkle Überlagerung */
+  z-index: -1; /* Setzt die Schicht hinter den Text */
 }
 
 .späti-text {
-  color: yellow; /* Standardfarbe */
+  color: black; /* Der Text bleibt schwarz */
   font-size: 10vw; /* Die Schriftgröße soll so groß sein, dass jedes Wort eine Zeile ausfüllt */
   text-align: center; /* Zentriert den Text horizontal */
   margin-top: 20px; /* Fügt oben einen Abstand von 20px hinzu */
   margin-bottom: 20px; /* Fügt unten einen Abstand von 20px hinzu */
-  text-shadow: 2px 2px 5px black, -2px -2px 5px black, 2px -2px 5px black, -2px 2px 5px black; /* Schwarzer Rand um den Text */
+  text-shadow: 2px 2px 5px yellow, -2px -2px 5px yellow, 2px -2px 5px yellow, -2px 2px 5px yellow; /* Gelber Rand um den Text */
   font-family: "Sigmar", sans-serif; /* Google Font bleibt */
   transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out; /* Sanfter Übergang */
 }
 
 .späti-text span {
   display: inline-block; /* Macht die Spans zu Block-Elementen, um Hover-Effekte zu ermöglichen */
-  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out; /* Sanfter Übergang */
+  transition: color 0.1s ease-in-out, text-shadow 0.1s ease-in-out; /* Sanfter Übergang */
 }
 
 /* Hover-Effekt für jedes einzelne Zeichen */
 .späti-text span:hover {
-  color: black; /* Text wird schwarz */
-  text-shadow: 2px 2px 5px yellow, -2px -2px 5px yellow, 2px -2px 5px yellow, -2px 2px 5px yellow; /* Gelber Rand beim Hover */
+  color: yellow; /* Text wird gelb */
+  text-shadow: 2px 2px 5px black, -2px -2px 5px black, 2px -2px 5px black, -2px 2px 5px black; /* Schwarzer Rand beim Hover */
 }
 
 /* Button zur Karte */
