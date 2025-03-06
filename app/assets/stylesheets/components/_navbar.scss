@@ -1,6 +1,9 @@
 .navbar-spatify {
-  justify-content: space-between;
-  background: white;
+  display: flex;
+  justify-content: center; /* Das sorgt dafür, dass das Logo mittig erscheint */
+  background: yellow;
+  padding: 10px;
+  position: relative;
 }
 
 .navbar-spatify .navbar-collapse {
@@ -8,5 +11,11 @@
 }
 
 .navbar-spatify .navbar-brand img {
-  width: 40px;
+  width: 50px;
+}
+
+.navbar-divider {
+  background-color: black;
+  height: 5px;
+  width: 100%; /* Der Streifen nimmt die gesamte Breite der Seite ein */
 }
