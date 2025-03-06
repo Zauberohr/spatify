@@ -1,0 +1,13 @@
+<h2>All Stories</h2>
+
+<%= link_to "Create New Story", new_story_path %>
+
+<% @stories.each do |story| %>
+  <div>
+    <h3><%= story.title %></h3>
+    <p><%= story.content %></p>
+    <%= link_to "Edit", edit_story_path(story) %>
+    <%= link_to "Delete", story, method: :delete, data: { confirm: "Are you sure?" } %>
+  </div>
+  <hr>
+<% end %>
