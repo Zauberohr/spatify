@@ -10,6 +10,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-  resources :spatis, only: [:index, :show]
-  resources :stories, only: [:edit, :update, :destroy], path: "story"
+  resources :spatis, only: [:index, :show] do
+    resources :stories, path: "story"
+  end
 end
