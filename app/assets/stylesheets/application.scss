@@ -11,3 +11,12 @@
 @import "components/index";
 @import "pages/index";
 @import url("https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css");
+
+// Setzt Sigmar als globale Schriftart
+html, body {
+  font-family: 'Sigmar', sans-serif !important;
+}
+
+body {
+  padding-top: 70px; /* Fügt Abstand oben hinzu, um die fixierte Navbar zu berücksichtigen */
+}

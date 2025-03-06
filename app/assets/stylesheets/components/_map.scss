@@ -3,6 +3,10 @@
 }
 
 .mapboxgl-popup-content {
+  width: 250px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
+  img {
+    width: 100%;
+  }
 }
