@@ -1,25 +1,22 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-spatify">
   <div class="container-fluid">
-    <!-- Logo mit Link zur Home-Seite -->
     <%= link_to root_path, class: "navbar-brand" do %>
       <%= image_tag asset_path('spatifywhite.png'), class: "navbar-logo" %>
     <% end %>
 
-    <!-- Navbar Toggler für mobile Ansicht -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- Navbar Collapse Bereich -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
         <% if user_signed_in? %>
           <li class="nav-item">
-            <%= link_to "Log out", destroy_user_session_path, class: "nav-link", data: { turbo_method: :delete } %>
+            <%= link_to "LOGOUT", destroy_user_session_path, class: "nav-link", data: { turbo_method: :delete } %>
           </li>
         <% else %>
           <li class="nav-item">
-            <%= link_to "Login", new_user_session_path, class: "nav-link" %>
+            <%= link_to "LOGIN", new_user_session_path, class: "nav-link" %>
           </li>
         <% end %>
       </ul>
@@ -27,5 +24,5 @@
   </div>
 </div>
 
-<!-- Schwarzer Streifen unter der Navbar -->
 <div class="navbar-divider"></div>
+  

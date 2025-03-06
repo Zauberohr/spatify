@@ -1,14 +1,12 @@
 .navbar-spatify {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: yellow;
+  display: flex;
+  align-items: center;
   padding: 10px;
-  position: fixed; /* Fixiert die Navbar am oberen Rand */
-  top: 0; /* Positioniert die Navbar ganz oben */
-  left: 0; /* Stellt sicher, dass die Navbar links ausgerichtet ist */
-  width: 100%; /* Stellt sicher, dass die Navbar die gesamte Breite einnimmt */
-  z-index: 1000; /* Setzt sicher, dass die Navbar über allen anderen Inhalten liegt */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .navbar-spatify .navbar-collapse {
@@ -17,18 +15,12 @@
 
 .navbar-spatify .navbar-brand {
   display: flex;
-  justify-content: center; /* Zentriert den Inhalt der Navbar horizontal */
-  align-items: center; /* Zentriert den Inhalt der Navbar vertikal */
-  width: 100%; /* Stellt sicher, dass der Container die gesamte Breite einnimmt */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .navbar-spatify .navbar-brand img {
-  width: 150px; /* Setze die gewünschte Größe des Logos */
-  height: auto; /* Beibehaltung des Seitenverhältnisses */
-}
-
-.navbar-divider {
-  background-color: black;
-  height: 5px;
-  width: 100%;
+  width: 150px;
+  height: auto;
 }
