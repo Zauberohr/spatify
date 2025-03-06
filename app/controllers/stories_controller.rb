@@ -6,11 +6,13 @@ class StoriesController < ApplicationController
   end
 
   def new
-    @story = Story.new
+    @spati = Spati.find(params[:spati_id])
+    @story = @spati.stories.build
   end
 
   def create
-    @story = Story.new(story_params)
+    @spati = Spati.find(params[:spati_id])
+    @story = @spati.stories.build(story_params)
     if @story.save
       redirect_to root_path, notice: "You have your Story🥰"
     else
