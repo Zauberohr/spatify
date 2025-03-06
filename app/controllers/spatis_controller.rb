@@ -18,4 +18,5 @@ class SpatisController < ApplicationController
       lng: @spati.longitude
     }]
   end
+
 end

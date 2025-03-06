@@ -76,3 +76,4 @@ end
   # For the Gemfile
 gem 'geocoder'
 gem "devise"
+gem "cloudinary"
