@@ -1,0 +1,22 @@
+#spati-map {
+    padding-top: 100px; /* Abstand oben, um den Text sichtbar zu machen, ohne dass er von der fixierten Navbar verdeckt wird */
+    background-image: url('spatibackground.jpg'); /* Hintergrundbild */
+    background-size: cover; /* Hintergrundbild anpassen */
+    background-position: center; /* Hintergrundbild zentrieren */
+    background-repeat: no-repeat; /* Hintergrundbild nicht wiederholen */
+    background-attachment: fixed; /* Hintergrundbild fixiert, bewegt sich nicht beim Scrollen */
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.spati-list {
+  overflow: scroll;
+}
+
+#spati-map {
+  height: calc(100vh - 180px);
+  .col-6, .row, ul {
+    height: 100%;
+  }
+}
