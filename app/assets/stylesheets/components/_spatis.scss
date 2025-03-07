@@ -40,8 +40,11 @@ ul li p {
 }
 
 .spati-name {
+  a {
+    color: black;
+    text-decoration: none;
+  }
   font-family: 'Sigmar', sans-serif !important;
-  color: black;
   font-size: 10vw;
   text-align: center;
   margin-top: 20px;
