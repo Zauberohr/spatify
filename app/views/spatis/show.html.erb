@@ -1,13 +1,10 @@
 <div class="center">
-  <h1>Here is the next späti to you</h1>
   <div class="index-container">
-    <ul>
+    <ul class="index">
       <li>
         <h3><strong><%= @spati.name %></strong></h3>
-        <p><%= @spati.address %></p>
-        <p>Open: <%= @spati.opening_time %></p>
-
-        <!-- Display stories -->
+        <p><%= @spati.address%></p>
+        <p>Open- <%= @spati.opening_time%></p>
         <% @spati.stories.each do |story| %>
           <p><%= story.content %></p>
 
@@ -19,27 +16,20 @@
             <br>
           <% end %>
         <% end %>
-
-        <!-- Display photos -->
         <% @spati.photos.each do |photo| %>
           <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
         <% end %>
-
-        <!-- Link to create a new story -->
         <button><%= link_to "Create your story", new_spati_story_path(@spati.id) %></button>
-
-
-      </li>
-    </ul>
-
-    <!-- Map container -->
+       </li>
+     </ul>
     <div style="width: 100%; height: 600px;"
-         data-controller="map"
-         data-map-markers-value="<%= @markers.to_json %>"
-         data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+      data-controller="map"
+      data-map-markers-value="<%=@markers.to_json %>"
+      data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
     </div>
   </div>
-
-  <!-- Back link -->
-  <p><%= link_to "Back to all spätis", spatis_path %></p>
 </div>
+
+<%= link_to spatis_path do %>
+  <div class="btn späti-button">Back to all spätis</div>
+<% end %>
