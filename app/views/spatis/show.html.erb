@@ -1,7 +1,6 @@
 <div class="center">
-  <h1>Here is the next späti to you </h1>
 <div class="index-container">
-<ul>
+<ul class="index">
   <li><h3><strong><%= @spati.name %></strong></h3>
     <p><%= @spati.address%></p>
     <p>Open- <%= @spati.opening_time%></p>
@@ -26,5 +25,8 @@
   data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
 </div>
 </div>
-<p><%= link_to "Back to all spätis", spatis_path %></p>
+
+<%= link_to spatis_path do %>
+  <div class="btn späti-button">Back to all spätis</div>
+<% end %>
 </div>

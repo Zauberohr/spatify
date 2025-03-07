@@ -32,6 +32,7 @@
     align-items: center;
     text-shadow: 2px 2px 5px yellow, -2px -2px 5px yellow, 2px -2px 5px yellow, -2px 2px 5px yellow;
     text-decoration: none;
+
   }
 
   input:hover {
@@ -39,6 +40,27 @@
     text-shadow: 2px 2px 5px black, -2px -2px 5px black, 2px -2px 5px black, -2px 2px 5px black;
     text-decoration: none;
     ;
-    }
-}
+  }
 
+  .login-button {
+    input {
+      background-color: yellow;
+      color: black;
+      // text-shadow: 2px 2px 5px black, -2px -2px 5px black, 2px -2px 5px black, -2px 2px 5px black;
+      height: 100px;
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+  }
+
+  .login-button:hover {
+    input {
+      background-color: black;
+      color: yellow;
+      // text-shadow: 2px 2px 5px black, -2px -2px 5px black, 2px -2px 5px black, -2px 2px 5px black;
+      height: 100px;
+      border: 2px solid yellow;
+      border-radius: 5px;
+    }
+  }
+}
