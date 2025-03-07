@@ -1,19 +1,19 @@
 .spati-list {
   overflow: scroll;
+
 }
 
-.main-container {
+.index-container {
   display: flex;
 }
 
 #map {
-  height: 100vh;
+  margin-top: 15px;
+  height: calc(100vh - 150px);
   position: sticky;
-  top: 0;
+  top: 200px;
 }
 
-// .main-grid {
-//     display: grid;
-//     grid-template-columns: 1fr 1fr;
-//     gap: 16px;
-// }
+.center {
+  align-items: center;
+}
