@@ -1,3 +1,4 @@
+#home {
 .container {
   padding-top: 100px; /* Abstand oben, um den Text sichtbar zu machen, ohne dass er von der fixierten Navbar verdeckt wird */
   background-image: url('spatibackground.jpg'); /* Hintergrundbild */
@@ -61,4 +62,5 @@
 .späti-button:hover {
   background-color: black; /* Schwarzer Hintergrund beim Hover */
   color: yellow; /* Gelbe Schrift beim Hover */
+}
 }
