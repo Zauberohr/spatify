@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   resources :spatis, only: [:index, :show] do
     resources :stories, path: "story", only: [:new, :create]
   end
+  resources :stories, path: "story", only: [:update, :edit]
 end

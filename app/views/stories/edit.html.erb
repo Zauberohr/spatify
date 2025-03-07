@@ -1,14 +1,8 @@
 <h2>Edit Your Story</h2>
 
-<%= form_with model: @story, local: true do |form| %>
+<%= simple_form_for(@story) do |form| %>
   <div>
-    <%= form.label :title %>
-    <%= form.text_field :title, value: @story.title, required: true %>
-  </div>
-
-  <div>
-    <%= form.label :content %>
-    <%= form.text_area :content, value: @story.content, required: true %>
+    <%= form.input :content %>
   </div>
 
   <div>
@@ -16,4 +10,4 @@
   </div>
 <% end %>
 
-<%= link_to "Back", stories_path %>
+<%= link_to "Back", spati_path(@spati) %>

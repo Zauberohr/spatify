@@ -25,13 +25,16 @@ class StoriesController < ApplicationController
   end
 
   def edit
+    @story = Story.find(params[:id])
+    @spati = @story.spati
+    # retrieve the right pet to display its info in a form
   end
 
   def update
     if @story.update(story_params)
-      redirect_to root_path, notice: "Your story has been updated! 🎉"
+      redirect_to spati_path(@spati), notice: "Your story has been updated! 🎉"
     else
-      render :edit, status: :unprocessable_entity
+      render :show, status: :unprocessable_entity
     end
   end
 
