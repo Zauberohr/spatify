@@ -1,0 +1,19 @@
+<h2>Edit Your Story</h2>
+
+<%= form_with model: @story, local: true do |form| %>
+  <div>
+    <%= form.label :title %>
+    <%= form.text_field :title, value: @story.title, required: true %>
+  </div>
+
+  <div>
+    <%= form.label :content %>
+    <%= form.text_area :content, value: @story.content, required: true %>
+  </div>
+
+  <div>
+    <%= form.submit "Update Story" %>
+  </div>
+<% end %>
+
+<%= link_to "Back", stories_path %>

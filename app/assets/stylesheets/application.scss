@@ -1,11 +1,10 @@
+html, body {
+  font-family: 'Sigmar', sans-serif !important;
+}
 // Graphical variables
 @import "config/fonts";
 @import "config/colors";
-@import "config/bootstrap_variables";
 
-// External libraries
-@import "bootstrap";
-@import "font-awesome";
 
 // Your CSS partials
 @import "components/index";
@@ -21,4 +20,8 @@ html, body {
 
 body {
   // padding-top: 70px; /* Fügt Abstand oben hinzu, um die fixierte Navbar zu berücksichtigen */
+
 }
+
+// application.scss
+@import "components/spatis";
