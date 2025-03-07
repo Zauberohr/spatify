@@ -12,6 +12,8 @@
 <% @spati.photos.each do |photo| %>
   <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
 <% end %>
+
+<p><%= link_to "Create your story for #{@spati.name}", new_spati_story_path(@spati.id) %></p>
     </li>
     <br>
 
