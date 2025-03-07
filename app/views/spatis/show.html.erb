@@ -1,29 +1,35 @@
 <div class="center">
-<div class="index-container">
-<ul>
-  <li><h3><strong><%= @spati.name %></strong></h3>
-    <p><%= @spati.address%></p>
-    <p>Open- <%= @spati.opening_time%></p>
-    <% @spati.stories.each do |story| %>
-        <%= story.content %>
+  <div class="index-container">
+    <ul class="index">
+      <li>
+        <h3><strong><%= @spati.name %></strong></h3>
+        <p><%= @spati.address%></p>
+        <p>Open- <%= @spati.opening_time%></p>
+        <% @spati.stories.each do |story| %>
+          <p><%= story.content %></p>
 
-    <br>
-  <% end %>
-<% @spati.photos.each do |photo| %>
-  <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+          <!-- Show update link if the current user owns the story -->
+          <% if story.user == current_user %>
+            <button><%= link_to "Update", edit_story_path(story) %></button>
+                <!-- Link to delete a new story -->
+            <button><%= link_to "Delete", story_path(story.id), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %></button>
+            <br>
+          <% end %>
+        <% end %>
+        <% @spati.photos.each do |photo| %>
+          <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+        <% end %>
+        <button><%= link_to "Create your story", new_spati_story_path(@spati.id) %></button>
+       </li>
+     </ul>
+    <div style="width: 100%; height: 600px; padding-top:37px; margin-top:15px; border:solid 2px black; border-radius:8px"
+      data-controller="map"
+      data-map-markers-value="<%=@markers.to_json %>"
+      data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+    </div>
+  </div>
+</div>
+
+<%= link_to spatis_path do %>
+  <div class="btn späti-button">Back to all spätis</div>
 <% end %>
-
-<p><%= link_to "Create your story for #{@spati.name}", new_spati_story_path(@spati.id) %></p>
-    </li>
-
-</ul>
-
-
-<div style="width: 100%; height: 600px; padding-top:37px; margin-top:15px; border:solid 2px black; border-radius:8px"
-  data-controller="map"
-  data-map-markers-value="<%=@markers.to_json %>"
-  data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
-</div>
-</div>
-<p><%= link_to "Back to all spätis", spatis_path %></p>
-</div>
