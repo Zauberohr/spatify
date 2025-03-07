@@ -7,7 +7,7 @@
     <p>Open- <%= @spati.opening_time%></p>
     <% @spati.stories.each do |story| %>
         <%= story.content %>
-        
+
     <br>
   <% end %>
 <% @spati.photos.each do |photo| %>
@@ -16,14 +16,6 @@
 
 <p><%= link_to "Create your story for #{@spati.name}", new_spati_story_path(@spati.id) %></p>
     </li>
-
-    <br>
-    <% end %>
-    <% @spati.photos.each do |photo| %>
-    <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
-    <% end %>
-  </li>
-  <br>
 
 </ul>
 
