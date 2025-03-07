@@ -14,14 +14,18 @@ html, body {
 @import url("https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css");
 
 // Setzt Sigmar als globale Schriftart
-html, body {
+html,body * {
   font-family: 'Sigmar', sans-serif !important;
 }
 
-body {
-  // padding-top: 70px; /* Fügt Abstand oben hinzu, um die fixierte Navbar zu berücksichtigen */
-
+.main-container {
+  margin-top: 180px;
 }
+
+// body {
+//   // padding-top: 70px; /* Fügt Abstand oben hinzu, um die fixierte Navbar zu berücksichtigen */
+
+// }
 
 // application.scss
 // @import "components/spatis";

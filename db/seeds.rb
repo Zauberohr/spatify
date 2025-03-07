@@ -20,7 +20,7 @@ images = Dir[Rails.root.join('app', 'assets', 'images', '*.jpeg')]
 data["elements"].each do |element|
   # next unless element["tags"] && element["tags"]["shop"] == "convenience"
 
-  name = element["name"] || "Unbekannt"
+  name = element["name"] || "Späti Späti"
   address = [
     element["addr:street"],
     element["addr:housenumber"],
