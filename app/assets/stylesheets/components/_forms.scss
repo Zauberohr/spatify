@@ -7,12 +7,21 @@
   width: 70vw;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-decoration: none;
 
   label {
     display: block;
     color: black;
     align-items: center;
     text-shadow: 2px 2px 5px yellow, -2px -2px 5px yellow, 2px -2px 5px yellow, -2px 2px 5px yellow;
+    text-decoration: none;
+  }
+
+  label:hover,a:hover,div.form-text:hover {
+  color: yellow;
+  text-shadow: 2px 2px 5px black, -2px -2px 5px black, 2px -2px 5px black, -2px 2px 5px black;
+  text-decoration: none;
+  ;
   }
 
   input {
@@ -22,11 +31,14 @@
     color: black;
     align-items: center;
     text-shadow: 2px 2px 5px yellow, -2px -2px 5px yellow, 2px -2px 5px yellow, -2px 2px 5px yellow;
+    text-decoration: none;
   }
 
-  .otto-forms:hover {
-    background-color: black;
+  input:hover {
     color: yellow;
-    border: 5px solid yellow;
-  }
+    text-shadow: 2px 2px 5px black, -2px -2px 5px black, 2px -2px 5px black, -2px 2px 5px black;
+    text-decoration: none;
+    ;
+    }
 }
+
