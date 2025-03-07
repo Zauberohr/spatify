@@ -31,6 +31,7 @@ class StoriesController < ApplicationController
   end
 
   def update
+    @spati = @story.spati
     if @story.update(story_params)
       redirect_to spati_path(@spati), notice: "Your story has been updated! 🎉"
     else
@@ -40,7 +41,7 @@ class StoriesController < ApplicationController
 
   def destroy
     @story.destroy
-    redirect_to root_path, notice: "Your story has been deleted. 😢"
+    redirect_to spati_path(@story.spati), notice: "Your story has been deleted. 😢"
   end
 
   def set_story
