@@ -17,10 +17,10 @@
 
 .späti-text {
   color: black;
-  font-size: 10vw;
+  font-size: 7vw;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-shadow: 2px 2px 5px yellow, -2px -2px 5px yellow, 2px -2px 5px yellow, -2px 2px 5px yellow;
   font-family: "Sigmar", sans-serif;
   transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
@@ -37,10 +37,11 @@
 }
 
 .späti-button {
-  display: block;
-  width: 100%;
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+  right: 10px; /* Gleicher Abstand links und rechts */
   text-align: center;
-  margin-top: 20px;
   padding: 15px;
   background-color: yellow;
   color: black;
@@ -48,11 +49,13 @@
   text-decoration: none;
   border-radius: 5px;
   border: 2px solid black;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
+
 
 .späti-button:hover {
   background-color: black;
   color: yellow;
+  border: 5px solid yellow;
 }
 }

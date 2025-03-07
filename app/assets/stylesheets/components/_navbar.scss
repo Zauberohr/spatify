@@ -28,7 +28,28 @@
   height: auto;
 }
 
+
 .nav-link {
-  background-color: red;
+  background-color: black;
+  color: yellow;
   margin-right: 20px;
+  margin-top: 20px;
+  height: 100px; /* Feste Höhe */
+  width: 100px; /* Gleiche Breite wie Höhe */
+  text-align: center;
+  display: flex; /* Flexbox zur besseren Zentrierung */
+  align-items: center; /* Vertikale Zentrierung */
+  justify-content: center; /* Horizontale Zentrierung */
+  font-size: 20px; /* Schriftgröße anpassen, damit sie in den Button passt */
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.nav-link:hover {
+  background-color: yellow;
+  color: black;
+  border: 2px solid black;
 }
