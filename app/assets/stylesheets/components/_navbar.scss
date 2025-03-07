@@ -2,11 +2,14 @@
   background: yellow;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 10px;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 1000;
+  height: 150px;
 }
 
 .navbar-spatify .navbar-collapse {
@@ -23,4 +26,9 @@
 .navbar-spatify .navbar-brand img {
   width: 150px;
   height: auto;
+}
+
+.nav-link {
+  background-color: red;
+  margin-right: 20px;
 }
