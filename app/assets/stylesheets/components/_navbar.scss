@@ -28,7 +28,6 @@
   height: auto;
 }
 
-
 .nav-link {
   background-color: black;
   color: yellow;
@@ -40,20 +39,15 @@
   display: flex; /* Flexbox zur besseren Zentrierung */
   align-items: center; /* Vertikale Zentrierung */
   justify-content: center; /* Horizontale Zentrierung */
-  font-size: 20px; /* Schriftgröße anpassen, damit sie in den Button passt */
+  // font-size: 20px; /* Schriftgröße anpassen, damit sie in den Button passt */
   text-decoration: none;
-  padding: 15px;
+  // padding: 15px;
   border-radius: 15px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 
 .nav-link:hover {
   background-color: yellow;
   color: black;
   border: 2px solid black;
 }
-
-// .fake-navbar {
-//   height: 150px;
-// }

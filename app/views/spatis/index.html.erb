@@ -2,16 +2,22 @@
   <div class="index-container">
     <div class="spati-list">
       <ul>
-        <% @spatis.each do |spati| %>
-          <li>
-            <h2 class="spati-name"><%= link_to spati.name, spati_path(spati) %></h2>
-            <%= spati.address %><br>
-            <%= spati.opening_time %>
-          </li>
-        <% end %>
+        <div class=spatiliste>
+          <% @spatis.each do |spati| %>
+            <li>
+              <h2 class="spati-name"><%= link_to spati.name, spati_path(spati) %></h2>
+              <%= spati.address %><br>
+              <%= spati.opening_time %>
+            </li>
+          <% end %>
+        </div>
       </ul>
     </div>
-    <div id="map" style="width: 100%; height: 100vh;"
+    <div id="map" style="
+          width: 100%;
+          height: 100%;
+          border:solid 5px black;
+          border-radius:5px"
       data-controller="map"
       data-map-markers-value="<%= @markers.to_json %>"
       data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">

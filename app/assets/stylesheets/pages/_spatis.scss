@@ -1,19 +1,26 @@
 .spati-list {
   overflow: scroll;
+}
 
+.centerforspati {
+  display: flex;
+  flex-direction: column;
 }
 
 .index-container {
   display: flex;
+  // padding: 15px;
 }
 
-#map {
-  margin-top: 15px;
-  height: calc(100vh - 150px);
-  position: sticky;
-  top: 200px;
+.späti, .map {
+  width: calc(100%);
+  height: calc(100%);
 }
 
-.center {
-  align-items: center;
+.unten {
+  width: 100%;
+}
+
+.storytime {
+  display: flex;
 }
