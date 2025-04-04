@@ -11,3 +11,56 @@
   //   width: 100%;
   // }
 }
+
+.custom-marker {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-marker .marker-image {
+  width: 24px; // 80% von 30px
+  height: 24px;
+  object-fit: contain;
+  object-position: center;
+}
+
+
+.map-toggle-button {
+  position: absolute;
+  top: 28px;
+  left: 10px;
+  z-index: 10;
+
+  .toggle-button {
+    background-color: black;
+    color: yellow;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Sigmar', sans-serif;
+    box-shadow: 0 0 10px yellow;
+    transition: all 0.3s ease;
+  }
+
+  .toggle-button:hover {
+    background-color: yellow;
+    color: black;
+    border-color: black;
+  }
+
+  .mapboxgl-popup-content h1.spati-title {
+    font-size: 1.2em;
+    line-height: 1.0 !important;
+    word-break: break-word;
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 0 5px;
+  }
+}

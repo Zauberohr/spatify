@@ -1,12 +1,12 @@
 // .spatiliste {
-//   // list-style-type: none;
-//   // padding: 0;
-//   // margin: 0 auto;
-//   // display: flex;
-//   // flex-direction: column;
-//   // align-items: center;
-//   // width: 100%;
-//   // height: 100%;
+//   list-style-type: none;
+//   padding: 0;
+//   margin: 0 auto;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   width: 100%;
+//   height: 100%;
 // }
 
 ul li {
@@ -60,7 +60,8 @@ ul li p {
   font-size: 3em;
   color: black;
   word-wrap: break-word;
-}
+  line-height: 1.0;
+  }
 
 .spati-info {
   // font-size: 1.2em;
@@ -73,14 +74,14 @@ ul li p {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   background-color: yellow;
   color: black;
   font-size: 50px;
   text-decoration: none !important;
   border-radius: 5px;
   border: 5px solid black;
-  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
 
@@ -88,4 +89,111 @@ ul li p {
   background-color: black;
   color: yellow;
   border: 5px solid yellow;
+}
+
+.story-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+.story-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.story-card .story-text {
+  font-size: 18px;
+  color: black;
+  // font-weight: bold;
+  // text-shadow: 1px 1px 2px black;
+}
+
+.story-content {
+  flex: 1;
+}
+
+.story-actions-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.update-btn {
+  background-color: yellow;
+  color: black;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.delete-btn {
+  background-color: yellow;
+  color: black;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.story-form-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90vw;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px yellow;
+  font-family: 'Sigmar', sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.form-heading {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.login-field {
+  font-size: 18px;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-family: 'Sigmar', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.abschicken-button {
+  text-align: center;
+  padding: 15px 40px;
+  background-color: yellow;
+  color: black;
+  font-size: 30px;
+  text-decoration: none !important;
+  border-radius: 5px;
+  border: 5px solid black;
+  font-family: 'Sigmar', sans-serif;
 }

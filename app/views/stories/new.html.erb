@@ -1,9 +1,21 @@
-<h2>Create a New Story</h2>
+<div class="spati-card story-form-card">
+  <h2 class="form-heading">Erzähl deine Spätistöry</h2>
 
-<%= simple_form_for([@spati, @story]) do |form| %>
-    <%= form.input :content %>
-    <%= form.submit %>
-<% end %>
+  <%= simple_form_for([@spati, @story]) do |form| %>
+    <div class="form-group">
+      <%= form.input :content, label: false, input_html: {
+        rows: 8,
+        class: "story-textarea",
+        placeholder: "wat haste erlebt?" } %>
+    </div>
 
+    <%= form.submit "Abschicken", class: "btn abschicken-button" %>
+  <% end %>
+</div>
+</div>
 
-<%= link_to "Back", spati_stories_path(@spati) %>
+<div class="unten">
+  <%= link_to spati_path(@spati), class: "btn späti-button" do %>
+    hab doch nüscht erlebt
+  <% end %>
+</div>
