@@ -26,7 +26,7 @@
       "addr:housenumber": "20",
       "addr:postcode": "10999",
       "addr:street": "Dresdener Straße",
-      "opening_hours": "Mo-Fr 11:00-18:00; Su 13:00-18:00",
+      "opening_hours": "Mo: 11:00-18:00; Di: 11:00-18:00; Mi: 11:00-18:00; Do: 11:00-18:00; Fr 11:00-18:00; Sa: 13:00-18:00 So 13:00-18:00",
       "lat": 52.5017902,
       "lon": 13.4165385,
       "spatistory": "Harry Styles war kürzlich im Milchladen. Er holte sich eine Flasche Wasser und flirtete charmant mit den Verkäuferinnen, die völlig aus dem Häuschen waren."
@@ -38,7 +38,7 @@
       "addr:housenumber": "9",
       "addr:postcode": "10245",
       "addr:street": "Revaler Straße",
-      "opening_hours": "Mo-Sa 10:00-23:00",
+      "opening_hours": "Mo: 10:00-23:00; Di: 10:00-23:00; Mi: 10:00-23:00; Do: 10:00-23:00; Fr: 10:00-23:00; Sa: 10:00-23:00; So: 10:00-23:00",
       "lat": 52.5083552,
       "lon": 13.4529561,
       "spatistory": "The shop was held up once, but everything went smoothly. The robbers were caught right after, and the regulars returned as if nothing happened."
@@ -50,7 +50,7 @@
       "addr:housenumber": "14",
       "addr:postcode": "10245",
       "addr:street": "Gärtnerstraße",
-      "opening_hours": "Mo-Sa 10:00-23:00",
+      "opening_hours": "Mo: 10:00-23:00; Di: 10:00-23:00; Mi: 10:00-23:00; Do: 10:00-23:00; Fr: 10:00-23:00; Sa: 10:00-23:00; So: 10:00-23:00",
       "lat": 52.5108993,
       "lon": 13.4611651,
       "spatistory": "एक रात, हैरी स्टाइल्स स्पेटी में आया। वह बिना पहचाने आराम से खड़ा था, लेकिन कुछ स्थानीय लोग उसकी पहचान कर लिए थे और तस्वीरें खींचने लगे।"
@@ -62,7 +62,7 @@
       "addr:housenumber": "188",
       "addr:postcode": "10119",
       "addr:street": "Schönhauser Allee",
-      "opening_hours": "Su-Th 08:00-04:00, Fr,Sa 08:00-05:00",
+      "opening_hours": "Mo: 10:00-23:00; Di: 10:00-23:00; Mi: 10:00-23:00; Do: 10:00-23:00; Fr: 10:00-23:00; Sa: 10:00-23:00; So: 10:00-23:00",
       "lat": 52.5291171,
       "lon": 13.4094976,
       "spatistory": "Una vez, Harry Styles pasó por el Midnight Shop. Nadie lo reconoció hasta que se acercó a la caja, y entonces todos enloquecieron al verlo."
@@ -74,7 +74,7 @@
       "addr:housenumber": "1",
       "addr:postcode": "12105",
       "addr:street": "Alarichstraße",
-      "opening_hours": "Mo-Th 06:00-00:00, Fr 06:00-01:00, Sa 10:00-00:30, Su 11:00-22:00",
+      "opening_hours": "Mo: 10:00-23:00; Di: 10:00-23:00; Mi: 10:00-23:00; Do: 10:00-23:00; Fr: 10:00-23:00; Sa: 10:00-23:00; So: 10:00-23:00",
       "lat": 52.4550699,
       "lon": 13.3755340,
       "spatistory": "Der Spätkauf am Atillaplatz wurde einmal überfallen, aber es gab keinen Schaden. Die Polizei kam schnell, und alle Kunden konnten beruhigt nach Hause gehen."
@@ -86,7 +86,7 @@
       "addr:housenumber": "243",
       "addr:postcode": "10365",
       "addr:street": "Frankfurter Allee",
-      "opening_hours": "Mo-Su 07:00-01:00",
+      "opening_hours": "Mo: 07:00-01:00; Di: 07:00-01:00; Mi: 07:00-01:00; Do: 07:00-01:00; Fr: 07:00-01:00; Sa: 07:00-01:00; So: 07:00-01:00",
       "lat": 52.5120549,
       "lon": 13.4970713,
       "spatistory": "Taylor Swift llegó una tarde a comprar una bebida en el Sheran Späti. Nadie la reconoció al principio, pero pronto la tienda estuvo llena de fans pidiendo autógrafos."
@@ -122,7 +122,7 @@
       "addr:housenumber": "14",
       "addr:postcode": "13359",
       "addr:street": "Soldiner Straße",
-      "opening_hours": "Mo-Sa 06:00-02:00",
+      "opening_hours": "Mo: 07:00-01:00; Di: 07:00-01:00; Mi: 07:00-01:00; Do: 07:00-01:00; Fr: 07:00-01:00; Sa: 07:00-01:00; So: 07:00-01:00",
       "lat": 52.5578099,
       "lon": 13.3900362,
       "spatistory": "Der Soldiner Späti wurde eines Nachts überfallen, doch alles ging gut aus. Die Diebe nahmen nur das Geld, aber niemand wurde verletzt."
@@ -158,7 +158,7 @@
       "addr:housenumber": "14",
       "addr:postcode": "13507",
       "addr:street": "Alt-Tegel",
-      "opening_hours": "Mo-Sa 10:00-22:00",
+      "opening_hours": "Mo: 07:00-01:00; Di: 07:00-01:00; Mi: 07:00-01:00; Do: 07:00-01:00; Fr: 07:00-01:00; Sa: 07:00-01:00; So: 07:00-01:00",
       "lat": 52.5891787,
       "lon": 13.2803819,
       "spatistory": "The shop was once robbed, but everything turned out fine. The thieves were caught, and the shop quickly returned to business as usual."
@@ -195,7 +195,7 @@
       "addr:housenumber": "82",
       "addr:postcode": "12161",
       "addr:street": "Wiesbadener Straße",
-      "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-14:00",
+      "opening_hours": "Mo: 07:00-01:00; Di: 07:00-01:00; Mi: 07:00-01:00; Do: 07:00-01:00; Fr: 07:00-01:00; Sa: 07:00-01:00; So: 07:00-01:00",
       "lat": 52.4713935,
       "lon": 13.3231813,
       "spatistory": "Taylor Swift once visited Bio Grande while in Berlin! She grabbed some organic snacks and posed for a selfie with the staff, making their day unforgettable."
@@ -231,7 +231,7 @@
       "addr:housenumber": "207",
       "addr:postcode": "12099",
       "addr:street": "Tempelhofer Damm",
-      "opening_hours": "Mo-Fr 08:30-20:00; Sa 08:30-19:00",
+      "opening_hours": "Mo: 07:00-01:00; Di: 07:00-01:00; Mi: 07:00-01:00; Do: 07:00-01:00; Fr: 07:00-01:00; Sa: 07:00-01:00; So: 07:00-01:00",
       "lat": 52.4575426,
       "lon": 13.3843486,
       "spatistory": "The staff at Karam Al-Sham was amazed when Harry Styles popped by to try some Lebanese food. He said it was his new favorite place!"
@@ -303,7 +303,7 @@
       "addr:housenumber": "66",
       "addr:postcode": "13593",
       "addr:street": "Sandstraße",
-      "opening_hours": "Mo-Th 07:00-23:00; Fr-Su 00:00-24:00",
+      "opening_hours": "Mo: 07:00-01:00; Di: 07:00-01:00; Mi: 07:00-01:00; Do: 07:00-01:00; Fr: 07:00-01:00; Sa: 07:00-01:00; So: 07:00-01:00",
       "lat": 52.5196117,
       "lon": 13.1712485,
       "spatistory": "Mia's Späti has become a local favorite, offering not just groceries but also a unique charm that keeps people coming back. It's not just a convenience shop, it's a community hub where everyone knows your name."
@@ -315,7 +315,7 @@
       "addr:housenumber": "44",
       "addr:postcode": "10627",
       "addr:street": "Wilmersdorfer Straße",
-      "opening_hours": "Mo-Sa 07:00-20:00; Su,PH off",
+      "opening_hours": "Mo: 07:00-01:00; Di: 07:00-01:00; Mi: 07:00-01:00; Do: 07:00-01:00; Fr: 07:00-01:00; Sa: 07:00-01:00; So: 07:00-01:00",
       "lat": 52.5102675,
       "lon": 13.3053735,
       "spatistory": "Borsa is the perfect spot for a quick stop when you're in the area. Known for its efficient service and friendly vibe, it’s a no-frills late-night place where you can pick up anything you need."
@@ -351,7 +351,7 @@
       "addr:housenumber": "14",
       "addr:postcode": "10317",
       "addr:street": "Irenenstraße",
-      "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00",
+      "opening_hours": "Mo: 07:00-01:00; Di: 07:00-01:00; Mi: 07:00-01:00; Do: 07:00-01:00; Fr: 07:00-01:00; Sa: 07:00-01:00; So: 07:00-01:00",
       "lat": 52.5095164,
       "lon": 13.4996572,
       "spatistory": "This small, cozy Getränkeshop is the go-to place for a quick drink or snack. It’s tucked away on Irenenstraße, a hidden gem for anyone looking for a friendly and efficient service.\nEsta pequeña y acogedora tienda de bebidas es el lugar ideal para una bebida rápida o un bocadillo. Está escondida en Irenenstraße, una joya oculta para quienes buscan un servicio amable y eficiente."
@@ -363,7 +363,7 @@
       "addr:housenumber": "14",
       "addr:postcode": "10315",
       "addr:street": "Zachertstraße",
-      "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-22:00",
+      "opening_hours": "Mo: 07:00-01:00; Di: 07:00-01:00; Mi: 07:00-01:00; Do: 07:00-01:00; Fr: 07:00-01:00; Sa: 07:00-01:00; So: 07:00-01:00",
       "lat": 52.5065556,
       "lon": 13.5034289,
       "spatistory": "Kiezladen is a local favorite, offering everything you need in a pinch. From snacks to drinks, it’s the kind of place that brings the community together.\nKiezladen es un favorito local, ofreciendo todo lo que necesitas en un apuro. Desde bocadillos hasta bebidas, es el tipo de lugar que une a la comunidad."
@@ -375,7 +375,7 @@
       "addr:housenumber": "20",
       "addr:postcode": "10999",
       "addr:street": "Oranienstraße",
-      "opening_hours": "Mo 05:00-24:00; Tu-Th 00:00-01:00,05:00-24:00; Fr-Su 00:00-24:00",
+      "opening_hours": "Mo: 07:00-01:00; Di: 07:00-01:00; Mi: 07:00-01:00; Do: 07:00-01:00; Fr: 07:00-01:00; Sa: 07:00-01:00; So: 07:00-01:00",
       "lat": 52.5178510,
       "lon": 13.4618701,
       "spatistory": "Olive is known for its late-night vibes and wide selection of snacks and drinks. Whether you’re out on the town or just passing by, Olive has what you need.\nOlive es conocido por su ambiente nocturno y su amplia selección de bocadillos y bebidas. Ya sea que estés de salida por la ciudad o simplemente pasando por allí, Olive tiene lo que necesitas."
@@ -387,7 +387,7 @@
       "addr:housenumber": "89",
       "addr:postcode": "12437",
       "addr:street": "Baumschulenstraße",
-      "opening_hours": "Mo-Fr 09:00-22:00+; Sa 12:00-20:00+",
+      "opening_hours": "Mo: 07:00-01:00; Di: 07:00-01:00; Mi: 07:00-01:00; Do: 07:00-01:00; Fr: 07:00-01:00; Sa: 07:00-01:00; So: 07:00-01:00",
       "lat": 52.4655009,
       "lon": 13.4866751,
       "spatistory": "Kiez-Kiosk is the local kiosk everyone trusts for their daily essentials. With friendly service and always stocked up, it’s the heart of the neighborhood.\nKiez-Kiosk es el quiosco local en el que todos confían para sus necesidades diarias. Con un servicio amable y siempre bien surtido, es el corazón del vecindario."

@@ -1,53 +1,52 @@
-<div class="centerforspati">
-  <div class="index-container">
-    <ul class="index">
+<div class="index-container">
+  <!-- Linke Spalte -->
+  <div class="spati-list">
+    <!-- Späti-Box -->
+    <div class="spati-card">
+  <h2><%= @spati.name %></h2>
+  <p><%= @spati.address %></p>
+  <p>Open: <%= @spati.opening_time %></p>
+
+  <% @spati.photos.each do |photo| %>
+    <%= cl_image_tag photo.key, class: "spati-photo", crop: :fill %>
+  <% end %>
+</div>
 
 
-    <div id="thatsyourspati" style="
-      width: 49.5vw;
-      height: 39.5vw">
-      <li>
-        <h3><strong><%= @spati.name %></strong></h3>
-        <p><%= @spati.address %></p>
-        <p>Open- <%= @spati.opening_time %></p>
-        <div class="storytime">
-          <% @spati.stories.each do |story| %>
-            <p><%= story.content %></p>
-            <% if story.user == current_user %>
-              <button><%= link_to "Update", edit_story_path(story) %></button>
-              <button><%= link_to "Delete", story_path(story.id), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %></button>
-              <br>
-            <% end %>
-          <% end %>
+    <!-- Spätistöry-Button -->
+    <%= link_to "your spätistöry", new_spati_story_path(@spati), class: "btn späti-button" %>
+
+    <!-- Story-Liste -->
+    <% @spati.stories.each do |story| %>
+      <div class="spati-card story-card">
+        <div class="story-content">
+          <p class="story-text"><%= story.content %></p>
         </div>
-        <% @spati.photos.each do |photo| %>
-          <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+
+        <% if story.user == current_user %>
+          <div class="story-actions-box">
+            <%= link_to "Update", edit_story_path(story), class: "btn update-btn" %>
+            <%= link_to "Delete", story_path(story), data: { turbo_method: :delete, turbo_confirm: "Are you sure?" }, class: "btn delete-btn" %>
+          </div>
         <% end %>
-        <button><%= link_to "Whats your spätistöry?", new_spati_story_path(@spati.id) %></button>
-      </li>
-    </div>
-    </ul>
-
-
-    <div class="map">
-      <div id="map" style="
-      width: 49.5vw;
-      height: 39.5vw;
-      border: solid 5px black;
-      border-radius: 5px;"
-        data-controller="map"
-        data-map-markers-value="<%= @markers.to_json %>"
-        data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
       </div>
-    </div>
+    <% end %>
   </div>
 
+  <!-- Rechte Spalte: Map -->
+  <div id="map"
+       data-controller="map"
+       data-map-markers-value="<%= @markers.to_json %>"
+       data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+  </div>
+</div>
+</div>
 
-  <div class="unten">
-    <div class="backtoallspätisbutton">
-      <%= link_to spatis_path do %>
-        <div class="btn späti-button">back to all spätis</div>
-      <% end %>
-    </div>
+<!-- Unten: Zurück-Button -->
+<div class="unten">
+  <div class="backtoallspätisbutton">
+    <%= link_to spatis_path do %>
+      <div class="btn späti-button">Back to all Spätis</div>
+    <% end %>
   </div>
 </div>

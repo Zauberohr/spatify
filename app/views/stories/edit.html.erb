@@ -1,13 +1,23 @@
-<h2>Edit Your Story</h2>
+<div class="spati-card story-form-card">
+  <h2 class="form-heading">Bearbeite deine Spätistöry</h2>
 
-<%= simple_form_for(@story) do |form| %>
-  <div>
-    <%= form.input :content %>
-  </div>
+  <%= simple_form_for(@story) do |form| %>
+    <div class="form-group">
+      <%= form.input :content,
+          label: false,
+          input_html: {
+            rows: 8,
+            class: "story-textarea",
+            placeholder: "Deine legendäre Story hier rein..." } %>
+    </div>
 
-  <div>
-    <%= form.submit "Update Story" %>
-  </div>
-<% end %>
+    <%= form.submit "Update Story", class: "btn abschicken-button" %>
+  <% end %>
+</div>
+</div>
 
-<%= link_to "Back", spati_path(@spati) %>
+<div class="unten">
+  <%= link_to spati_path(@spati), class: "btn späti-button" do %>
+    Zurück zum Späti
+  <% end %>
+</div>

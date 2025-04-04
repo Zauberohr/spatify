@@ -101,6 +101,9 @@ GEM
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 2.11.8, < 3)
     builder (3.3.0)
+    business_time (0.13.0)
+      activesupport (>= 3.2.0)
+      tzinfo
     capybara (3.40.0)
       addressable
       matrix
@@ -220,6 +223,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.3-x86_64-linux-musl)
       racc (~> 1.4)
+    opening_hours (0.0.7)
+      activesupport
     orm_adapter (0.5.0)
     ostruct (0.6.1)
     pg (1.5.9)
@@ -348,6 +353,7 @@ DEPENDENCIES
   autoprefixer-rails
   bootsnap
   bootstrap (~> 5.2)
+  business_time
   capybara
   cloudinary
   debug
@@ -357,6 +363,7 @@ DEPENDENCIES
   geocoder
   importmap-rails (~> 1.2.3)
   jbuilder
+  opening_hours
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.1.5, >= 7.1.5.1)

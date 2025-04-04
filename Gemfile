@@ -77,3 +77,5 @@ end
 gem 'geocoder'
 gem "devise"
 gem "cloudinary"
+gem 'opening_hours'
+gem 'business_time'
