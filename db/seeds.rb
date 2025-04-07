@@ -1,5 +1,4 @@
 require 'json'
-require 'opening_hours'
 
 Story.destroy_all
 Spati.destroy_all
@@ -12,39 +11,47 @@ User.create!(name: "Angela Merkel", email: "angela@merkel.de", password: "123456
 User.create!(name: "Brigitte Bardott", email: "brigitte@bardott.com", password: "123456")
 User.create!(name: "Max Raabe", email: "max@raabe.com", password: "123456")
 
-# Öffnungszeiten-Formatierungsmethode
+# Neue Öffnungszeiten-Formatierung ohne Gem
 def format_opening_time(raw_hours)
   return "24/7" if raw_hours&.strip == "24/7"
   return "keine Angabe" if raw_hours.blank?
 
-  begin
-    oh = OpeningHours::Hours.new(raw_hours)
-    %w[Mo Tu We Th Fr Sa Su].map do |day|
-      tag = {
-        "Mo" => "Mo",
-        "Tu" => "Di",
-        "We" => "Mi",
-        "Th" => "Do",
-        "Fr" => "Fr",
-        "Sa" => "Sa",
-        "Su" => "So"
-      }[day]
+  days = %w[Mo Tu We Th Fr Sa Su]
+  full_days = {
+    "Mo" => "Mo",
+    "Tu" => "Di",
+    "We" => "Mi",
+    "Th" => "Do",
+    "Fr" => "Fr",
+    "Sa" => "Sa",
+    "Su" => "So"
+  }
 
-      ranges = oh.opening_hours_for(day.downcase)
-      if ranges.empty?
-        "#{tag}: geschlossen"
-      else
-        times = ranges.map do |r|
-          from = r[:from].strftime("%H")
-          to   = r[:to].strftime("%H")
-          "#{from}–#{to}"
-        end
-        "#{tag}: #{times.join(', ')}"
-      end
-    end.join("\n")
-  rescue
-    "keine Angabe"
+  output = {}
+  days.each { |day| output[day] = "geschlossen" }
+
+  raw_hours.split(";").each do |rule|
+    day_part, time_part = rule.strip.split(" ")
+    next unless day_part && time_part
+
+    if day_part.include?("-")
+      start_day, end_day = day_part.split("-")
+      day_range = days[days.index(start_day)..days.index(end_day)]
+    else
+      day_range = [day_part]
+    end
+
+    times = time_part.split("-").map { |t| t[0, 2].to_i }
+
+    day_range.each do |day|
+      output[day] = "#{times[0]}–#{times[1]}"
+    end
   end
+
+  %w[Mo Di Mi Do Fr Sa So].map do |de_day|
+    en_day = full_days.key(de_day)
+    "#{de_day}: #{output[en_day]}"
+  end.join("\n")
 end
 
 # JSON-Datei laden
@@ -69,8 +76,8 @@ data["elements"].each do |element|
   lon = element["lon"]
   lat = element["lat"]
 
-  # Öffnungszeiten direkt übernehmen
-  opening_time = element["opening_hours"] || "keine Angabe"
+  # Öffnungszeiten formatieren
+  opening_time = format_opening_time(element["opening_hours"])
 
   spati = Spati.create!(
     name: name,
@@ -80,6 +87,7 @@ data["elements"].each do |element|
     latitude: lat
   )
 
+  # Zufälliges Bild anhängen
   random_image = images.sample
   file = File.open(random_image)
   spati.photos.attach(io: file, filename: "spati.jpeg", content_type: "image/jpeg")
@@ -88,4 +96,3 @@ data["elements"].each do |element|
   content = element["spatistory"]
   Story.create(content: content, spati: spati, user: User.all.sample)
 end
-
