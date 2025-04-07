@@ -34,7 +34,7 @@ export default class extends Controller {
       customMarker.className = "custom-marker"
 
       const image = document.createElement("img")
-      image.src = "/assets/teddy-bear.png"
+      image.src = new URL("../../assets/images/teddy-bear.png", import.meta.url)
       image.alt = "Späti-Marker"
       image.className = "marker-image"
 
