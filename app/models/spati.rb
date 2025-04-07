@@ -12,16 +12,6 @@ class Spati < ApplicationRecord
 
   # Methode: Ist der Späti gerade offen?
   def open_now?
-    return true if opening_time == "24/7"
-    return false unless opening_time.present?
-
-    begin
-      time = Time.current
-      OpeningHours::Time::Fake.now = time
-      OpeningHours.parse(opening_time).open?
-    rescue
-      false
-    end
+    opening_time == "24/7"
   end
-
 end
