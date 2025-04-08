@@ -34,11 +34,13 @@ class SpatisController < ApplicationController
 
     if params[:spati][:always_open] == "1"
       @spati.opening_time = "24/7"
-    else
-      opening_times = params[:opening_times].to_h.map do |day, hours|
+    elsif params[:opening_times].is_a?(ActionController::Parameters)
+      opening_times = params[:opening_times].permit!.to_h.map do |day, hours|
         "#{day}: #{hours}" unless hours.blank?
       end.compact.join("; ")
       @spati.opening_time = opening_times
+    else
+      @spati.opening_time = ""
     end
 
     if @spati.save
