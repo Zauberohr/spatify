@@ -1,33 +1,67 @@
 <div class="spati-card story-form-card">
   <h2 class="form-heading">Ey, ein Späti fehlt!</h2>
 
-  <%= simple_form_for(@spati, html: { multipart: true }) do |form| %>
+  <%= simple_form_for(@spati, html: { multipart: true, data: { controller: "form-validation" } }) do |form| %>
     <div class="form-group">
-      <%= form.input :name, label: false, placeholder: "Name des Spätis", input_html: { class: "story-textarea" } %>
+      <%= form.input :name,
+        label: false,
+        placeholder: "Name des Spätis",
+        input_html: {
+          class: "story-textarea",
+          required: true,
+          "data-form-validation-target": "name",
+          "data-action": "input->form-validation#updateButtonState"
+        } %>
     </div>
 
     <div class="form-group">
-      <%= form.input :address, label: false, placeholder: "Adresse", input_html: { class: "story-textarea" } %>
+      <%= form.input :address,
+        label: false,
+        placeholder: "Adresse",
+        input_html: {
+          class: "story-textarea",
+          required: true,
+          "data-form-validation-target": "address",
+          "data-action": "input->form-validation#updateButtonState"
+        } %>
     </div>
 
     <div class="form-group">
-      <%= form.input :always_open, as: :boolean, label: "24/7 geöffnet" %>
+      <%= form.input :always_open,
+        as: :boolean,
+        label: "24/7 geöffnet",
+        input_html: {
+          "data-form-validation-target": "alwaysOpen",
+          "data-action": "change->form-validation#updateButtonState"
+        } %>
     </div>
 
     <div id="opening-times-fields">
       <% %w[Mo Di Mi Do Fr Sa So].each do |day| %>
         <div class="form-group">
           <%= label_tag "opening_times_#{day}", "#{day}:", class: "form-label" %>
-          <%= text_field_tag "opening_times[#{day}]", nil, placeholder: "z. B. 07:00–23:00", class: "story-textarea" %>
+          <%= text_field_tag "opening_times[#{day}]", nil,
+            placeholder: "z. B. 07:00–23:00",
+            class: "story-textarea",
+            data: {
+              "form-validation-target": "openingTime",
+              action: "input->form-validation#updateButtonState"
+            } %>
         </div>
       <% end %>
     </div>
 
     <div class="form-group">
-      <%= form.input :photos, as: :file, input_html: { multiple: true }, label: "Fotos vom Späti" %>
+      <%= form.input :photos,
+        as: :file,
+        input_html: { multiple: true },
+        label: "Fotos vom Späti" %>
     </div>
 
-    <%= form.submit "Späti hinzufügen", class: "btn abschicken-button" %>
+    <%= form.submit "Späti hinzufügen",
+      class: "btn abschicken-button",
+      data: { "form-validation-target": "submit" },
+      disabled: true %>
   <% end %>
 </div>
 </div>
