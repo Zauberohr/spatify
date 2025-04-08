@@ -59,4 +59,14 @@
   color: yellow;
   border: 5px solid yellow;
 }
+
+.text-overlay {
+  border: 5px solid white;
+}
+
+@media (max-width: 480px) {
+  .späti-text {
+    font-size: 64px;
+  }
+}
 }

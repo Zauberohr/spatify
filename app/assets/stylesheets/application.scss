@@ -1,6 +1,10 @@
 html, body {
   font-family: 'Sigmar', sans-serif !important;
-}
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
 // Graphical variables
 @import "config/fonts";
 @import "config/colors";
@@ -51,4 +55,17 @@ html,body * {
   width: 40px;
   height: 40px;
   object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .mapboxgl-ctrl-geocoder {
+    width: 160px !important;
+    min-width: unset !important;
+  }
+
+  .mapboxgl-ctrl-geocoder input {
+    height: 48px;
+    font-size: 14px;
+    padding: 0 6px;
+  }
 }

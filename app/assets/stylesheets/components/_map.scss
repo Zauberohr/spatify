@@ -1,15 +1,19 @@
+/* === Popup / Marker === */
 .mapboxgl-popup {
-  // max-width: 200px;
   max-width: 100%;
 }
 
 .mapboxgl-popup-content {
   width: 100%;
-  // width: 250px;
-  // text-align: center;
-  // img {
-  //   width: 100%;
-  // }
+}
+
+.mapboxgl-popup-content h1.spati-title {
+  font-size: 1.2em;
+  line-height: 1.0 !important;
+  word-break: break-word;
+  text-align: center;
+  margin-bottom: 8px;
+  padding: 0 5px;
 }
 
 .custom-marker {
@@ -23,44 +27,100 @@
 }
 
 .custom-marker .marker-image {
-  width: 24px; // 80% von 30px
+  width: 24px;
   height: 24px;
   object-fit: contain;
   object-position: center;
 }
 
-
+/* === Toggle-Button === */
 .map-toggle-button {
   position: absolute;
   top: 28px;
   left: 10px;
   z-index: 10;
+}
 
-  .toggle-button {
-    background-color: black;
-    color: yellow;
-    font-weight: bold;
-    padding: 10px 20px;
-    border: 1px solid black;
-    border-radius: 5px;
-    text-decoration: none;
-    font-family: 'Sigmar', sans-serif;
-    box-shadow: 0 0 10px yellow;
-    transition: all 0.3s ease;
+.toggle-button {
+  background-color: black;
+  color: yellow;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Sigmar', sans-serif;
+  box-shadow: 0 0 10px yellow;
+  transition: all 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: yellow;
+  color: black;
+  border-color: black;
+}
+
+/* === Layout Desktop === */
+.index-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.spati-list {
+  width: 50%;
+  overflow-y: scroll;
+}
+
+.spati-card {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 0;
+  background-color: yellow; /* zum Testen sichtbar */
+}
+
+.map-container {
+  flex: 1;
+  position: relative;
+  height: 100vh; /* ← HIER liegt der Hund begraben */
+}
+
+/* === Layout Mobile (Map oben, Cards unten, beide 100%) === */
+@media (max-width: 768px) {
+  .index-container {
+    flex-direction: column;
+    height: auto;
   }
 
-  .toggle-button:hover {
-    background-color: yellow;
-    color: black;
-    border-color: black;
+  .map-container {
+    order: -1;
+    height: 50vh;
+    width: 100%;
   }
 
-  .mapboxgl-popup-content h1.spati-title {
-    font-size: 1.2em;
-    line-height: 1.0 !important;
-    word-break: break-word;
-    text-align: center;
-    margin-bottom: 8px;
-    padding: 0 5px;
+  #map {
+    height: 100%;
+    width: 100%;
+  }
+
+  .spati-list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .spati-card {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
 }

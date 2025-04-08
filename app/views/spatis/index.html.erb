@@ -1,5 +1,5 @@
 <div class="index-container">
-  <!-- Linke Spalte: Späti-Liste -->
+  <!-- Späti-Liste (links auf Desktop, unten auf Mobile) -->
   <div class="spati-list">
     <% @spatis.each do |spati| %>
       <%= link_to spati_path(spati), class: "spati-card-link" do %>
@@ -15,8 +15,8 @@
     <% end %>
   </div>
 
-  <!-- Rechte Spalte: Map -->
-  <div style="position: relative; flex: 1;">
+  <!-- Map (rechts auf Desktop, oben auf Mobile) -->
+  <div class="map-container">
     <!-- Toggle-Button auf der Map -->
     <div class="map-toggle-button">
       <% if params[:all] == "true" %>
@@ -26,12 +26,12 @@
       <% end %>
     </div>
 
-    <!-- Map -->
-  <div id="map"
-     data-controller="map"
-     data-map-markers-value="<%= @markers.to_json %>"
-     data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>"
-     data-map-logo-url-value="<%= asset_path('teddy-bear.png') %>">
-</div>
+    <!-- Karte -->
+    <div id="map"
+         data-controller="map"
+         data-map-markers-value="<%= @markers.to_json %>"
+         data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>"
+         data-map-logo-url-value="<%= asset_path('teddy-bear.png') %>">
+    </div>
   </div>
 </div>
