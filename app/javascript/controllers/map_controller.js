@@ -1,15 +1,17 @@
 import { Controller } from "@hotwired/stimulus"
-import mapboxgl from 'mapbox-gl'
+import mapboxgl from "mapbox-gl"
 import MapboxGeocoder from "@mapbox/mapbox-gl-geocoder"
 
 // Connects to data-controller="map"
 export default class extends Controller {
   static values = {
     apiKey: String,
-    markers: Array
+    markers: Array,
+    logoUrl: String
   }
 
   connect() {
+    console.log("Stimulus Map-Controller verbunden ✅")
     mapboxgl.accessToken = this.apiKeyValue
 
     this.map = new mapboxgl.Map({
@@ -27,6 +29,8 @@ export default class extends Controller {
   }
 
   #addMarkersToMap() {
+    console.log("Logo-URL im Controller:", this.logoUrlValue)
+
     this.markersValue.forEach((marker) => {
       const popup = new mapboxgl.Popup().setHTML(marker.info_window_html)
 
@@ -34,7 +38,7 @@ export default class extends Controller {
       customMarker.className = "custom-marker"
 
       const image = document.createElement("img")
-      image.src = new URL("../../assets/images/teddy-bear.png", import.meta.url)
+      image.src = this.logoUrlValue
       image.alt = "Späti-Marker"
       image.className = "marker-image"
 
@@ -44,9 +48,10 @@ export default class extends Controller {
         .setLngLat([marker.lng, marker.lat])
         .setPopup(popup)
         .addTo(this.map)
+
+      console.log("Marker gesetzt bei:", marker.lng, marker.lat)
     })
   }
-
 
   #fitMapToMarkers() {
     const bounds = new mapboxgl.LngLatBounds()
