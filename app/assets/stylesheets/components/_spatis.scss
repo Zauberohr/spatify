@@ -1,13 +1,16 @@
-// .spatiliste {
-//   list-style-type: none;
-//   padding: 0;
-//   margin: 0 auto;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   width: 100%;
-//   height: 100%;
-// }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.spati-card h2,
+.spati-card p {
+  margin: 0;
+  padding: 0;
+}
+
+
 
 ul li {
   // width: 80%;
