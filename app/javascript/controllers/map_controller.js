@@ -21,11 +21,8 @@ export default class extends Controller {
 
     this.#addMarkersToMap()
     this.#fitMapToMarkers()
-
-    this.map.addControl(new MapboxGeocoder({
-      accessToken: mapboxgl.accessToken,
-      mapboxgl: mapboxgl
-    }))
+    this.#addGeocoderControl()
+    this.#addLocateButton()
   }
 
   #addMarkersToMap() {
@@ -59,5 +56,44 @@ export default class extends Controller {
       bounds.extend([marker.lng, marker.lat])
     )
     this.map.fitBounds(bounds, { padding: 70, maxZoom: 15, duration: 0 })
+  }
+
+  #addGeocoderControl() {
+    this.map.addControl(new MapboxGeocoder({
+      accessToken: mapboxgl.accessToken,
+      mapboxgl: mapboxgl
+    }))
+  }
+
+  #addLocateButton() {
+    const button = document.createElement("button")
+    button.textContent = "📍"
+    button.className = "locate-button"
+
+    button.addEventListener("click", () => {
+      if (!navigator.geolocation) {
+        alert("Geolocation wird von deinem Browser nicht unterstützt.")
+        return
+      }
+
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const userCoords = [position.coords.longitude, position.coords.latitude]
+
+          new mapboxgl.Marker({ color: "red" })
+            .setLngLat(userCoords)
+            .setPopup(new mapboxgl.Popup().setHTML("Du bist hier 🥴"))
+            .addTo(this.map)
+            .togglePopup()
+
+          this.map.flyTo({ center: userCoords, zoom: 16 })
+        },
+        () => {
+          alert("Standort konnte nicht ermittelt werden – bist du vielleicht zu betrunken?")
+        }
+      )
+    })
+
+    this.element.appendChild(button)
   }
 }

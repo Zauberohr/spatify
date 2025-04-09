@@ -263,6 +263,28 @@ ul li p {
   border-color: yellow;
 }
 
+.locate-button {
+  position: absolute;
+  left: 10px;
+  z-index: 999;
+  background-color: #fff;
+  padding: 12px 12px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+
+  // Standard: mobil (unten)
+  bottom: 10px;
+}
+
+// Ab 768px: Desktop (oben)
+@media (min-width: 768px) {
+  .locate-button {
+    bottom: auto;
+    top: 10px;
+  }
+}
+
 
 @media (max-width: 768px) {
   .opening-times-display {

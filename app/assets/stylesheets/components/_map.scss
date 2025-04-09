@@ -42,11 +42,16 @@
 }
 
 .toggle-button {
+  position: absolute;
+  left: 76px;
+  top: -14px;
   background-color: black;
   color: yellow;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 0px 46px;
   border: 1px solid black;
+  border-radius: 5px;
+
   border-radius: 5px;
   text-decoration: none;
   font-family: 'Sigmar', sans-serif;
@@ -92,6 +97,13 @@
   .index-container {
     flex-direction: column;
     height: auto;
+  }
+
+  .toggle-button{
+     position: absolute;
+  left: 4px;
+  top: -14px;
+  padding: 0px 46px;
   }
 
   .map-container {
