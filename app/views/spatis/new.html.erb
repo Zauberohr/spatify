@@ -5,7 +5,7 @@
     <div class="form-group">
       <%= form.input :name,
         label: false,
-        placeholder: "Name des Spätis",
+        placeholder: "Name des Spätis (z. B. Späti #1)",
         input_html: {
           class: "story-textarea",
           required: true,
@@ -36,28 +36,56 @@
         } %>
     </div>
 
-    <div id="opening-times-fields">
-      <% %w[Mo Di Mi Do Fr Sa So].each do |day| %>
-        <div class="form-group">
-          <%= label_tag "opening_times_#{day}", "#{day}:", class: "form-label" %>
-          <%= text_field_tag "opening_times[#{day}]", nil,
-            placeholder: "z. B. 07:00–23:00",
-            class: "story-textarea",
-            data: {
-              "form-validation-target": "openingTime",
-              action: "input->form-validation#updateButtonState"
-            } %>
-        </div>
-      <% end %>
+    <!-- Öffnungszeiten-Logik -->
+    <div data-controller="opening-times">
+      <!-- Checkbox -->
+      <div class="form-group">
+        <%= check_box_tag "same_opening_times", "1", false,
+          data: {
+            opening_times_target: "sameEveryDayCheckbox",
+            action: "opening-times#toggleFields"
+          } %>
+        <%= label_tag :same_opening_times, "Gleiche Öffnungszeiten für alle Tage" %>
+      </div>
+
+      <!-- Zentrales Eingabefeld -->
+      <div class="form-group">
+        <%= text_field_tag :master_opening_time, "",
+          placeholder: "z. B. 7-23 oder 07:00–23:00",
+          class: "story-textarea",
+          data: {
+            opening_times_target: "masterInput",
+            action: "input->opening-times#applyToAll"
+          } %>
+      </div>
+
+      <!-- Tagesfelder -->
+      <div id="opening-times-fields">
+        <% %w[Mo Di Mi Do Fr Sa So].each do |day| %>
+          <div class="form-group">
+            <%= label_tag "opening_times_#{day}", "#{day}:", class: "form-label" %>
+            <%= text_field_tag "opening_times[#{day}]", nil,
+              placeholder: "z. B. 07:00–23:00",
+              class: "story-textarea",
+              data: {
+                "form-validation-target": "openingTime",
+                "opening_times-target": "dayInput",
+                action: "input->form-validation#updateButtonState"
+              } %>
+          </div>
+        <% end %>
+      </div>
     </div>
 
+    <!-- Foto -->
     <div class="form-group">
       <%= form.input :photos,
         as: :file,
         input_html: { multiple: true },
-        label: "Fotos vom Späti" %>
+        label: "Fotos vom Späti (optional)" %>
     </div>
 
+    <!-- Abschicken -->
     <%= form.submit "Späti hinzufügen",
       class: "btn abschicken-button",
       data: { "form-validation-target": "submit" },
@@ -68,6 +96,6 @@
 
 <div class="unten">
   <%= link_to spatis_path, class: "btn späti-button" do %>
-    zurück zur Übersicht
+    SpätiMäp
   <% end %>
 </div>

@@ -1,20 +1,70 @@
-<div class="index-container">
+<div class="index-container" data-controller="spati-editor" data-spati-editor-editing-value="false">
   <!-- Linke Spalte -->
   <div class="spati-list">
     <!-- Späti-Box -->
-    <div class="spati-card">
-  <h2><%= @spati.name %></h2>
-  <p><%= @spati.address %></p>
-  <p>Open: <%= @spati.opening_time %></p>
+    <div class="spati-card" data-spati-editor-target="card">
+      <!-- Bearbeitungsformular -->
+      <div data-spati-editor-target="form" hidden>
+        <%= simple_form_for @spati, html: { multipart: true, data: { turbo_frame: "_top" } } do |form| %>
+          <div class="form-group">
+            <%= form.input :name, label: false, input_html: { class: "story-textarea", style: "color: white;" } %>
+          </div>
+          <div class="form-group">
+            <%= form.input :address, label: false, input_html: { class: "story-textarea", style: "color: white;" } %>
+          </div>
+          <div class="form-group">
+            <%= form.input :opening_time, label: false, input_html: { class: "story-textarea", style: "color: white;" } %>
+          </div>
+          <div class="form-group">
+            <%= form.input :photos, as: :file, input_html: { multiple: true }, label: "Fotos neu hochladen (optional)", label_html: { style: "color: white;" } %>
+          </div>
+        <% end %>
+      </div>
 
-  <% @spati.photos.each do |photo| %>
-    <%= cl_image_tag photo.key, class: "spati-photo", crop: :fill %>
-  <% end %>
-</div>
+      <!-- Anzeigemodus -->
+      <div data-spati-editor-target="display">
+        <h2><%= @spati.name %></h2>
+        <p><%= @spati.address %></p>
 
+        <!-- Neue Öffnungszeiten-Anzeige -->
+        <div class="opening-times-display">
+          <% current_day = I18n.l(Date.today, format: "%a")[0..1] %>
 
-    <!-- Spätistöry-Button -->
-    <%= link_to "your spätistöry", new_spati_story_path(@spati), class: "btn späti-button" %>
+          <% if @spati.opening_time == "24/7" %>
+            <div class="opening-box always-open">
+              <strong>24/7 geöffnet</strong>
+            </div>
+          <% else %>
+            <% @spati.opening_time.to_s.split("; ").each do |entry| %>
+              <% tag, time = entry.split(": ") %>
+              <% css_class = tag == current_day ? "opening-box today-box" : "opening-box" %>
+              <div class="<%= css_class %>">
+                <strong><%= tag %></strong><br>
+                <%= time %>
+              </div>
+            <% end %>
+          <% end %>
+        </div>
+
+        <% @spati.photos.each do |photo| %>
+          <%= cl_image_tag photo.key, class: "spati-photo", crop: :fill %>
+        <% end %>
+      </div>
+    </div>
+
+    <!-- Action-Buttons -->
+    <div class="button-row">
+      <% if user_signed_in? %>
+        <%= button_tag "Späti bearbeiten",
+          type: "button",
+          class: "btn späti-button halb",
+          data: {
+            action: "spati-editor#toggleEdit",
+            spati_editor_target: "editButton"
+          } %>
+      <% end %>
+      <%= link_to "your spätistöry", new_spati_story_path(@spati), class: "btn späti-button halb" %>
+    </div>
 
     <!-- Story-Liste -->
     <% @spati.stories.each do |story| %>
@@ -31,22 +81,21 @@
         <% end %>
       </div>
     <% end %>
+
+    <!-- Zurück-Button -->
+    <div class="backtoallspätisbutton">
+      <%= link_to spatis_path do %>
+        <div class="btn späti-button">Back to all Spätis</div>
+      <% end %>
+    </div>
   </div>
 
-  <!-- Rechte Spalte: Map -->
-  <div id="map"
-       data-controller="map"
-       data-map-markers-value="<%= @markers.to_json %>"
-       data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
-  </div>
-</div>
-</div>
-
-<!-- Unten: Zurück-Button -->
-<div class="unten">
-  <div class="backtoallspätisbutton">
-    <%= link_to spatis_path do %>
-      <div class="btn späti-button">Back to all Spätis</div>
-    <% end %>
+  <!-- Rechte Spalte (Map) -->
+  <div class="map-container" data-spati-editor-target="mapContainer">
+    <div id="map"
+         data-controller="map"
+         data-map-markers-value="<%= @markers.to_json %>"
+         data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+    </div>
   </div>
 </div>
