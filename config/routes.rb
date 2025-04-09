@@ -1,19 +1,22 @@
 Rails.application.routes.draw do
+  # Authentifizierung mit Devise
   devise_for :users
 
+  # Startseite der App
   root to: "pages#home"
 
-  # Optional: falls du eigene User-Erstellung brauchst
+  # Optional: falls du neue Nutzer manuell anlegen willst
   resources :users, only: [:new, :create]
 
-  # Healthcheck für Uptime-Monitoring
+  # Healthcheck-Endpunkt für Monitoring (z. B. UptimeRobot)
   get "up" => "rails/health#show", as: :rails_health_check
 
-  # Spatis mit allen Standard-Aktionen
+  # Spätis mit allen Standardaktionen (index, show, new, create, edit, update, destroy)
+  # + verschachtelte Story-Erstellung (pro Späti)
   resources :spatis do
     resources :stories, path: "story", only: [:new, :create]
   end
 
-  # Einzelne Routen für Story-Update und -Löschen
-  resources :stories, path: "story", only: [:update, :edit, :destroy]
+  # Story-Bearbeitung & -Löschung unabhängig vom Späti
+  resources :stories, path: "story", only: [:edit, :update, :destroy]
 end
