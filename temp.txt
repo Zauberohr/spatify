@@ -1,0 +1,840 @@
+diff --git a/Gemfile b/Gemfile
+index 150183c..928de3a 100644
+--- a/Gemfile
++++ b/Gemfile
+@@ -75,7 +75,7 @@ end
+ 
+   # For the Gemfile
+ gem 'geocoder'
+-gem "devise"
++gem 'devise'
+ gem "cloudinary"
+ 
+ gem 'business_time'
+diff --git a/app/assets/images/spatifywhite.png b/app/assets/images/spatifywhite.png
+deleted file mode 100644
+index dc8a2b8..0000000
+Binary files a/app/assets/images/spatifywhite.png and /dev/null differ
+diff --git a/app/assets/stylesheets/application.scss b/app/assets/stylesheets/application.scss
+index 57d0c04..d3bdd44 100755
+--- a/app/assets/stylesheets/application.scss
++++ b/app/assets/stylesheets/application.scss
+@@ -1,47 +1,35 @@
++// === Grundlayout ===
+ html, body {
+   font-family: 'Sigmar', sans-serif !important;
+-    margin: 0;
+-    padding: 0;
+-    overflow-x: hidden;
+-  }
++  margin: 0;
++  padding: 0;
++  overflow-x: hidden;
++}
+ 
+-// Graphical variables
++html, body * {
++  font-family: 'Sigmar', sans-serif !important;
++}
++
++// === Design-Variablen (Farben, Fonts) ===
+ @import "config/fonts";
+ @import "config/colors";
+ 
+-
+-// Your CSS partials
++// === Komponenten (Map, Buttons etc.) ===
+ @import "components/index";
+-@import "pages/index";
+-@import url("https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css");
+-
+-@import url("https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css");
+ 
+-// Setzt Sigmar als globale Schriftart
+-html,body * {
+-  font-family: 'Sigmar', sans-serif !important;
+-  text-align: center;
+-}
+-
+-.main-container {
+-  margin-top: 180px;
+-  display: flex;
+-  justify-content: center;
+-}
+-
+-// body {
+-//   // padding-top: 70px; /* Fügt Abstand oben hinzu, um die fixierte Navbar zu berücksichtigen */
+ 
+-// }
++// === Seiten-Layout (z. B. index.html.erb) ===
++@import "pages/spatis_index";
+ 
+-// application.scss
+-// @import "components/spatis";
++// === Mapbox Styles ===
++@import url("https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css");
++@import url("https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css");
+ 
++// === Mapbox Suchfeld ===
+ .mapboxgl-ctrl-geocoder input {
+   height: 48px;
+   font-size: 18px;
+   background-color: yellow;
+-  // border: 3px solid black;
+   border-radius: 8px;
+   padding: 0 10px;
+   color: black !important;
+@@ -57,6 +45,7 @@ html,body * {
+   object-fit: contain;
+ }
+ 
++// === Mobile Anpassungen ===
+ @media (max-width: 768px) {
+   .mapboxgl-ctrl-geocoder {
+     width: 160px !important;
+@@ -64,8 +53,12 @@ html,body * {
+   }
+ 
+   .mapboxgl-ctrl-geocoder input {
+-    height: 48px;
+     font-size: 14px;
+     padding: 0 6px;
+   }
++
++  html, body {
++    margin: 0;
++    padding: 0;
++  }
+ }
+diff --git a/app/assets/stylesheets/components/_index.scss b/app/assets/stylesheets/components/_index.scss
+index d54fc41..e1d0fc1 100644
+--- a/app/assets/stylesheets/components/_index.scss
++++ b/app/assets/stylesheets/components/_index.scss
+@@ -9,3 +9,4 @@
+ @import "loginlogout";
+ @import "newstory";
+ @import "sessions";
++@import "home";
+diff --git a/app/assets/stylesheets/components/_map.scss b/app/assets/stylesheets/components/_map.scss
+index dde1eaa..d53d57d 100644
+--- a/app/assets/stylesheets/components/_map.scss
++++ b/app/assets/stylesheets/components/_map.scss
+@@ -33,94 +33,36 @@
+   object-position: center;
+ }
+ 
+-/* === Toggle-Button === */
+-.map-toggle-button {
++/* === Kartenbedienelemente === */
++.map-controls {
+   position: absolute;
+-  top: 28px;
+-  left: 10px;
+-  z-index: 10;
++  top: 15px;
++  left: 15px;
++  z-index: 1000;
++  display: flex;
++  gap: 10px;
+ }
+ 
++/* === Buttons auf der Karte === */
++.standort-button,
+ .toggle-button {
+-  background-color: black;
+-  color: yellow;
++  background-color: yellow;
++  color: black;
+   font-weight: bold;
+-  padding: 10px 20px;
+-  border: 1px solid black;
+-  border-radius: 5px;
++  padding: 8px 14px;
++  border: 2px solid black;
++  border-radius: 6px;
+   text-decoration: none;
+   font-family: 'Sigmar', sans-serif;
+-  box-shadow: 0 0 10px yellow;
+-  transition: all 0.3s ease;
++  box-shadow: 2px 2px 0 black;
++  cursor: pointer;
++  font-size: 14px;
++  transition: all 0.2s ease;
+ }
+ 
++.standort-button:hover,
+ .toggle-button:hover {
+-  background-color: yellow;
+-  color: black;
+-  border-color: black;
+-}
+-
+-/* === Layout Desktop === */
+-.index-container {
+-  display: flex;
+-  flex-direction: row;
+-  height: 100vh;
+-}
+-
+-.spati-list {
+-  width: 50%;
+-  overflow-y: scroll;
+-}
+-
+-.spati-card {
+-  width: 100%;
+-  margin: 0;
+-  padding: 20px;
+-  box-sizing: border-box;
+-  border-radius: 0;
+-  background-color: yellow; /* zum Testen sichtbar */
+-}
+-
+-.map-container {
+-  flex: 1;
+-  position: relative;
+-  height: 100vh; /* ← HIER liegt der Hund begraben */
+-}
+-
+-/* === Layout Mobile (Map oben, Cards unten, beide 100%) === */
+-@media (max-width: 768px) {
+-  .index-container {
+-    flex-direction: column;
+-    height: auto;
+-  }
+-
+-  .map-container {
+-    order: -1;
+-    height: 50vh;
+-    width: 100%;
+-  }
+-
+-  #map {
+-    height: 100%;
+-    width: 100%;
+-  }
+-
+-  .spati-list {
+-    width: 100%;
+-    padding: 0;
+-    margin: 0;
+-  }
+-
+-  .spati-card {
+-    width: 100%;
+-    margin: 0;
+-    padding: 20px;
+-    box-sizing: border-box;
+-  }
+-
+-  html, body {
+-    margin: 0;
+-    padding: 0;
+-    overflow-x: hidden;
+-  }
++  background-color: black;
++  color: yellow;
++  box-shadow: 2px 2px 0 yellow;
+ }
+diff --git a/app/assets/stylesheets/components/_navbar.scss b/app/assets/stylesheets/components/_navbar.scss
+index ceb99ca..7be0c71 100644
+--- a/app/assets/stylesheets/components/_navbar.scss
++++ b/app/assets/stylesheets/components/_navbar.scss
+@@ -1,73 +1,54 @@
+ .navbar-spatify {
+-  background: yellow;
+-  display: flex;
+-  align-items: center;
+-  justify-content: space-between;
+-  padding: 10px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+-  z-index: 1000;
+-  height: 150px;
+-}
+-
+-.navbar-spatify .navbar-collapse {
+-  flex-grow: 0;
++  height: 120px;
++  background-color: yellow;
++  z-index: 9999;
++  display: flex;
++  justify-content: space-between;
++  align-items: center;
++  padding: 0 20px;
++  box-shadow: 0 4px 0 black;
+ }
+ 
+-.navbar-spatify .navbar-brand {
++/* Layoutbereiche */
++.navbar-left,
++.navbar-center,
++.navbar-right {
++  flex: 1;
+   display: flex;
+-  justify-content: center;
+   align-items: center;
+-  width: 100%;
++  justify-content: center;
+ }
+ 
+-.navbar-spatify .navbar-brand img {
+-  width: 150px;
+-  height: auto;
++/* Logo */
++.navbar-logo {
++  height: 100%;
++  width: auto;
++  max-height: 100%;
++  max-width: 100px;
++  object-fit: contain;
+ }
+ 
++/* Links */
+ .nav-link {
+   background-color: black;
+   color: yellow;
+-  margin-right: 40px;
+-  margin-left: 20px;
+-  margin-top: 20px;
+-  height: 100px;
+-  width: 100px;
+-  text-align: center;
++  padding: 10px;
++  height: 80px;
++  width: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
++  text-align: center;
+   text-decoration: none;
+-  border-radius: 15px;
+-  transition: background-color 0.3s ease, color 0.3s ease;
++  font-family: 'Sigmar', sans-serif;
+   font-size: 1rem;
+-}
+-
+-/* 🧠 Auf kleineren Bildschirmen (z. B. iPhone) kleiner machen */
+-@media (max-width: 480px), (max-height: 700px) {
+-  .nav-link {
+-    height: 70px;
+-    width: 70px;
+-    font-size: 0.8rem;
+-    margin-top: 10px;
+-    margin-right: 20px;
+-    margin-left: 10px;
+-  }
+-}
+-
+-/* 📱 Noch kleiner für iPhone SE etc. */
+-@media (max-width: 375px), (max-height: 600px) {
+-  .nav-link {
+-    height: 60px;
+-    width: 60px;
+-    font-size: 0.7rem;
+-    margin-top: 8px;
+-    margin-right: 15px;
+-    margin-left: 8px;
+-  }
++  border-radius: 15px;
++  transition: all 0.3s ease;
++  margin: 0 10px;
+ }
+ 
+ .nav-link:hover {
+@@ -75,3 +56,14 @@
+   color: black;
+   border: 2px solid black;
+ }
++
++
++.navbar-left {
++  justify-content: flex-start;
++  padding-left: 0px;
++}
++
++.navbar-right {
++  justify-content: flex-end;
++  padding-right: 0px;
++}
+diff --git a/app/assets/stylesheets/components/_spatis.scss b/app/assets/stylesheets/components/_spatis.scss
+index 2f0f52a..78815ab 100644
+--- a/app/assets/stylesheets/components/_spatis.scss
++++ b/app/assets/stylesheets/components/_spatis.scss
+@@ -152,13 +152,6 @@ ul li p {
+   border: 5px solid black;
+ }
+ 
+-
+-.späti-button:hover {
+-  background-color: black;
+-  color: yellow;
+-  border: 5px solid yellow;
+-}
+-
+ .story-actions {
+   display: flex;
+   justify-content: flex-end;
+diff --git a/app/assets/stylesheets/pages/_spatis.scss b/app/assets/stylesheets/pages/_spatis.scss
+deleted file mode 100644
+index b16a7cb..0000000
+--- a/app/assets/stylesheets/pages/_spatis.scss
++++ /dev/null
+@@ -1,79 +0,0 @@
+-.index-container {
+-  display: flex;
+-  width: 100vw;
+-  height: 100vh;
+-  box-sizing: border-box;
+-  padding: 20px;
+-  gap: 20px;
+-}
+-
+-.spati-list {
+-  flex: 1;
+-  height: 100%;
+-  overflow-y: scroll;
+-  display: flex;
+-  flex-direction: column;
+-  gap: 20px;
+-
+-  /* Scrollbar verstecken */
+-  scrollbar-width: none; /* Firefox */
+-  -ms-overflow-style: none;  /* IE & Edge */
+-
+-  &::-webkit-scrollbar { /* Chrome, Safari */
+-    display: none;
+-  }
+-}
+-
+-.spati-card {
+-  background-color: yellow;
+-  border: 5px solid black;
+-  border-radius: 10px;
+-  padding: 20px;
+-  font-family: 'Sigmar', sans-serif;
+-  color: black;
+-  text-decoration: none !important;
+-  font-weight: bold;
+-}
+-
+-.spati-photo {
+-  width: 100%;
+-  height: auto;
+-  max-height: 400px;        // oder weglassen, wenn’s sich nach Inhalt richten soll
+-  object-fit: cover;
+-  border-radius: 10px;
+-  margin-top: 20px;
+-}
+-
+-#map {
+-  flex: 1;
+-  height: 100%;
+-  width: 100%;
+-  border: 5px solid black;
+-  border-radius: 10px;
+-}
+-
+-
+-.spati-card a:hover {
+-  color: yellow;
+-}
+-
+-.spati-card:hover {
+-  box-shadow: 0 0 0 4px yellow, 0 0 15px yellow;
+-  background-color: white;
+-  cursor: pointer;
+-}
+-
+-.spati-card a:link,
+-.spati-card a:visited,
+-.spati-card a:active,
+-.spati-card a:hover {
+-  color: black;
+-  text-shadow: 2px 2px 3px yellow;
+-  text-decoration: none;
+-  font-weight: bold;
+-}
+-
+-.spati-card-link {
+-  text-decoration: none;
+-  color: inherit;
+-}
+diff --git a/app/javascript/controllers/index.js b/app/javascript/controllers/index.js
+index 1156bf8..cd4cd7d 100644
+--- a/app/javascript/controllers/index.js
++++ b/app/javascript/controllers/index.js
+@@ -2,3 +2,9 @@
+ import { application } from "controllers/application"
+ import { eagerLoadControllersFrom } from "@hotwired/stimulus-loading"
+ eagerLoadControllersFrom("controllers", application)
++
++
++import MapController from "./map_controller"
++
++
++application.register("map", MapController)
+diff --git a/app/javascript/controllers/map_controller.js b/app/javascript/controllers/map_controller.js
+index 0fc685a..c147489 100644
+--- a/app/javascript/controllers/map_controller.js
++++ b/app/javascript/controllers/map_controller.js
+@@ -15,7 +15,7 @@ export default class extends Controller {
+     mapboxgl.accessToken = this.apiKeyValue
+ 
+     this.map = new mapboxgl.Map({
+-      container: this.element,
++      container: this.element.querySelector("#map"),
+       style: "mapbox://styles/mapbox/streets-v10"
+     })
+ 
+@@ -29,8 +29,6 @@ export default class extends Controller {
+   }
+ 
+   #addMarkersToMap() {
+-    console.log("Logo-URL im Controller:", this.logoUrlValue)
+-
+     this.markersValue.forEach((marker) => {
+       const popup = new mapboxgl.Popup().setHTML(marker.info_window_html)
+ 
+@@ -48,8 +46,6 @@ export default class extends Controller {
+         .setLngLat([marker.lng, marker.lat])
+         .setPopup(popup)
+         .addTo(this.map)
+-
+-      console.log("Marker gesetzt bei:", marker.lng, marker.lat)
+     })
+   }
+ 
+@@ -60,4 +56,28 @@ export default class extends Controller {
+     )
+     this.map.fitBounds(bounds, { padding: 70, maxZoom: 15, duration: 0 })
+   }
++
++  showCurrentLocation() {
++    if (!this.map) return
++
++    if (navigator.geolocation) {
++      navigator.geolocation.getCurrentPosition((position) => {
++        const lng = position.coords.longitude
++        const lat = position.coords.latitude
++
++        new mapboxgl.Marker({ color: "blue" })
++          .setLngLat([lng, lat])
++          .addTo(this.map)
++
++        this.map.flyTo({
++          center: [lng, lat],
++          zoom: 14
++        })
++      }, () => {
++        alert("Standort konnte nicht ermittelt werden.")
++      })
++    } else {
++      alert("Geolocation wird von deinem Browser nicht unterstützt.")
++    }
++  }
+ }
+diff --git a/app/views/pages/home.html.erb b/app/views/pages/home.html.erb
+index 35fee56..53c9267 100644
+--- a/app/views/pages/home.html.erb
++++ b/app/views/pages/home.html.erb
+@@ -14,6 +14,6 @@
+   </div>
+ 
+   <!-- Button zur Karte der Spätis -->
+-  <%= link_to 'späti mäp', spatis_path, class: 'btn späti-button' %>
++  <%= link_to 'späti mäp', spatis_path, class: 'btn späti-mäp-button' %>
+ 
+ </div>
+diff --git a/app/views/shared/_navbar.html.erb b/app/views/shared/_navbar.html.erb
+index b16c60b..cc6ce44 100644
+--- a/app/views/shared/_navbar.html.erb
++++ b/app/views/shared/_navbar.html.erb
+@@ -1,18 +1,20 @@
+-<div class="navbar navbar-expand-sm navbar-light navbar-spatify">
+-  <!-- Link: Ey ein Späti fehlt -->
+-  <div class="navbar-nav me-auto">
+-    <%= link_to raw("ey <br> ein späti fehlt!"), new_spati_path, class: "nav-link" %>
++<div class="navbar-spatify">
++  <!-- Linker Button -->
++  <div class="navbar-left">
++    <%= link_to raw("n späti fehlt!"), new_spati_path, class: "nav-link" %>
+   </div>
+ 
+-  <!-- Logo -->
+-  <%= link_to root_path, class: "navbar-brand" do %>
+-    <%= image_tag asset_path('spatifywhite.png'), class: "navbar-logo" %>
+-  <% end %>
++  <!-- Logo in der Mitte -->
++  <div class="navbar-center">
++    <%= link_to root_path do %>
++      <%= image_tag "spatifywhite_200x200.png", class: "navbar-logo" %>
++    <% end %>
++  </div>
+ 
+-  <!-- Login / Logout -->
+-  <div class="navbar-nav ms-auto">
++  <!-- Login / Logout rechts -->
++  <div class="navbar-right">
+     <% if user_signed_in? %>
+-      <%= link_to "LOGOUT", destroy_user_session_path, class: "nav-link", data: { turbo_method: :delete } %>
++      <%= link_to "LOGOUT", destroy_user_session_path, method: :delete, class: "nav-link" %>
+     <% else %>
+       <%= link_to "LOGIN", new_user_session_path, class: "nav-link" %>
+     <% end %>
+diff --git a/app/views/spatis/index.html.erb b/app/views/spatis/index.html.erb
+index 0c2cc37..c5ebfef 100644
+--- a/app/views/spatis/index.html.erb
++++ b/app/views/spatis/index.html.erb
+@@ -17,21 +17,25 @@
+     <% end %>
+   </div>
+ 
+-  <!-- Map + Toggle -->
+-  <div class="map-container">
+-    <div class="map-toggle-button">
+-      <% if params[:all] == "true" %>
+-        <%= link_to "nur geöffnete", spatis_path, class: "btn toggle-button" %>
+-      <% else %>
+-        <%= link_to "alle Spätis", spatis_path(all: true), class: "btn toggle-button" %>
+-      <% end %>
+-    </div>
++  <!-- Map mit Buttons direkt drauf -->
++  <div class="map-container"
++       data-controller="map"
++       data-map-markers-value="<%= @markers.to_json %>"
++       data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>"
++       data-map-logo-url-value="<%= asset_path('teddy-bear.png') %>">
++
++    <!-- Karte mit absolut positionierten Buttons -->
++<div id="map" style="height: 100%; width: 100%; position: relative;">
++  <!-- Bedienfeld oben links -->
++  <div class="map-controls">
++    <button data-action="click->map#showCurrentLocation" class="standort-button">📍</button>
+ 
+-    <div id="map"
+-         data-controller="map"
+-         data-map-markers-value="<%= @markers.to_json %>"
+-         data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>"
+-         data-map-logo-url-value="<%= asset_path('teddy-bear.png') %>">
+-    </div>
++    <% if params[:all] == "true" %>
++      <%= link_to "nur geöffnete", spatis_path, class: "toggle-button" %>
++    <% else %>
++      <%= link_to "alle Spätis", spatis_path(all: true), class: "toggle-button" %>
++    <% end %>
++  </div>
++</div>
+   </div>
+ </div>
+diff --git a/app/views/spatis/show.html.erb b/app/views/spatis/show.html.erb
+index ef33287..d59d870 100644
+--- a/app/views/spatis/show.html.erb
++++ b/app/views/spatis/show.html.erb
+@@ -6,11 +6,7 @@
+       <h2><%= @spati.name %></h2>
+       <p><%= @spati.address %></p>
+ 
+-      <% if @spati.opening_time.strip == "24/7" %>
+-        <div class="opening-hours-visual always-open">24/7</div>
+-      <% else %>
+-        <%= render partial: "opening_times", locals: { spati: @spati } %>
+-      <% end %>
++      <%= render partial: "opening_times", locals: { spati: @spati } %>
+ 
+       <% @spati.photos.each do |photo| %>
+         <%= cl_image_tag photo.key, class: "spati-photo", crop: :fill %>
+@@ -38,6 +34,10 @@
+   </div>
+ 
+   <!-- Rechte Spalte: Map -->
++<div class="map-container">
++  <!-- 📍 Nur Emoji -->
++  <button data-action="click->map#showCurrentLocation" class="standort-button">📍</button>
++
+   <div id="map"
+        data-controller="map"
+        data-map-markers-value="<%= @markers.to_json %>"
+@@ -45,12 +45,4 @@
+   </div>
+ </div>
+ </div>
+-
+-<!-- Unten: Zurück-Button -->
+-<div class="unten">
+-  <div class="backtoallspätisbutton">
+-    <%= link_to spatis_path do %>
+-      <div class="btn späti-button">Back to all Spätis</div>
+-    <% end %>
+-  </div>
+ </div>
+diff --git a/config/application.rb b/config/application.rb
+index eab9938..592ac36 100644
+--- a/config/application.rb
++++ b/config/application.rb
+@@ -1,13 +1,12 @@
+ require_relative "boot"
+-
+ require "rails/all"
+ 
+-# Require the gems listed in Gemfile, including any gems
+-# you've limited to :test, :development, or :production.
+-Bundler.require(*Rails.groups)
+-
+ module Spatify
+   class Application < Rails::Application
++    # Stelle sicher, dass diese Zeile hier platziert ist:
++    config.i18n.default_locale = :de
++
++    # Weitere Konfigurationen
+     config.action_controller.raise_on_missing_callback_actions = false if Rails.version >= "7.1.0"
+     config.generators do |generate|
+       generate.assets false
+@@ -15,20 +14,8 @@ module Spatify
+       generate.test_framework :test_unit, fixture: false
+     end
+ 
+-    # Initialize configuration defaults for originally generated Rails version.
++    # Weitere Konfigurationen
+     config.load_defaults 7.1
+-
+-    # Please, add to the `ignore` list any other `lib` subdirectories that do
+-    # not contain `.rb` files, or that should not be reloaded or eager loaded.
+-    # Common ones are `templates`, `generators`, or `middleware`, for example.
+     config.autoload_lib(ignore: %w(assets tasks))
+-
+-    # Configuration for the application, engines, and railties goes here.
+-    #
+-    # These settings can be overridden in specific environments using the files
+-    # in config/environments, which are processed later.
+-    #
+-    # config.time_zone = "Central Time (US & Canada)"
+-    # config.eager_load_paths << Rails.root.join("extras")
+   end
+ end
+diff --git a/config/environments/development.rb b/config/environments/development.rb
+index 465cc97..34db527 100644
+--- a/config/environments/development.rb
++++ b/config/environments/development.rb
+@@ -3,74 +3,32 @@ require "active_support/core_ext/integer/time"
+ Rails.application.configure do
+   # Settings specified here will take precedence over those in config/application.rb.
+ 
+-  # In the development environment your application's code is reloaded any time
+-  # it changes. This slows down response time but is perfect for development
+-  # since you don't have to restart the web server when you make code changes.
+   config.enable_reloading = true
+-
+-  # Do not eager load code on boot.
+   config.eager_load = false
+-
+-  # Show full error reports.
+   config.consider_all_requests_local = true
+-
+-  # Enable server timing
+   config.server_timing = true
+ 
+-  # Enable/disable caching. By default caching is disabled.
+-  # Run rails dev:cache to toggle caching.
+   if Rails.root.join("tmp/caching-dev.txt").exist?
+     config.action_controller.perform_caching = true
+-    config.action_controller.enable_fragment_cache_logging = true
+-
+     config.cache_store = :memory_store
+-    config.public_file_server.headers = {
+-      "Cache-Control" => "public, max-age=#{2.days.to_i}"
+-    }
++    config.public_file_server.headers = { "Cache-Control" => "public, max-age=#{2.days.to_i}" }
+   else
+     config.action_controller.perform_caching = false
+-
+     config.cache_store = :null_store
+   end
+ 
+   # Store uploaded files on the local file system (see config/storage.yml for options).
+   config.active_storage.service = :cloudinary
+-
+-  # Don't care if the mailer can't send.
+   config.action_mailer.raise_delivery_errors = false
+-
+   config.action_mailer.perform_caching = false
+-
+-  # Print deprecation notices to the Rails logger.
+   config.active_support.deprecation = :log
+-
+-  # Raise exceptions for disallowed deprecations.
+   config.active_support.disallowed_deprecation = :raise
+-
+-  # Tell Active Support which deprecation messages to disallow.
+   config.active_support.disallowed_deprecation_warnings = []
+ 
+-  # Raise an error on page load if there are pending migrations.
+   config.active_record.migration_error = :page_load
+-
+-  # Highlight code that triggered database queries in logs.
+   config.active_record.verbose_query_logs = true
+-
+-  # Highlight code that enqueued background job in logs.
+   config.active_job.verbose_enqueue_logs = true
+ 
+-  # Suppress logger output for asset requests.
+-  config.assets.quiet = true
+-
+-  # Raises error for missing translations.
+-  # config.i18n.raise_on_missing_translations = true
+-
+-  # Annotate rendered view with file names.
+-  # config.action_view.annotate_rendered_view_with_filenames = true
+-
+-  # Uncomment if you wish to allow Action Cable access from any origin.
+-  # config.action_cable.disable_request_forgery_protection = true
+-
+-  # Raise error when a before_action's only/except options reference missing actions
+-  config.action_controller.raise_on_missing_callback_actions = true
++  # Entferne alle Konfigurationen für `assets` hier:
++  # config.assets.quiet = true  # Diese Zeile ist nicht mehr erforderlich!
+ end
+diff --git a/config/initializers/assets.rb b/config/initializers/assets.rb
+index bc73403..1640125 100644
+--- a/config/initializers/assets.rb
++++ b/config/initializers/assets.rb
+@@ -1,8 +1,8 @@
+ # Be sure to restart your server when you modify this file.
+ 
+ # Version of your assets, change this if you want to expire all your assets.
+-Rails.application.config.assets.version = "1.0"
+-Rails.application.config.assets.precompile += %w( components/login.css )
++# Rails.application.config.assets.version = "1.0"
++# Rails.application.config.assets.precompile += %w( components/login.css )
+ 
+ # Add additional assets to the asset load path.
+ # Rails.application.config.assets.paths << Emoji.images_path
+@@ -11,4 +11,4 @@ Rails.application.config.assets.precompile += %w( components/login.css )
+ # application.js, application.css, and all non-JS/CSS in the app/assets
+ # folder are already added.
+ # Rails.application.config.assets.precompile += %w( admin.js admin.css )
+-Rails.application.config.assets.precompile += %w(bootstrap.min.js popper.js)
++# Rails.application.config.assets.precompile += %w(bootstrap.min.js popper.js)
+diff --git a/config/initializers/devise.rb b/config/initializers/devise.rb
+index 7fa9939..d9260a8 100644
+--- a/config/initializers/devise.rb
++++ b/config/initializers/devise.rb
+@@ -1,3 +1,4 @@
++
+ # frozen_string_literal: true
+ 
+ # Assuming you have not yet modified this file, each configuration option below
+diff --git a/db/allspatis.json b/db/allspatis.json
+index af0c0d5..9e0c4c4 100644
+--- a/db/allspatis.json
++++ b/db/allspatis.json
+@@ -179,7 +179,6 @@
+       "id": 838429794,
+       "name": "Naakuls Späti",
+       "addr:city": "Berlin",
+-      "name": "Naakuls Späti",
+       "addr:housenumber": "2",
+       "addr:postcode": "10245",
+       "addr:street": "Sonntagstraße",

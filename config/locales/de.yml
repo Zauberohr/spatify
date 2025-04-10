@@ -1,0 +1,13 @@
+de:
+  devise:
+    sessions:
+      new:
+        email: "E-Mail"
+        password: "Passwort"
+        submit: "Anmelden"
+    registrations:
+      new:
+        email: "E-Mail"
+        password: "Passwort"
+        password_confirmation: "Passwortbestätigung"
+        submit: "Registrieren"
