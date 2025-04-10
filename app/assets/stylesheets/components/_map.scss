@@ -33,106 +33,140 @@
   object-position: center;
 }
 
-/* === Toggle-Button === */
-.map-toggle-button {
+/* === Kartenbedienelemente === */
+.map-controls {
   position: absolute;
-  top: 28px;
+  top: 10px;
   left: 10px;
   z-index: 10;
+  display: flex;
+  gap: 10px;
 }
 
+/* === Buttons auf der Karte === */
+.standort-button,
 .toggle-button {
-  position: absolute;
-  left: 76px;
-  top: -14px;
-  background-color: black;
-  color: yellow;
-  font-weight: bold;
-  padding: 0px 46px;
-  border: 1px solid black;
-  border-radius: 5px;
-
-  border-radius: 5px;
-  text-decoration: none;
-  font-family: 'Sigmar', sans-serif;
-  box-shadow: 0 0 10px yellow;
-  transition: all 0.3s ease;
-}
-
-.toggle-button:hover {
   background-color: yellow;
   color: black;
-  border-color: black;
+  font-weight: bold;
+  padding: 8px 14px;
+  border: 2px solid black;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: 'Sigmar', sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px;
 }
 
-/* === Layout Desktop === */
+/* === Layout === */
 .index-container {
   display: flex;
-  flex-direction: row;
-  height: 100vh;
+  justify-content: space-between;
+  height: 80vh;  /* Höhe der Seite auf die volle Höhe des Viewports setzen */
+  padding-top: 60px; /* Platz für die fixierte Navbar schaffen */
+  overflow: hidden;  /* Verhindert, dass die Seite scrollt */
 }
 
 .spati-list {
-  width: 50%;
-  overflow-y: scroll;
-}
-
-.spati-card {
-  width: 100%;
-  margin: 0;
-  padding: 20px;
-  box-sizing: border-box;
-  border-radius: 0;
-  background-color: yellow; /* zum Testen sichtbar */
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .map-container {
-  flex: 1;
+  flex: 1;  /* Karte nimmt den restlichen Platz ein */
   position: relative;
-  height: 100vh; /* ← HIER liegt der Hund begraben */
+  display: flex;  /* Für Flexbox-Layout */
 }
 
-/* === Layout Mobile (Map oben, Cards unten, beide 100%) === */
+/* Wrapper für die Karte mit abgerundeten Ecken und Overflow-Handling */
+.map-wrapper {
+  flex: 1;  /* Karte nimmt den flexiblen Platz in der rechten Spalte ein */
+  position: relative;
+  height: calc(vh - 120px);
+  border-radius: 15px;  /* Abgerundete Ecken */
+  border: 5px solid black;  /* Rand für die Karte */
+  z-index: 1;
+
+  /* Abstand nach oben, rechts und unten */
+  padding-top: 0px;    /* Abstand zur Navbar */
+  padding-right: 20px;  /* Abstand zum rechten Rand */
+  padding-bottom: 20px; /* Abstand nach unten */
+  overflow: hidden;     /* Verhindert, dass der Inhalt außerhalb der abgerundeten Ecken sichtbar wird */
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.map-controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  display: flex;
+  gap: 10px;
+}
+
+
+/* Geocoder Styles */
+.mapboxgl-ctrl-geocoder input {
+  height: 40px;
+  font-size: 15px;
+  background-color: yellow;
+  border-radius: 8px;
+  padding: 0 10px;
+  color: black !important;
+}
+
+.mapboxgl-ctrl-geocoder {
+  margin: 20px;
+}
+
+/* Marker-Bild */
+.marker-image {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Button-Row */
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn.späti-button.halb {
+  flex: 1;
+  text-align: center;
+}
+
+/* === Media Queries === */
 @media (max-width: 768px) {
-  .index-container {
-    flex-direction: column;
-    height: auto;
+  .mapboxgl-ctrl-geocoder {
+    width: 160px !important;
+    min-width: unset !important;
   }
 
-  .toggle-button{
-     position: absolute;
-  left: 4px;
-  top: -14px;
-  padding: 0px 46px;
+  .mapboxgl-ctrl-geocoder input {
+    height: 48px;
+    font-size: 14px;
+    padding: 0 6px;
   }
 
-  .map-container {
-    order: -1;
-    height: 50vh;
-    width: 100%;
+  .button-row {
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  #map {
-    height: 100%;
-    width: 100%;
-  }
-
-  .spati-list {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-
-  .spati-card {
-    width: 100%;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-
-  html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  .btn.späti-button.halb {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
