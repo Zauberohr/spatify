@@ -1,0 +1,43 @@
+<% if spati.opening_time.strip == "24/7" %>
+  <div class="opening-hours-visual-small">
+    <div class="day-box-small today always-open-box-small">
+      <div class="time-block-small">24/7</div>
+    </div>
+  </div>
+<% else %>
+  <% days = {} %>
+  <% spati.opening_time.to_s.split(";").each do |entry| %>
+    <% next unless entry.include?(':') %>
+    <% raw_day, raw_time = entry.strip.split(':', 2) %>
+    <% day = raw_day.strip[0..1] %>
+    <% cleaned_time = raw_time
+                      .strip
+                      .gsub(/Uhr/, '')
+                      .gsub(/bis/, '-')
+                      .gsub(/–/, '-')
+                      .gsub(/:\d\d/, '')
+                      .gsub(/\s+/, '') %>
+    <% days[day] = cleaned_time.presence || "❌" %>
+  <% end %>
+
+  <% wochentage = %w[Mo Di Mi Do Fr Sa So] %>
+  <% heute_index = (Date.today.wday + 6) % 7 %> <%# Ruby: So=0 → bei uns So=6 %>
+
+  <div class="opening-hours-visual-small">
+    <% wochentage.each_with_index do |kurz, index| %>
+      <% zeit = days[kurz] || "❌" %>
+      <% is_today = heute_index == index %>
+      <div class="day-box-small <%= 'today' if is_today %>">
+        <div class="day-label-small"><%= kurz %></div>
+        <% if zeit != "❌" && zeit.include?('-') %>
+  <% von, bis = zeit.split('-', 2) %>
+  <div class="time-block-small">
+    <%= von.rjust(2, '0') %><br>-<br><%= bis.rjust(2, '0') %>
+  </div>
+<% else %>
+  <div class="time-block-small closed"><br>❌<br></div>
+<% end %>
+      </div>
+    <% end %>
+  </div>
+<% end %>

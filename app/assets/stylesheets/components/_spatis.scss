@@ -36,12 +36,77 @@ ul li p {
   color: #666;
 }
 
-// @media (max-width: 100%) {
-//   ul li {
-//     // padding: 15px;
-//     // width: 90%;
-//   }
-// }
+
+.opening-hours-visual {
+  margin: 0.5rem 0;
+  font-family: monospace;
+  font-size: 0.85rem;
+
+  .weekday-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: space-between;
+
+    &.center-24-7 {
+      justify-content: center;
+    }
+  }
+
+  .day-box {
+    background: #f0f0f0;
+    border-radius: 6px;
+    padding: 4px;
+    width: 90px;
+    text-align: center;
+
+    &.today {
+      background: black;
+      border: 1px solid black;
+      color: yellow;
+    }
+
+    .day-label {
+      font-weight: bold;
+      margin-bottom: 2px;
+    }
+
+    .time-block {
+      font-size: 0.8rem;
+      line-height: 1.2;
+
+      &.closed {
+        color: #999;
+      }
+    }
+  }
+
+  .center-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .large-24-7 .time-block {
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: yellow;
+  }
+
+  .always-open-box {
+    background-color: black;
+    color: yellow;
+    border: 2px solid yellow;
+  }
+}
+
+
+
+
+
+
 
 .spati-name {
   a {
@@ -256,6 +321,58 @@ ul li p {
   border: 5px solid black;
   font-family: 'Sigmar', sans-serif;
 }
+
+
+
+.opening-hours-visual-small {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 3px;
+  margin-top: 4px;
+  font-family: monospace;
+  font-size: 0.6rem;
+}
+
+.day-box-small {
+  background: #f0f0f0;
+  border-radius: 4px;
+  padding: 2px 3px;
+  width: 38px;
+  text-align: center;
+  border: 1px solid #ddd;
+
+  .day-label-small {
+    font-weight: bold;
+    font-size: 0.55rem;
+    margin-bottom: 1px;
+  }
+
+  .time-block-small {
+    font-size: 0.5rem;
+    line-height: 1.1;
+  }
+
+  &.closed {
+    color: #999;
+  }
+
+  &.today {
+    background: black;
+    color: yellow;
+    border: 1px solid yellow;
+  }
+}
+
+.always-open-box-small {
+  background-color: black;
+  color: yellow;
+  border: 1px solid yellow;
+  padding: 5px 10px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: auto;
 
 .today-box {
   background-color: black;

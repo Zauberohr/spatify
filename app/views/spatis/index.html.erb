@@ -1,5 +1,5 @@
 <div class="index-container">
-  <!-- Späti-Liste (links auf Desktop, unten auf Mobile) -->
+  <!-- Späti-Liste -->
   <div class="spati-list">
     <% current_day = I18n.l(Date.today, format: "%a")[0..1] %> <!-- z. B. "Mo", "Di" -->
 
@@ -35,9 +35,8 @@
     <% end %>
   </div>
 
-  <!-- Map (rechts auf Desktop, oben auf Mobile) -->
+  <!-- Map + Toggle -->
   <div class="map-container">
-    <!-- Toggle-Button auf der Map -->
     <div class="map-toggle-button">
       <% if params[:all] == "true" %>
         <%= link_to "nur geöffnete", spatis_path, class: "btn toggle-button" %>
@@ -46,7 +45,6 @@
       <% end %>
     </div>
 
-    <!-- Karte -->
     <div id="map"
          data-controller="map"
          data-map-markers-value="<%= @markers.to_json %>"

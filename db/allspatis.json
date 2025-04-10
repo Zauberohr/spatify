@@ -14,7 +14,7 @@
       "addr:housenumber": "39",
       "addr:postcode": "10711",
       "addr:street": "Joachim-Friedrich-Straße",
-      "opening_hours": "24/7",
+      "opening_hours": "Mo: 11:00-18:00; Di: 11:00-18:00; Mi: 11:00-18:00; Do: 11:00-18:00; Fr 11:00-18:00; Sa: 13:00-18:00 So 13:00-18:00",
       "lat": 52.4993218,
       "lon": 13.2961178,
       "spatistory": "Harry Styles stopped by Späti Joe one night for some snacks. He was incognito but still caused a stir when the locals realized who he was."
@@ -98,7 +98,7 @@
       "addr:housenumber": "9",
       "addr:postcode": "12051",
       "addr:street": "Silbersteinstraße",
-      "opening_hours": "24/7",
+      "opening_hours": "Mo: 11:00-18:00; Di: 11:00-18:00; Mi: 11:00-18:00; Do: 11:00-18:00; Fr 11:00-18:00; Sa: 13:00-18:00 So 13:00-18:00",
       "lat": 52.4673029,
       "lon": 13.4403109,
       "spatistory": "Taylor Swift popped by Spät-Shop one day for some snacks. She was super friendly, taking pictures with fans before quietly leaving to avoid the crowd."
@@ -110,7 +110,7 @@
       "addr:housenumber": "54",
       "addr:postcode": "12045",
       "addr:street": "Weichselstraße",
-      "opening_hours": "24/7",
+      "opening_hours": "Mo: 11:00-18:00; Di: 11:00-18:00; Mi: 11:00-18:00; Do: 11:00-18:00; Fr 11:00-18:00; Sa: 13:00-18:00 So 13:00-18:00",
       "lat": 52.4860909,
       "lon": 13.4351467,
       "spatistory": "एक दिन, हैरी स्टाइल्स ने स्पेटकैम्पस में कुछ खाने के लिए रुका। वह बिलकुल आम इंसान की तरह शांतिपूर्वक लाइन में खड़ा था, लेकिन फिर उसे पहचान लिया गया।"
@@ -134,7 +134,7 @@
       "addr:housenumber": "9",
       "addr:postcode": "12045",
       "addr:street": "Innstraße",
-      "opening_hours": "24/7",
+      "opening_hours": "Mo: 11:00-18:00; Di: 11:00-18:00; Mi: 11:00-18:00; Do: 11:00-18:00; Fr 11:00-18:00; Sa: 13:00-18:00 So 13:00-18:00",
       "lat": 52.4816447,
       "lon": 13.4441313,
       "spatistory": "Heimgetränke was the place where Harry Styles randomly stopped in one night. He was so chill and bought a couple of drinks before heading back to his hotel."
@@ -165,12 +165,12 @@
     },
     {
       "id": 838429759,
-      "name": "Ottos Späti",
+      "name": "Späti Brüder",
       "addr:city": "Berlin",
-      "addr:housenumber": "24",
+      "addr:housenumber": "2G",
       "addr:postcode": "10245",
       "addr:street": "Sonntagstraße",
-      "opening_hours": "24/7",
+      "opening_hours": "Mo: 08:00-01:00; Di: 8:00-01:00; Mi: 8:00-01:00; Do: 8:00-01:00; Fr: 8:00-03:00; Sa: 8:00-03:00; So: 08:00-01:00",
       "lat": 52.5049744,
       "lon": 13.4674633,
       "spatistory": "Harry Styles was spotted at Kiosk 24 late last night! Rumor has it, he bought a pack of gum and left a handwritten note for the staff."

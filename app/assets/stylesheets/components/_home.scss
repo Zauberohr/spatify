@@ -1,0 +1,86 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 120px); /* Höhe der Navbar abziehen */
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;  /* Ändere hier von 'center' zu 'flex-start' */
+  padding: 10px 20px;  /* Verringert das Padding */
+}
+
+.text-overlay {
+  text-align: center;
+  font-size: 4rem; /* Startgröße für Desktop */
+  line-height: 1.2;
+}
+
+.späti-text {
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.späti-text span {
+  font-size: inherit;
+  display: inline-block;
+  padding: 5px;
+  color: black;  /* Standardfarbe */
+  transition: all 0.3s ease;  /* Animation für den Hover-Effekt */
+  text-shadow:
+    3px 3px 0 yellow,   /* Gelber Rand auf allen Seiten, mit mehr Abstand */
+    -3px -3px 0 yellow,
+    3px -3px 0 yellow,
+    -3px 3px 0 yellow;
+}
+
+.späti-text span:hover {
+  color: yellow;              /* Textfarbe wird Gelb */
+  text-shadow:
+    3px 3px 0 black,     /* Schwarzer Rand beim Hover */
+    -3px -3px 0 black,
+    3px -3px 0 black,
+    -3px 3px 0 black;
+}
+
+
+.späti-mäp-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: yellow;
+  color: black;
+  font-size: 50px;
+  text-decoration: none !important;
+  border-radius: 5px;
+  border: 5px solid black;
+  z-index: 1000;
+}
+
+.späti-mäp-button:hover {
+  background-color: black;
+  color: yellow;
+  border: 5px solid yellow;
+}
+
+/* Anpassungen für kleinere Bildschirme */
+@media (max-width: 768px) {
+  .text-overlay {
+    font-size: 2.5rem; /* Kleinere Schrift auf mobilen Geräten */
+  }
+
+  .späti-mäp-button {
+    font-size: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

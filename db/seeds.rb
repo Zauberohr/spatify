@@ -28,7 +28,7 @@ def format_opening_time(raw_hours)
   }
 
   output = {}
-  days.each { |day| output[day] = "geschlossen" }
+  days.each { |day| output[day] = "❌" }
 
   raw_hours.split(";").each do |rule|
     day_part, time_part = rule.strip.split(" ")

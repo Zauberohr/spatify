@@ -2,29 +2,21 @@
   <!-- Linke Spalte -->
   <div class="spati-list">
     <!-- Späti-Box -->
-    <div class="spati-card" data-spati-editor-target="card">
-      <!-- Bearbeitungsformular -->
-      <div data-spati-editor-target="form" hidden>
-        <%= simple_form_for @spati, html: { multipart: true, data: { turbo_frame: "_top" } } do |form| %>
-          <div class="form-group">
-            <%= form.input :name, label: false, input_html: { class: "story-textarea", style: "color: white;" } %>
-          </div>
-          <div class="form-group">
-            <%= form.input :address, label: false, input_html: { class: "story-textarea", style: "color: white;" } %>
-          </div>
-          <div class="form-group">
-            <%= form.input :opening_time, label: false, input_html: { class: "story-textarea", style: "color: white;" } %>
-          </div>
-          <div class="form-group">
-            <%= form.input :photos, as: :file, input_html: { multiple: true }, label: "Fotos neu hochladen (optional)", label_html: { style: "color: white;" } %>
-          </div>
-        <% end %>
-      </div>
 
-      <!-- Anzeigemodus -->
-      <div data-spati-editor-target="display">
-        <h2><%= @spati.name %></h2>
-        <p><%= @spati.address %></p>
+    <div class="spati-card">
+      <h2><%= @spati.name %></h2>
+      <p><%= @spati.address %></p>
+
+      <% if @spati.opening_time.strip == "24/7" %>
+        <div class="opening-hours-visual always-open">24/7</div>
+      <% else %>
+        <%= render partial: "opening_times", locals: { spati: @spati } %>
+      <% end %>
+
+      <% @spati.photos.each do |photo| %>
+        <%= cl_image_tag photo.key, class: "spati-photo", crop: :fill %>
+      <% end %>
+    </div>
 
         <!-- Neue Öffnungszeiten-Anzeige -->
         <div class="opening-times-display">
