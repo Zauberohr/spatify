@@ -1,7 +1,3 @@
 <h1 class="spati-title"><%= spati.name %></h1>
 <h2 class="spati-info"><%= spati.address %></h2>
-<h3 class="spati-info"><%= spati.opening_time %></h3>
-
-<% spati.photos.each do |photo| %>
-  <%= cl_image_tag photo.key, crop: :fill %>
-<% end %>
+<%= render partial: "opening_times_small", locals: { spati: spati } %>

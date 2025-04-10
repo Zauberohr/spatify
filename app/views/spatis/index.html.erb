@@ -1,12 +1,14 @@
 <div class="index-container">
-  <!-- Späti-Liste (links auf Desktop, unten auf Mobile) -->
+  <!-- Späti-Liste -->
   <div class="spati-list">
     <% @spatis.each do |spati| %>
       <%= link_to spati_path(spati), class: "spati-card-link" do %>
         <div class="spati-card">
           <h2><%= spati.name %></h2>
           <p><%= spati.address %></p>
-          <p><%= spati.opening_time %></p>
+
+          <%= render partial: "opening_times", locals: { spati: spati } %>
+
           <% if spati.photos.attached? %>
             <%= cl_image_tag spati.photos.first.key, class: "spati-photo" %>
           <% end %>
@@ -15,9 +17,8 @@
     <% end %>
   </div>
 
-  <!-- Map (rechts auf Desktop, oben auf Mobile) -->
+  <!-- Map + Toggle -->
   <div class="map-container">
-    <!-- Toggle-Button auf der Map -->
     <div class="map-toggle-button">
       <% if params[:all] == "true" %>
         <%= link_to "nur geöffnete", spatis_path, class: "btn toggle-button" %>
@@ -26,7 +27,6 @@
       <% end %>
     </div>
 
-    <!-- Karte -->
     <div id="map"
          data-controller="map"
          data-map-markers-value="<%= @markers.to_json %>"

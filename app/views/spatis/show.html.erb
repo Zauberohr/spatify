@@ -3,15 +3,19 @@
   <div class="spati-list">
     <!-- Späti-Box -->
     <div class="spati-card">
-  <h2><%= @spati.name %></h2>
-  <p><%= @spati.address %></p>
-  <p>Open: <%= @spati.opening_time %></p>
+      <h2><%= @spati.name %></h2>
+      <p><%= @spati.address %></p>
 
-  <% @spati.photos.each do |photo| %>
-    <%= cl_image_tag photo.key, class: "spati-photo", crop: :fill %>
-  <% end %>
-</div>
+      <% if @spati.opening_time.strip == "24/7" %>
+        <div class="opening-hours-visual always-open">24/7</div>
+      <% else %>
+        <%= render partial: "opening_times", locals: { spati: @spati } %>
+      <% end %>
 
+      <% @spati.photos.each do |photo| %>
+        <%= cl_image_tag photo.key, class: "spati-photo", crop: :fill %>
+      <% end %>
+    </div>
 
     <!-- Spätistöry-Button -->
     <%= link_to "your spätistöry", new_spati_story_path(@spati), class: "btn späti-button" %>

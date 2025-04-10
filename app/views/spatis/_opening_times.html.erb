@@ -1,41 +1,61 @@
-<%# Öffnungszeiten korrekt aus ;‑getrenntem String parsen %>
-<% days = {} %>
-<% spati.opening_time.to_s.split(';').each do |entry| %>
-  <% if entry.include?(':') %>
-    <% raw_day, raw_time = entry.strip.split(':', 2) %>
-    <% day = raw_day.strip[0..1] %> <%# z. B. "Mo", "Di", "Mi" %>
-
-    <% cleaned_time = raw_time
-                      .strip
-                      .gsub(/Uhr/, '')
-                      .gsub(/bis/, '-')
-                      .gsub(/–/, '-')
-                      .gsub(/:\d\d/, '')
-                      .gsub(/\s+/, '') %>
-
-    <% days[day] = cleaned_time %>
-  <% end %>
-<% end %>
-
-<% wochentage = %w[Mo Di Mi Do Fr Sa So] %>
-
-<div class="week-grid">
-  <% wochentage.each_with_index do |tag, index| %>
-    <% heute = Date.today.wday == ((index + 1) % 7) %>
-    <div class="day-box <%= 'today' if heute %>"><%= tag %></div>
-  <% end %>
-
-  <% wochentage.each_with_index do |tag, index| %>
-    <% heute = Date.today.wday == ((index + 1) % 7) %>
-    <% zeit = days[tag] || "❌" %>
-
-    <% if zeit != "❌" && zeit.include?('-') %>
-      <% von, bis = zeit.split('-', 2) %>
-      <div class="time-box <%= 'today' if heute %>">
-        <%= von.rjust(2, '0') %><br>-<br><%= bis.rjust(2, '0') %>
+<% if spati.opening_time.strip == "24/7" %>
+  <div class="opening-hours-visual">
+    <div class="weekday-boxes center-24-7">
+      <div class="day-box today center-box large-24-7 always-open-box">
+        <div class="time-block">24/7</div>
       </div>
-    <% else %>
-      <div class="time-box <%= 'today' if heute %>"><%= zeit %></div>
+    </div>
+  </div>
+<% else %>
+  <!-- ... restlicher Code bleibt gleich -->
+
+  <% days = {} %>
+  <% spati.opening_time.to_s.split("\n").each do |entry| %>
+    <% if entry.include?(':') %>
+      <% raw_day, raw_time = entry.strip.split(':', 2) %>
+      <% day = raw_day.strip[0..1] %>
+      <% cleaned_time = raw_time
+                        .strip
+                        .gsub(/Uhr/, '')
+                        .gsub(/bis/, '-')
+                        .gsub(/–/, '-')
+                        .gsub(/:\d\d/, '')
+                        .gsub(/\s+/, '') %>
+      <% days[day] = cleaned_time.presence || "❌" %>
     <% end %>
   <% end %>
-</div>
+
+  <% wochentage = {
+    "Mo" => "Montag",
+    "Di" => "Dienstag",
+    "Mi" => "Mittwoch",
+    "Do" => "Donnerstag",
+    "Fr" => "Freitag",
+    "Sa" => "Samstag",
+    "So" => "Sonntag"
+  } %>
+
+  <% tag_kurz = wochentage.keys %>
+
+  <div class="opening-hours-visual">
+    <div class="weekday-boxes">
+      <% tag_kurz.each_with_index do |kurz, index| %>
+        <% ausgeschrieben = wochentage[kurz] %>
+        <% heute = Date.today.wday == ((index + 1) % 7) %>
+        <div class="day-box <%= 'today' if heute %>">
+          <div class="day-label"><%= ausgeschrieben %></div>
+          <% zeit = days[kurz] || "❌" %>
+
+          <% if zeit != "❌" && zeit.include?('-') %>
+            <% von, bis = zeit.split('-', 2) %>
+            <div class="time-block">
+              <%= von.rjust(2, '0') %><br>-<br><%= bis.rjust(2, '0') %>
+            </div>
+          <% else %>
+            <div class="time-block closed"><br>❌<br></div>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+<% end %>
