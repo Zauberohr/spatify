@@ -57,6 +57,19 @@ html,body * {
   object-fit: contain;
 }
 
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn.späti-button.halb {
+  flex: 1;
+  text-align: center;
+}
+
+
 @media (max-width: 768px) {
   .mapboxgl-ctrl-geocoder {
     width: 160px !important;
@@ -68,4 +81,16 @@ html,body * {
     font-size: 14px;
     padding: 0 6px;
   }
+  .button-row {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .btn.späti-button.halb {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }
+
+

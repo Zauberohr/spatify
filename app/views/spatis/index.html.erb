@@ -1,13 +1,31 @@
 <div class="index-container">
   <!-- Späti-Liste -->
   <div class="spati-list">
+    <% current_day = I18n.l(Date.today, format: "%a")[0..1] %> <!-- z. B. "Mo", "Di" -->
+
     <% @spatis.each do |spati| %>
       <%= link_to spati_path(spati), class: "spati-card-link" do %>
         <div class="spati-card">
           <h2><%= spati.name %></h2>
           <p><%= spati.address %></p>
 
-          <%= render partial: "opening_times", locals: { spati: spati } %>
+          <!-- Neue Öffnungszeiten-Anzeige -->
+          <div class="opening-times-display">
+            <% if spati.opening_time == "24/7" %>
+              <div class="opening-box always-open">
+                <strong>24/7</strong>
+              </div>
+            <% else %>
+              <% spati.opening_time.to_s.split("; ").each do |entry| %>
+                <% tag, time = entry.split(": ") %>
+                <% css_class = tag == current_day ? "opening-box today-box" : "opening-box" %>
+                <div class="<%= css_class %>">
+                  <strong><%= tag %></strong><br>
+                  <%= time %>
+                </div>
+              <% end %>
+            <% end %>
+          </div>
 
           <% if spati.photos.attached? %>
             <%= cl_image_tag spati.photos.first.key, class: "spati-photo" %>

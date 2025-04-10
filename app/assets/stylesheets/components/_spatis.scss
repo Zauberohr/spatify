@@ -146,11 +146,67 @@ ul li p {
   padding-right: 50px;
   background-color: yellow;
   color: black;
-  font-size: 50px;
+  font-size: 15px;
   text-decoration: none !important;
   border-radius: 5px;
   border: 5px solid black;
 }
+
+.save-button {
+  background-color: red !important;
+  color: white !important;
+  border: 5px solid black !important; // statt weiß → schwarz wie alle anderen
+  padding: 15px 50px !important; // exakt wie späti-button
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.edit-mode {
+  background-color: red !important;
+  color: white !important;
+
+  input,
+  textarea,
+  label {
+    color: white !important;
+    background-color: red !important;
+    border-color: white !important;
+  }
+
+  .btn.späti-button {
+    background-color: red !important;
+    color: white !important;
+    border: 3px solid white !important;
+  }
+}
+
+.opening-times-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.opening-box {
+  background-color: yellow;
+  color: black;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: 'Sigmar', sans-serif;
+  min-width: 90px;
+  text-align: center;
+}
+
+.always-open {
+  background-color: yellow;
+  font-size: 20px;
+}
+
 
 
 .späti-button:hover {
@@ -267,6 +323,7 @@ ul li p {
 }
 
 
+
 .opening-hours-visual-small {
   display: flex;
   flex-wrap: nowrap;
@@ -316,4 +373,52 @@ ul li p {
   font-weight: bold;
   border-radius: 5px;
   margin: auto;
+
+.today-box {
+  background-color: black;
+  color: yellow;
+  border-color: yellow;
+}
+
+.locate-button {
+  position: absolute;
+  left: 10px;
+  z-index: 999;
+  background-color: #fff;
+  padding: 12px 12px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+
+  // Standard: mobil (unten)
+  bottom: 10px;
+}
+
+// Ab 768px: Desktop (oben)
+@media (min-width: 768px) {
+  .locate-button {
+    bottom: auto;
+    top: 10px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .opening-times-display {
+    gap: 6px;
+    margin: 8px 0;
+    justify-content: center;
+  }
+
+  .opening-box {
+    font-size: 11px;
+    padding: 4px 6px;
+    min-width: auto;
+    border-width: 3px;
+    line-height: 1.1;
+  }
+
+  .always-open {
+    font-size: 13px;
+  }
 }
