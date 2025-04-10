@@ -1,62 +1,20 @@
-<div class="index-container" data-controller="spati-editor" data-spati-editor-editing-value="false">
+<div class="index-container">
   <!-- Linke Spalte -->
   <div class="spati-list">
     <!-- Späti-Box -->
-
     <div class="spati-card">
       <h2><%= @spati.name %></h2>
       <p><%= @spati.address %></p>
 
-      <% if @spati.opening_time.strip == "24/7" %>
-        <div class="opening-hours-visual always-open">24/7</div>
-      <% else %>
-        <%= render partial: "opening_times", locals: { spati: @spati } %>
-      <% end %>
+      <%= render partial: "opening_times", locals: { spati: @spati } %>
 
       <% @spati.photos.each do |photo| %>
         <%= cl_image_tag photo.key, class: "spati-photo", crop: :fill %>
       <% end %>
     </div>
 
-        <!-- Neue Öffnungszeiten-Anzeige -->
-        <div class="opening-times-display">
-          <% current_day = I18n.l(Date.today, format: "%a")[0..1] %>
-
-          <% if @spati.opening_time == "24/7" %>
-            <div class="opening-box always-open">
-              <strong>24/7 geöffnet</strong>
-            </div>
-          <% else %>
-            <% @spati.opening_time.to_s.split("; ").each do |entry| %>
-              <% tag, time = entry.split(": ") %>
-              <% css_class = tag == current_day ? "opening-box today-box" : "opening-box" %>
-              <div class="<%= css_class %>">
-                <strong><%= tag %></strong><br>
-                <%= time %>
-              </div>
-            <% end %>
-          <% end %>
-        </div>
-
-        <% @spati.photos.each do |photo| %>
-          <%= cl_image_tag photo.key, class: "spati-photo", crop: :fill %>
-        <% end %>
-      </div>
-    </div>
-
-    <!-- Action-Buttons -->
-    <div class="button-row">
-      <% if user_signed_in? %>
-        <%= button_tag "Späti bearbeiten",
-          type: "button",
-          class: "btn späti-button halb",
-          data: {
-            action: "spati-editor#toggleEdit",
-            spati_editor_target: "editButton"
-          } %>
-      <% end %>
-      <%= link_to "your spätistöry", new_spati_story_path(@spati), class: "btn späti-button halb" %>
-    </div>
+    <!-- Spätistöry-Button -->
+    <%= link_to "your spätistöry", new_spati_story_path(@spati), class: "btn späti-button" %>
 
     <!-- Story-Liste -->
     <% @spati.stories.each do |story| %>
@@ -73,21 +31,19 @@
         <% end %>
       </div>
     <% end %>
-
-    <!-- Zurück-Button -->
-    <div class="backtoallspätisbutton">
-      <%= link_to spatis_path do %>
-        <div class="btn späti-button">Back to all Spätis</div>
-      <% end %>
-    </div>
   </div>
 
-  <!-- Rechte Spalte (Map) -->
-  <div class="map-container" data-spati-editor-target="mapContainer">
-    <div id="map"
-         data-controller="map"
-         data-map-markers-value="<%= @markers.to_json %>"
-         data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
-    </div>
+  <!-- Rechte Spalte: Map -->
+<div class="map-container">
+  <!-- 📍 Nur Emoji -->
+  <button data-action="click->map#showCurrentLocation" class="standort-button">📍</button>
+
+  <div id="map"
+       data-controller="map"
+       data-map-markers-value="<%= @markers.to_json %>"
+       data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
   </div>
+</div>
+
+</div>
 </div>

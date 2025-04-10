@@ -15,24 +15,26 @@ export default class extends Controller {
     mapboxgl.accessToken = this.apiKeyValue
 
     this.map = new mapboxgl.Map({
-      container: this.element,
+      container: this.element, // Direkt auf das Element, an dem der Controller hängt, zugreifen
       style: "mapbox://styles/mapbox/streets-v10"
     })
 
     this.#addMarkersToMap()
     this.#fitMapToMarkers()
-    this.#addGeocoderControl()
-    this.#addLocateButton()
+
+    this.map.addControl(new MapboxGeocoder({
+      accessToken: mapboxgl.accessToken,
+      mapboxgl: mapboxgl
+    }))
   }
 
   #addMarkersToMap() {
-    console.log("Logo-URL im Controller:", this.logoUrlValue)
-
     this.markersValue.forEach((marker) => {
       const popup = new mapboxgl.Popup().setHTML(marker.info_window_html)
 
       const customMarker = document.createElement("div")
       customMarker.className = "custom-marker"
+      customMarker.dataset.spatiId = marker.id // Späti ID zum Marker hinzufügen
 
       const image = document.createElement("img")
       image.src = this.logoUrlValue
@@ -46,7 +48,10 @@ export default class extends Controller {
         .setPopup(popup)
         .addTo(this.map)
 
-      console.log("Marker gesetzt bei:", marker.lng, marker.lat)
+      // Event-Listener hinzufügen, um beim Klick die Card anzuzeigen
+      customMarker.addEventListener("click", () => {
+        this.showSpatiCard(marker.id);
+      })
     })
   }
 
@@ -58,42 +63,35 @@ export default class extends Controller {
     this.map.fitBounds(bounds, { padding: 70, maxZoom: 15, duration: 0 })
   }
 
-  #addGeocoderControl() {
-    this.map.addControl(new MapboxGeocoder({
-      accessToken: mapboxgl.accessToken,
-      mapboxgl: mapboxgl
-    }))
+  // Diese Methode wird aufgerufen, wenn auf einen Marker geklickt wird
+  showSpatiCard(spatiId) {
+    const spatiCard = document.getElementById(`spati-card-${spatiId}`);
+    if (spatiCard) {
+      spatiCard.classList.remove("hidden"); // Card sichtbar machen
+    }
   }
 
-  #addLocateButton() {
-    const button = document.createElement("button")
-    button.textContent = "📍"
-    button.className = "locate-button"
+  showCurrentLocation() {
+    if (!this.map) return
 
-    button.addEventListener("click", () => {
-      if (!navigator.geolocation) {
-        alert("Geolocation wird von deinem Browser nicht unterstützt.")
-        return
-      }
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        const lng = position.coords.longitude
+        const lat = position.coords.latitude
 
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          const userCoords = [position.coords.longitude, position.coords.latitude]
+        new mapboxgl.Marker({ color: "blue" })
+          .setLngLat([lng, lat])
+          .addTo(this.map)
 
-          new mapboxgl.Marker({ color: "red" })
-            .setLngLat(userCoords)
-            .setPopup(new mapboxgl.Popup().setHTML("Du bist hier 🥴"))
-            .addTo(this.map)
-            .togglePopup()
-
-          this.map.flyTo({ center: userCoords, zoom: 16 })
-        },
-        () => {
-          alert("Standort konnte nicht ermittelt werden – bist du vielleicht zu betrunken?")
-        }
-      )
-    })
-
-    this.element.appendChild(button)
+        this.map.flyTo({
+          center: [lng, lat],
+          zoom: 14
+        })
+      }, () => {
+        alert("Standort konnte nicht ermittelt werden.")
+      })
+    } else {
+      alert("Geolocation wird von deinem Browser nicht unterstützt.")
+    }
   }
 }

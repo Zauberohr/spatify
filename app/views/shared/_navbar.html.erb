@@ -1,18 +1,20 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-spatify">
-  <!-- Link: Ey ein Späti fehlt -->
-  <div class="navbar-nav me-auto">
-    <%= link_to raw("ey <br> ein späti fehlt!"), new_spati_path, class: "nav-link" %>
+<div class="navbar-spatify">
+  <!-- Linker Button -->
+  <div class="navbar-left">
+    <%= link_to raw("n späti fehlt!"), new_spati_path, class: "nav-link" %>
   </div>
 
-  <!-- Logo -->
-  <%= link_to root_path, class: "navbar-brand" do %>
-    <%= image_tag asset_path('spatifywhite.png'), class: "navbar-logo" %>
-  <% end %>
+  <!-- Logo in der Mitte -->
+  <div class="navbar-center">
+    <%= link_to root_path do %>
+      <%= image_tag "spatifywhite.png", class: "navbar-logo" %>
+    <% end %>
+  </div>
 
-  <!-- Login / Logout -->
-  <div class="navbar-nav ms-auto">
+  <!-- Login / Logout rechts -->
+  <div class="navbar-right">
     <% if user_signed_in? %>
-      <%= link_to "LOGOUT", destroy_user_session_path, class: "nav-link", data: { turbo_method: :delete } %>
+      <%= link_to "LOGOUT", destroy_user_session_path, method: :delete, class: "nav-link" %>
     <% else %>
       <%= link_to "LOGIN", new_user_session_path, class: "nav-link" %>
     <% end %>

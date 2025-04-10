@@ -1,0 +1,45 @@
+.index-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.spati-list {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.map-container {
+  flex: 1;
+  position: relative;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.map-controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+.standort-button {
+  margin: 5px;
+}
+
+.späti-button {
+  margin-top: 20px;
+}
+
+.story-card {
+  margin-top: 20px;
+}
+
+.story-actions-box {
+  margin-top: 10px;
+}
